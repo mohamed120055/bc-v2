@@ -1,8 +1,14 @@
 import { useEffect, useState } from 'react';
 
-const read = () => window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+// Links look like #learn-train or #say-doctor (plain names work everywhere the app is hosted).
+// Older #/learn/train links are still understood.
+const read = () => {
+  const h = window.location.hash.replace(/^#\/?/, '');
+  const i = h.search(/[-/]/);
+  return (i < 0 ? [h] : [h.slice(0, i), h.slice(i + 1)]).filter(Boolean);
+};
 
-/** Tiny hash router so the phone's back button works: #/learn/train → ['learn', 'train'] */
+/** Tiny hash router so the phone's back button works. */
 export function useRoute() {
   const [parts, setParts] = useState(read);
   useEffect(() => {
@@ -13,4 +19,4 @@ export function useRoute() {
   return parts;
 }
 
-export const go = (path = '') => { window.location.hash = '#/' + path; };
+export const go = (path = '') => { window.location.hash = path ? '#' + path.replace('/', '-') : '#home'; };

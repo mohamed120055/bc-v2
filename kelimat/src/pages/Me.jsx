@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Ursu from '../components/Ursu.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
@@ -22,6 +23,7 @@ const KEY = [
 
 export default function Me() {
   const { state, reset } = useProgress();
+  const [confirming, setConfirming] = useState(false);
   const lvl = levelInfo(state.xp);
   const learned = allItems.filter((it) => isLearned(state.cards[it.id])).length;
   const strong = allItems.filter((it) => (state.cards[it.id]?.box ?? 0) >= 3).length;
@@ -93,13 +95,19 @@ export default function Me() {
         <p><Ro className="font-semibold">Ursu</Ro> تعني "الدب" باللهجة الرومانية العامية. لابس وشاح بألوان علم رومانيا، ويرافقك في كل يوم تتعلم فيه.</p>
       </section>
 
-      <button
-        type="button"
-        onClick={() => { if (window.confirm('هل تريد حذف كل التقدّم؟ لا يمكن التراجع.')) reset(); }}
-        className="w-full rounded-2xl border border-berry/40 text-berry font-semibold py-3"
-      >
-        إعادة ضبط التقدّم
-      </button>
+      {confirming ? (
+        <div className="rounded-2xl border border-berry/40 bg-white p-4 space-y-3 pop">
+          <p className="font-semibold">هل تريد حذف كل التقدّم؟ لا يمكن التراجع.</p>
+          <div className="grid grid-cols-2 gap-3">
+            <button type="button" onClick={() => { reset(); setConfirming(false); }} className="rounded-xl bg-berry text-white font-bold py-3">نعم، احذف</button>
+            <button type="button" onClick={() => setConfirming(false)} className="rounded-xl bg-cream font-bold py-3">إلغاء</button>
+          </div>
+        </div>
+      ) : (
+        <button type="button" onClick={() => setConfirming(true)} className="w-full rounded-2xl border border-berry/40 text-berry font-semibold py-3">
+          إعادة ضبط التقدّم
+        </button>
+      )}
     </div>
   );
 }
