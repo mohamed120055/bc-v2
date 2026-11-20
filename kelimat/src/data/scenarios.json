@@ -1,0 +1,1349 @@
+{
+  "version": 1,
+  "scenarios": [
+    {
+      "id": "supermarket",
+      "title": "السوبرماركت",
+      "titleRo": "La supermarket",
+      "icon": "🛒",
+      "items": [
+        {
+          "id": "supermarket-01",
+          "ro": "pâine",
+          "ar": "خبز",
+          "pron": "پِينِه",
+          "example": {
+            "ro": "Vreau o pâine, vă rog.",
+            "ar": "أريد رغيف خبز، من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-02",
+          "ro": "lapte",
+          "ar": "حليب",
+          "pron": "لاپْتِه",
+          "example": {
+            "ro": "Laptele este pe raftul din stânga.",
+            "ar": "الحليب على الرف اليسار."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-03",
+          "ro": "ouă",
+          "ar": "بيض",
+          "pron": "أوَه",
+          "example": {
+            "ro": "Cumpăr zece ouă.",
+            "ar": "أشتري عشر بيضات."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-04",
+          "ro": "apă plată",
+          "ar": "ماء عادي (غير غازي)",
+          "pron": "آپَه پْلاتَه",
+          "example": {
+            "ro": "Aș vrea o sticlă de apă plată.",
+            "ar": "أريد زجاجة ماء عادي."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-05",
+          "ro": "carne de pui",
+          "ar": "لحم دجاج",
+          "pron": "كارْنِه دِه پوي",
+          "example": {
+            "ro": "Unde găsesc carne de pui?",
+            "ar": "أين أجد لحم الدجاج؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-06",
+          "ro": "carne de porc",
+          "ar": "لحم خنزير",
+          "pron": "كارْنِه دِه پورْك",
+          "example": {
+            "ro": "Acest produs conține carne de porc?",
+            "ar": "هل يحتوي هذا المنتج على لحم خنزير؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-07",
+          "ro": "fructe",
+          "ar": "فواكه",
+          "pron": "فْروكْتِه",
+          "example": {
+            "ro": "Fructele sunt proaspete azi.",
+            "ar": "الفواكه طازجة اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-08",
+          "ro": "legume",
+          "ar": "خضار",
+          "pron": "لِگومِه",
+          "example": {
+            "ro": "Legumele sunt lângă fructe.",
+            "ar": "الخضار بجانب الفواكه."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-09",
+          "ro": "coș",
+          "ar": "سلة التسوق",
+          "pron": "كوش",
+          "example": {
+            "ro": "Iau un coș de la intrare.",
+            "ar": "آخذ سلة من المدخل."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-10",
+          "ro": "casa de marcat",
+          "ar": "الصندوق (الكاشير)",
+          "pron": "كاسا دِه ماركات",
+          "example": {
+            "ro": "Plătesc la casa de marcat.",
+            "ar": "أدفع عند الكاشير."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-11",
+          "ro": "pungă",
+          "ar": "كيس",
+          "pron": "پونْگَه",
+          "example": {
+            "ro": "Aveți nevoie de pungă?",
+            "ar": "هل تحتاج إلى كيس؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-12",
+          "ro": "bon",
+          "ar": "الإيصال (الفاتورة)",
+          "pron": "بون",
+          "example": {
+            "ro": "Doriți bonul?",
+            "ar": "هل تريد الإيصال؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-13",
+          "ro": "reducere",
+          "ar": "تخفيض",
+          "pron": "رِدوتْشِرِه",
+          "example": {
+            "ro": "Azi este reducere la brânză.",
+            "ar": "اليوم يوجد تخفيض على الجبن."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-14",
+          "ro": "Cât costă?",
+          "ar": "كم السعر؟",
+          "pron": "كِت كوسْتَه؟",
+          "example": {
+            "ro": "Cât costă un kilogram de roșii?",
+            "ar": "كم سعر كيلو الطماطم؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-15",
+          "ro": "card",
+          "ar": "بطاقة بنكية",
+          "pron": "كارْد",
+          "example": {
+            "ro": "Pot plăti cu cardul?",
+            "ar": "هل أستطيع الدفع بالبطاقة؟"
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "supermarket-p01",
+          "ro": "Unde găsesc orezul?",
+          "ar": "أين أجد الأرز؟",
+          "pron": "أونْدِه گَسِسْك أورِزول؟",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p02",
+          "ro": "Aveți produse halal?",
+          "ar": "هل عندكم منتجات حلال؟",
+          "pron": "آڤِتْسي پْرودوسِه حَلال؟",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p03",
+          "ro": "Pot plăti cu cardul?",
+          "ar": "هل يمكنني الدفع بالبطاقة؟",
+          "pron": "پوت پْلَتي كو كارْدول؟",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p04",
+          "ro": "Nu, mulțumesc, nu am nevoie de pungă.",
+          "ar": "لا شكراً، لا أحتاج كيساً.",
+          "pron": "نو، مولْتْسومِسْك، نو آم نِڤويِه دِه پونْگَه",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p05",
+          "ro": "Îmi dați și bonul, vă rog?",
+          "ar": "هل تعطيني الإيصال أيضاً من فضلك؟",
+          "pron": "إمْ داتْس شي بونول، ڤَه روگ؟",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p06",
+          "ro": "Cât costă kilogramul?",
+          "ar": "كم سعر الكيلو؟",
+          "pron": "كِت كوسْتَه كيلوگْرامول؟",
+          "verified": false
+        },
+        {
+          "id": "supermarket-p07",
+          "ro": "Conține carne de porc?",
+          "ar": "هل يحتوي على لحم خنزير؟",
+          "pron": "كونْتْسينِه كارْنِه دِه پورْك؟",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "university",
+      "title": "الجامعة",
+      "titleRo": "La facultate",
+      "icon": "🎓",
+      "items": [
+        {
+          "id": "university-01",
+          "ro": "facultate",
+          "ar": "كلية",
+          "pron": "فاكولْتاتِه",
+          "example": {
+            "ro": "Merg la facultate dimineața.",
+            "ar": "أذهب إلى الكلية صباحاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-02",
+          "ro": "curs",
+          "ar": "محاضرة",
+          "pron": "كورْس",
+          "example": {
+            "ro": "Cursul începe la ora nouă.",
+            "ar": "المحاضرة تبدأ الساعة التاسعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-03",
+          "ro": "seminar",
+          "ar": "حصة تطبيقية (سمينار)",
+          "pron": "سِمينار",
+          "example": {
+            "ro": "Avem seminar marți.",
+            "ar": "عندنا سمينار يوم الثلاثاء."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-04",
+          "ro": "profesor",
+          "ar": "أستاذ",
+          "pron": "پْروفِسور",
+          "example": {
+            "ro": "Profesorul explică foarte clar.",
+            "ar": "الأستاذ يشرح بوضوح شديد."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-05",
+          "ro": "examen",
+          "ar": "امتحان",
+          "pron": "إكْسامِن",
+          "example": {
+            "ro": "Examenul este săptămâna viitoare.",
+            "ar": "الامتحان الأسبوع القادم."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-06",
+          "ro": "notă",
+          "ar": "علامة (درجة)",
+          "pron": "نوتَه",
+          "example": {
+            "ro": "Am luat nota zece!",
+            "ar": "حصلت على علامة عشرة!"
+          },
+          "verified": false
+        },
+        {
+          "id": "university-07",
+          "ro": "bibliotecă",
+          "ar": "مكتبة",
+          "pron": "بيبْليوتِكَه",
+          "example": {
+            "ro": "Învăț la bibliotecă.",
+            "ar": "أدرس في المكتبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-08",
+          "ro": "cămin",
+          "ar": "سكن جامعي",
+          "pron": "كَمين",
+          "example": {
+            "ro": "Locuiesc în cămin.",
+            "ar": "أسكن في السكن الجامعي."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-09",
+          "ro": "secretariat",
+          "ar": "السكرتارية (شؤون الطلاب)",
+          "pron": "سِكْرِتارِيات",
+          "example": {
+            "ro": "Secretariatul se deschide la ora zece.",
+            "ar": "السكرتارية تفتح الساعة العاشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-10",
+          "ro": "carnet de student",
+          "ar": "بطاقة الطالب",
+          "pron": "كارْنِت دِه سْتودِنْت",
+          "example": {
+            "ro": "Am nevoie de carnetul de student.",
+            "ar": "أحتاج بطاقة الطالب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-11",
+          "ro": "orar",
+          "ar": "جدول الحصص",
+          "pron": "أورار",
+          "example": {
+            "ro": "Unde găsesc orarul?",
+            "ar": "أين أجد جدول الحصص؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "university-12",
+          "ro": "temă",
+          "ar": "واجب منزلي",
+          "pron": "تِمَه",
+          "example": {
+            "ro": "Am terminat tema.",
+            "ar": "أنهيت الواجب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-13",
+          "ro": "sală",
+          "ar": "قاعة",
+          "pron": "سالَه",
+          "example": {
+            "ro": "Cursul este în sala 204.",
+            "ar": "المحاضرة في القاعة 204."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-14",
+          "ro": "coleg / colegă",
+          "ar": "زميل / زميلة",
+          "pron": "كولِگ / كولِگَه",
+          "example": {
+            "ro": "Colegul meu mă ajută mult.",
+            "ar": "زميلي يساعدني كثيراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-15",
+          "ro": "bursă",
+          "ar": "منحة",
+          "pron": "بورْسَه",
+          "example": {
+            "ro": "Am primit o bursă.",
+            "ar": "حصلت على منحة."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "university-p01",
+          "ro": "Nu am înțeles, puteți repeta, vă rog?",
+          "ar": "لم أفهم، هل يمكنك الإعادة من فضلك؟",
+          "pron": "نو آم إنْتْسِلِس، پوتِتْسي رِپِتا، ڤَه روگ؟",
+          "verified": false
+        },
+        {
+          "id": "university-p02",
+          "ro": "Puteți vorbi mai rar, vă rog?",
+          "ar": "هل يمكنك التكلم ببطء من فضلك؟",
+          "pron": "پوتِتْسي ڤورْبي ماي رار، ڤَه روگ؟",
+          "verified": false
+        },
+        {
+          "id": "university-p03",
+          "ro": "Unde este sala 204?",
+          "ar": "أين القاعة 204؟",
+          "pron": "أونْدِه يِسْتِه سالا دوآوَه سوتِه پاتْرو؟",
+          "verified": false
+        },
+        {
+          "id": "university-p04",
+          "ro": "Când este examenul?",
+          "ar": "متى الامتحان؟",
+          "pron": "كِنْد يِسْتِه إكْسامِنول؟",
+          "verified": false
+        },
+        {
+          "id": "university-p05",
+          "ro": "Am nevoie de o adeverință de student.",
+          "ar": "أحتاج إفادة طالب.",
+          "pron": "آم نِڤويِه دِه أو آدِڤِرينْتْسَه دِه سْتودِنْت",
+          "verified": false
+        },
+        {
+          "id": "university-p06",
+          "ro": "Pot să împrumut această carte?",
+          "ar": "هل يمكنني استعارة هذا الكتاب؟",
+          "pron": "پوت سَه إمْپْروموت آتْشِاسْتَه كارْتِه؟",
+          "verified": false
+        },
+        {
+          "id": "university-p07",
+          "ro": "Sunt student străin.",
+          "ar": "أنا طالب أجنبي.",
+          "pron": "سونْت سْتودِنْت سْتْرَئين",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "title": "القطار",
+      "titleRo": "La gară",
+      "icon": "🚆",
+      "items": [
+        {
+          "id": "train-01",
+          "ro": "gară",
+          "ar": "محطة القطار",
+          "pron": "گارَه",
+          "example": {
+            "ro": "Gara de Nord este aproape.",
+            "ar": "محطة الشمال قريبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-02",
+          "ro": "tren",
+          "ar": "قطار",
+          "pron": "تْرِن",
+          "example": {
+            "ro": "Trenul pleacă la ora opt.",
+            "ar": "القطار يغادر الساعة الثامنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-03",
+          "ro": "bilet",
+          "ar": "تذكرة",
+          "pron": "بيلِت",
+          "example": {
+            "ro": "Am cumpărat un bilet online.",
+            "ar": "اشتريت تذكرة أونلاين."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-04",
+          "ro": "dus-întors",
+          "ar": "ذهاب وعودة",
+          "pron": "دوس إنْتورْس",
+          "example": {
+            "ro": "Vreau un bilet dus-întors.",
+            "ar": "أريد تذكرة ذهاب وعودة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-05",
+          "ro": "peron",
+          "ar": "رصيف المحطة",
+          "pron": "پِرون",
+          "example": {
+            "ro": "Trenul vine la peronul trei.",
+            "ar": "القطار يأتي على الرصيف الثالث."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-06",
+          "ro": "linie",
+          "ar": "خط (سكة)",
+          "pron": "لينيِه",
+          "example": {
+            "ro": "Trenul este la linia doi.",
+            "ar": "القطار على الخط الثاني."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-07",
+          "ro": "vagon",
+          "ar": "عربة القطار",
+          "pron": "ڤاگون",
+          "example": {
+            "ro": "Sunt în vagonul cinci.",
+            "ar": "أنا في العربة الخامسة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-08",
+          "ro": "loc",
+          "ar": "مقعد (مكان)",
+          "pron": "لوك",
+          "example": {
+            "ro": "Acesta este locul meu.",
+            "ar": "هذا مقعدي."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-09",
+          "ro": "întârziere",
+          "ar": "تأخير",
+          "pron": "إنْتِرْزييرِه",
+          "example": {
+            "ro": "Trenul are o întârziere de douăzeci de minute.",
+            "ar": "القطار متأخر عشرين دقيقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-10",
+          "ro": "plecare",
+          "ar": "مغادرة",
+          "pron": "پْلِكارِه",
+          "example": {
+            "ro": "Ora de plecare este 14:30.",
+            "ar": "موعد المغادرة 14:30."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-11",
+          "ro": "sosire",
+          "ar": "وصول",
+          "pron": "سوسيرِه",
+          "example": {
+            "ro": "Sosirea la Cluj este seara.",
+            "ar": "الوصول إلى كلوج في المساء."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-12",
+          "ro": "controlor",
+          "ar": "المراقب (الكمسري)",
+          "pron": "كونْتْرولور",
+          "example": {
+            "ro": "Controlorul verifică biletele.",
+            "ar": "المراقب يتحقق من التذاكر."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-13",
+          "ro": "casa de bilete",
+          "ar": "شباك التذاكر",
+          "pron": "كاسا دِه بيلِتِه",
+          "example": {
+            "ro": "Casa de bilete este lângă intrare.",
+            "ar": "شباك التذاكر بجانب المدخل."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-14",
+          "ro": "a schimba trenul",
+          "ar": "يغيّر القطار",
+          "pron": "آ سْكيمْبا تْرِنول",
+          "example": {
+            "ro": "Trebuie să schimb trenul la Brașov.",
+            "ar": "يجب أن أغيّر القطار في براشوف."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-15",
+          "ro": "direct",
+          "ar": "مباشر",
+          "pron": "ديرِكْت",
+          "example": {
+            "ro": "Există un tren direct?",
+            "ar": "هل يوجد قطار مباشر؟"
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "train-p01",
+          "ro": "Un bilet pentru Cluj, vă rog.",
+          "ar": "تذكرة إلى كلوج من فضلك.",
+          "pron": "أون بيلِت پِنْترو كلوژ، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "train-p02",
+          "ro": "De la ce linie pleacă trenul?",
+          "ar": "من أي خط يغادر القطار؟",
+          "pron": "دِه لا تْشِه لينيِه پْلياكَه تْرِنول؟",
+          "verified": false
+        },
+        {
+          "id": "train-p03",
+          "ro": "Acest tren oprește la Brașov?",
+          "ar": "هل يتوقف هذا القطار في براشوف؟",
+          "pron": "آتْشِسْت تْرِن أوپْرِشْتِه لا براشوڤ؟",
+          "verified": false
+        },
+        {
+          "id": "train-p04",
+          "ro": "Este liber locul acesta?",
+          "ar": "هل هذا المقعد فارغ؟",
+          "pron": "يِسْتِه ليبِر لوكول آتْشِسْتا؟",
+          "verified": false
+        },
+        {
+          "id": "train-p05",
+          "ro": "Am reducere de student.",
+          "ar": "عندي تخفيض طالب.",
+          "pron": "آم رِدوتْشِرِه دِه سْتودِنْت",
+          "verified": false
+        },
+        {
+          "id": "train-p06",
+          "ro": "Cât durează călătoria?",
+          "ar": "كم تستغرق الرحلة؟",
+          "pron": "كِت دورِآزَه كَلَتوريا؟",
+          "verified": false
+        },
+        {
+          "id": "train-p07",
+          "ro": "Trenul are întârziere?",
+          "ar": "هل القطار متأخر؟",
+          "pron": "تْرِنول آرِه إنْتِرْزييرِه؟",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "doctor",
+      "title": "عند الطبيب",
+      "titleRo": "La doctor",
+      "icon": "🩺",
+      "items": [
+        {
+          "id": "doctor-01",
+          "ro": "medic de familie",
+          "ar": "طبيب العائلة",
+          "pron": "مِديك دِه فاميليِه",
+          "example": {
+            "ro": "Am programare la medicul de familie.",
+            "ar": "عندي موعد عند طبيب العائلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-02",
+          "ro": "programare",
+          "ar": "موعد",
+          "pron": "پْروگْرامارِه",
+          "example": {
+            "ro": "Vreau să fac o programare.",
+            "ar": "أريد أن أحجز موعداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-03",
+          "ro": "durere",
+          "ar": "ألم",
+          "pron": "دورِرِه",
+          "example": {
+            "ro": "Am o durere de cap.",
+            "ar": "عندي صداع (ألم في الرأس)."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-04",
+          "ro": "febră",
+          "ar": "حمّى (حرارة)",
+          "pron": "فِبْرَه",
+          "example": {
+            "ro": "Copilul are febră.",
+            "ar": "الطفل عنده حرارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-05",
+          "ro": "tuse",
+          "ar": "سعال (كحة)",
+          "pron": "توسِه",
+          "example": {
+            "ro": "Am tuse de trei zile.",
+            "ar": "عندي سعال منذ ثلاثة أيام."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-06",
+          "ro": "rețetă",
+          "ar": "وصفة طبية",
+          "pron": "رِتْسِتَه",
+          "example": {
+            "ro": "Medicul mi-a dat o rețetă.",
+            "ar": "أعطاني الطبيب وصفة طبية."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-07",
+          "ro": "farmacie",
+          "ar": "صيدلية",
+          "pron": "فارْماتْشيِه",
+          "example": {
+            "ro": "Farmacia este deschisă non-stop.",
+            "ar": "الصيدلية مفتوحة 24 ساعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-08",
+          "ro": "medicament",
+          "ar": "دواء",
+          "pron": "مِديكامِنْت",
+          "example": {
+            "ro": "Iau medicamentul de două ori pe zi.",
+            "ar": "آخذ الدواء مرتين في اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-09",
+          "ro": "alergie",
+          "ar": "حساسية",
+          "pron": "آلِرْجيِه",
+          "example": {
+            "ro": "Am alergie la penicilină.",
+            "ar": "عندي حساسية من البنسلين."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-10",
+          "ro": "asigurare medicală",
+          "ar": "تأمين صحي",
+          "pron": "آسيگورارِه مِديكالَه",
+          "example": {
+            "ro": "Am asigurare medicală.",
+            "ar": "عندي تأمين صحي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-11",
+          "ro": "urgență",
+          "ar": "طوارئ",
+          "pron": "أورْجِنْتْسَه",
+          "example": {
+            "ro": "Mergem la urgențe!",
+            "ar": "لنذهب إلى الطوارئ!"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-12",
+          "ro": "analize",
+          "ar": "تحاليل",
+          "pron": "آناليزِه",
+          "example": {
+            "ro": "Trebuie să fac analize de sânge.",
+            "ar": "يجب أن أعمل تحاليل دم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-13",
+          "ro": "gât",
+          "ar": "حلق",
+          "pron": "گِت",
+          "example": {
+            "ro": "Mă doare gâtul.",
+            "ar": "حلقي يؤلمني."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-14",
+          "ro": "stomac",
+          "ar": "معدة",
+          "pron": "سْتوماك",
+          "example": {
+            "ro": "Am probleme cu stomacul.",
+            "ar": "عندي مشاكل في المعدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-15",
+          "ro": "ambulanță",
+          "ar": "إسعاف",
+          "pron": "آمْبولانْتْسَه",
+          "example": {
+            "ro": "Sunați la 112 pentru ambulanță!",
+            "ar": "اتصلوا بالرقم 112 لطلب الإسعاف!"
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "doctor-p01",
+          "ro": "Mă simt rău.",
+          "ar": "أشعر بتوعك (لست بخير).",
+          "pron": "مَه سيمْت رَو",
+          "verified": false
+        },
+        {
+          "id": "doctor-p02",
+          "ro": "Mă doare aici.",
+          "ar": "يؤلمني هنا.",
+          "pron": "مَه دوآرِه آئيتْش",
+          "verified": false
+        },
+        {
+          "id": "doctor-p03",
+          "ro": "Aș vrea o programare, vă rog.",
+          "ar": "أريد موعداً من فضلك.",
+          "pron": "آش ڤْريا أو پْروگْرامارِه، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "doctor-p04",
+          "ro": "Am nevoie de o rețetă.",
+          "ar": "أحتاج وصفة طبية.",
+          "pron": "آم نِڤويِه دِه أو رِتْسِتَه",
+          "verified": false
+        },
+        {
+          "id": "doctor-p05",
+          "ro": "Cum iau acest medicament?",
+          "ar": "كيف آخذ هذا الدواء؟",
+          "pron": "كوم ياو آتْشِسْت مِديكامِنْت؟",
+          "verified": false
+        },
+        {
+          "id": "doctor-p06",
+          "ro": "Unde este cea mai apropiată farmacie?",
+          "ar": "أين أقرب صيدلية؟",
+          "pron": "أونْدِه يِسْتِه تْشا ماي آپْروپْياتَه فارْماتْشيِه؟",
+          "verified": false
+        },
+        {
+          "id": "doctor-p07",
+          "ro": "Am nevoie de un traducător.",
+          "ar": "أحتاج مترجماً.",
+          "pron": "آم نِڤويِه دِه أون تْرادوكَتور",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "renting",
+      "title": "استئجار سكن",
+      "titleRo": "Închiriere",
+      "icon": "🏠",
+      "items": [
+        {
+          "id": "renting-01",
+          "ro": "apartament",
+          "ar": "شقة",
+          "pron": "آپارْتامِنْت",
+          "example": {
+            "ro": "Caut un apartament cu două camere.",
+            "ar": "أبحث عن شقة بغرفتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-02",
+          "ro": "garsonieră",
+          "ar": "ستوديو (شقة بغرفة واحدة)",
+          "pron": "گارْسونيِرَه",
+          "example": {
+            "ro": "O garsonieră este mai ieftină.",
+            "ar": "الستوديو أرخص."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-03",
+          "ro": "chirie",
+          "ar": "إيجار",
+          "pron": "كيريِه",
+          "example": {
+            "ro": "Chiria este 400 de euro pe lună.",
+            "ar": "الإيجار 400 يورو في الشهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-04",
+          "ro": "proprietar",
+          "ar": "المالك",
+          "pron": "پْروپْرييِتار",
+          "example": {
+            "ro": "Proprietarul este foarte amabil.",
+            "ar": "المالك لطيف جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-05",
+          "ro": "contract de închiriere",
+          "ar": "عقد إيجار",
+          "pron": "كونْتْراكْت دِه إنْكيرييرِه",
+          "example": {
+            "ro": "Semnăm contractul de închiriere mâine.",
+            "ar": "نوقّع عقد الإيجار غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-06",
+          "ro": "garanție",
+          "ar": "التأمين (مبلغ الضمان)",
+          "pron": "گارانْتْسيِه",
+          "example": {
+            "ro": "Garanția este o chirie.",
+            "ar": "التأمين يساوي إيجار شهر واحد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-07",
+          "ro": "utilități",
+          "ar": "الفواتير (ماء وكهرباء وغاز)",
+          "pron": "أوتيليتَتس",
+          "example": {
+            "ro": "Utilitățile nu sunt incluse.",
+            "ar": "الفواتير غير مشمولة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-08",
+          "ro": "întreținere",
+          "ar": "مصاريف العمارة",
+          "pron": "إنْتْرِتْسينِرِه",
+          "example": {
+            "ro": "Cât este întreținerea pe lună?",
+            "ar": "كم مصاريف العمارة في الشهر؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-09",
+          "ro": "mobilat",
+          "ar": "مفروش",
+          "pron": "موبيلات",
+          "example": {
+            "ro": "Apartamentul este mobilat.",
+            "ar": "الشقة مفروشة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-10",
+          "ro": "cameră",
+          "ar": "غرفة",
+          "pron": "كامِرَه",
+          "example": {
+            "ro": "Camera are balcon.",
+            "ar": "الغرفة فيها شرفة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-11",
+          "ro": "bucătărie",
+          "ar": "مطبخ",
+          "pron": "بوكَتَريِه",
+          "example": {
+            "ro": "Bucătăria este mică.",
+            "ar": "المطبخ صغير."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-12",
+          "ro": "baie",
+          "ar": "حمّام",
+          "pron": "بايِه",
+          "example": {
+            "ro": "Baia a fost renovată.",
+            "ar": "الحمّام تم تجديده."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-13",
+          "ro": "vecin",
+          "ar": "جار",
+          "pron": "ڤِتْشين",
+          "example": {
+            "ro": "Vecinul meu este liniștit.",
+            "ar": "جاري هادئ."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-14",
+          "ro": "a se muta",
+          "ar": "ينتقل (إلى سكن جديد)",
+          "pron": "آ سِه موتا",
+          "example": {
+            "ro": "Mă mut luna viitoare.",
+            "ar": "سأنتقل الشهر القادم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-15",
+          "ro": "cheie",
+          "ar": "مفتاح",
+          "pron": "كيِيِه",
+          "example": {
+            "ro": "Am pierdut cheia.",
+            "ar": "أضعت المفتاح."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "renting-p01",
+          "ro": "Apartamentul mai este disponibil?",
+          "ar": "هل الشقة ما زالت متاحة؟",
+          "pron": "آپارْتامِنْتول ماي يِسْتِه ديسْپونيبيل؟",
+          "verified": false
+        },
+        {
+          "id": "renting-p02",
+          "ro": "Pot să văd apartamentul?",
+          "ar": "هل يمكنني رؤية الشقة؟",
+          "pron": "پوت سَه ڤَد آپارْتامِنْتول؟",
+          "verified": false
+        },
+        {
+          "id": "renting-p03",
+          "ro": "Cât este chiria pe lună?",
+          "ar": "كم الإيجار في الشهر؟",
+          "pron": "كِت يِسْتِه كيريا پِه لونَه؟",
+          "verified": false
+        },
+        {
+          "id": "renting-p04",
+          "ro": "Utilitățile sunt incluse?",
+          "ar": "هل الفواتير مشمولة؟",
+          "pron": "أوتيليتَتْسيلِه سونْت إنْكلوسِه؟",
+          "verified": false
+        },
+        {
+          "id": "renting-p05",
+          "ro": "Am nevoie de contract pentru permisul de ședere.",
+          "ar": "أحتاج العقد من أجل تصريح الإقامة.",
+          "pron": "آم نِڤويِه دِه كونْتْراكْت پِنْترو پِرْميسول دِه شِدِرِه",
+          "verified": false
+        },
+        {
+          "id": "renting-p06",
+          "ro": "Dacă se strică ceva, pe cine sun?",
+          "ar": "إذا تعطّل شيء، بمن أتصل؟",
+          "pron": "داكَه سِه سْتْريكَه تْشِڤا، پِه تْشينِه سون؟",
+          "verified": false
+        },
+        {
+          "id": "renting-p07",
+          "ro": "Când pot să mă mut?",
+          "ar": "متى يمكنني الانتقال؟",
+          "pron": "كِنْد پوت سَه مَه موت؟",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "العمل",
+      "titleRo": "La muncă",
+      "icon": "💼",
+      "items": [
+        {
+          "id": "work-01",
+          "ro": "loc de muncă",
+          "ar": "وظيفة (مكان عمل)",
+          "pron": "لوك دِه مونْكَه",
+          "example": {
+            "ro": "Caut un loc de muncă.",
+            "ar": "أبحث عن عمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-02",
+          "ro": "angajator",
+          "ar": "صاحب العمل",
+          "pron": "آنْگاژاتور",
+          "example": {
+            "ro": "Angajatorul meu este o firmă mare.",
+            "ar": "صاحب عملي شركة كبيرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-03",
+          "ro": "șef",
+          "ar": "المدير (الرئيس)",
+          "pron": "شِف",
+          "example": {
+            "ro": "Șeful meu este în ședință.",
+            "ar": "مديري في اجتماع."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-04",
+          "ro": "salariu",
+          "ar": "راتب",
+          "pron": "سالاريو",
+          "example": {
+            "ro": "Salariul vine pe 15.",
+            "ar": "الراتب يصل يوم 15."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-05",
+          "ro": "program",
+          "ar": "الدوام (ساعات العمل)",
+          "pron": "پْروگْرام",
+          "example": {
+            "ro": "Programul este de la 9 la 17.",
+            "ar": "الدوام من 9 إلى 5 مساءً."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-06",
+          "ro": "contract de muncă",
+          "ar": "عقد عمل",
+          "pron": "كونْتْراكْت دِه مونْكَه",
+          "example": {
+            "ro": "Am semnat contractul de muncă.",
+            "ar": "وقّعت عقد العمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-07",
+          "ro": "interviu",
+          "ar": "مقابلة عمل",
+          "pron": "إنْتِرْڤيو",
+          "example": {
+            "ro": "Am un interviu mâine.",
+            "ar": "عندي مقابلة عمل غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-08",
+          "ro": "CV",
+          "ar": "سيرة ذاتية",
+          "pron": "تْشي ڤي",
+          "example": {
+            "ro": "Am trimis CV-ul pe e-mail.",
+            "ar": "أرسلت السيرة الذاتية بالإيميل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-09",
+          "ro": "concediu",
+          "ar": "إجازة",
+          "pron": "كونْتْشِديو",
+          "example": {
+            "ro": "Îmi iau concediu în august.",
+            "ar": "سآخذ إجازة في أغسطس."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-10",
+          "ro": "concediu medical",
+          "ar": "إجازة مرضية",
+          "pron": "كونْتْشِديو مِديكال",
+          "example": {
+            "ro": "Sunt în concediu medical.",
+            "ar": "أنا في إجازة مرضية."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-11",
+          "ro": "ore suplimentare",
+          "ar": "ساعات إضافية",
+          "pron": "أورِه سوپْليمِنْتارِه",
+          "example": {
+            "ro": "Lucrez ore suplimentare.",
+            "ar": "أعمل ساعات إضافية."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-12",
+          "ro": "tură",
+          "ar": "وردية (شيفت)",
+          "pron": "تورَه",
+          "example": {
+            "ro": "Azi lucrez în tura de noapte.",
+            "ar": "اليوم أعمل في الوردية الليلية."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-13",
+          "ro": "pauză",
+          "ar": "استراحة",
+          "pron": "پاوزَه",
+          "example": {
+            "ro": "Pauza de masă este la ora unu.",
+            "ar": "استراحة الغداء الساعة الواحدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-14",
+          "ro": "ședință",
+          "ar": "اجتماع",
+          "pron": "شِدينْتْسَه",
+          "example": {
+            "ro": "Avem o ședință la ora zece.",
+            "ar": "عندنا اجتماع الساعة العاشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-15",
+          "ro": "permis de muncă",
+          "ar": "تصريح عمل",
+          "pron": "پِرْميس دِه مونْكَه",
+          "example": {
+            "ro": "Am nevoie de permis de muncă.",
+            "ar": "أحتاج تصريح عمل."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "work-p01",
+          "ro": "Bună ziua, am o programare pentru interviu.",
+          "ar": "مرحباً، عندي موعد لمقابلة عمل.",
+          "pron": "بونَه زيوا، آم أو پْروگْرامارِه پِنْترو إنْتِرْڤيو",
+          "verified": false
+        },
+        {
+          "id": "work-p02",
+          "ro": "Pot să lucrez de acasă azi?",
+          "ar": "هل يمكنني العمل من البيت اليوم؟",
+          "pron": "پوت سَه لوكْرِز دِه آكاسَه آز؟",
+          "verified": false
+        },
+        {
+          "id": "work-p03",
+          "ro": "Întârzii zece minute, îmi pare rău.",
+          "ar": "سأتأخر عشر دقائق، آسف.",
+          "pron": "إنْتِرْزيي زِتْشِه مينوتِه، إمْ پارِه رَو",
+          "verified": false
+        },
+        {
+          "id": "work-p04",
+          "ro": "Când primim salariul?",
+          "ar": "متى نستلم الراتب؟",
+          "pron": "كِنْد پْريميم سالاريول؟",
+          "verified": false
+        },
+        {
+          "id": "work-p05",
+          "ro": "Aș vrea să îmi iau o zi liberă.",
+          "ar": "أريد أن آخذ يوم إجازة.",
+          "pron": "آش ڤْريا سَه إمْ ياو أو زي ليبِرَه",
+          "verified": false
+        },
+        {
+          "id": "work-p06",
+          "ro": "Puteți să-mi explicați din nou?",
+          "ar": "هل يمكنك أن تشرح لي مرة أخرى؟",
+          "pron": "پوتِتْسي سَم إكْسْپْليكاتْسي دين نوو؟",
+          "verified": false
+        },
+        {
+          "id": "work-p07",
+          "ro": "Am terminat sarcina.",
+          "ar": "أنهيت المهمة.",
+          "pron": "آم تِرْمينات سارْتْشينا",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

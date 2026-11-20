@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo Variable", "Noto Sans Arabic", Tahoma, system-ui, sans-serif;
+  --color-cream: #fff8ee;
+  --color-honey: #f2a541;
+  --color-honey-dark: #d9862a;
+  --color-bark: #6b3f22;
+  --color-fur: #a86b3c;
+  --color-leaf: #2a9d6f;
+  --color-berry: #e07a5f;
+  --color-sky: #2b6cb0;
+}
+
+html, body { background: var(--color-cream); color: var(--color-bark); }
+body { -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
+button { cursor: pointer; }
+
+/* 3D flip card. Both faces share one grid cell so the card takes the taller face's height. */
+.flip { perspective: 1200px; }
+.flip-inner { display: grid; transform-style: preserve-3d; transition: transform 0.5s cubic-bezier(.2,.8,.2,1); }
+.flip-inner.flipped { transform: rotateY(180deg); }
+.flip-face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateY(180deg); }
+
+@keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+.bob { animation: bob 3s ease-in-out infinite; }
+@keyframes pop { 0% { transform: scale(.9); opacity: 0 } 100% { transform: scale(1); opacity: 1 } }
+.pop { animation: pop .25s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-inner { transition: none; }
+  .bob, .pop { animation: none; }
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }
