@@ -8,6 +8,7 @@ import { viteSingleFile } from 'vite-plugin-singlefile';
 const artifact = process.env.ARTIFACT === '1';
 
 export default defineConfig({
+  base: './',
   plugins: [react(), tailwindcss(), ...(artifact ? [viteSingleFile()] : [])],
   define: { __SHARE_BUILD__: JSON.stringify(artifact) },
   build: artifact ? { outDir: 'dist-share' } : {},

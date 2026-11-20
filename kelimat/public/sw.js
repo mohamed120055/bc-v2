@@ -1,6 +1,8 @@
 // Kelimat service worker: offline app shell + cache of hashed build assets.
-const CACHE = 'kelimat-v1';
-const SHELL = ['/', '/manifest.webmanifest', '/icon.svg', '/icon-192.png', '/icon-512.png'];
+// Paths are relative to where the app is hosted (e.g. /bc-v2/ on GitHub Pages).
+const CACHE = 'kelimat-v2';
+const ROOT = new URL('./', self.location).href;
+const SHELL = ['./', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png'].map((p) => new URL(p, ROOT).href);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -22,8 +24,8 @@ self.addEventListener('fetch', (e) => {
   if (request.mode === 'navigate') {
     e.respondWith(
       fetch(request)
-        .then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put('/', copy)); return res; })
-        .catch(() => caches.match('/')),
+        .then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(ROOT, copy)); return res; })
+        .catch(() => caches.match(ROOT)),
     );
     return;
   }

@@ -34,3 +34,12 @@ che/chi → ك, ge/gi → ج, other g → گ, j → ژ, p → پ, v → ڤ, word
 - Everything is saved in `localStorage` under the key `kelimat:v1`.
 
 Audio quality depends on the device having a Romanian voice. The app shows a notice when it doesn't.
+
+## Install on a phone (GitHub Pages)
+
+`.github/workflows/kelimat-pages.yml` builds the app and publishes it on every push to `master` that touches `kelimat/`.
+The site is at **https://mohamed120055.github.io/bc-v2/**.
+This needs a one-time setting: repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+- Android (Chrome): open the link and tap "ثبّت الآن" in the app, or use the menu ⋮ → Install app.
+- iPhone (Safari): Share ⬆︎ → Add to Home Screen.

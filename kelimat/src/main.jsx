@@ -14,5 +14,5 @@ createRoot(document.getElementById('root')).render(
 );
 
 if ('serviceWorker' in navigator && import.meta.env.PROD && !__SHARE_BUILD__) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }

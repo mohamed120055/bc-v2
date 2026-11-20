@@ -3,6 +3,7 @@ import SpeakButton from '../components/SpeakButton.jsx';
 import ScenarioGrid from '../components/ScenarioGrid.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
+import InstallBanner from '../components/InstallBanner.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { allItems, dailyItem, scenarioById } from '../lib/content.js';
 import { countDue } from '../lib/srs.js';
@@ -33,6 +34,8 @@ export default function Home() {
           {g.text}
         </div>
       </header>
+
+      <InstallBanner />
 
       <section className="grid grid-cols-3 gap-2.5 text-center">
         <Stat big={streak} label={streak === 1 ? 'يوم متتالي' : 'أيام متتالية'} icon="🔥" />

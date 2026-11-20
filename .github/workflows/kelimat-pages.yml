@@ -1,0 +1,50 @@
+# Builds the Kelimat PWA (kelimat/) and publishes it to GitHub Pages
+# at https://<owner>.github.io/<repo>/ on every push to master that touches it.
+name: Deploy Kelimat to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths: ['kelimat/**', '.github/workflows/kelimat-pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: kelimat
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: kelimat/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run check:content
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: kelimat/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
