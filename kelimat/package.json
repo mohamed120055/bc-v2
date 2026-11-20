@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.js",
     "check:content": "node scripts/check-content.mjs",
     "icons": "node scripts/make-icons.mjs",
-    "build:share": "ARTIFACT=1 vite build && node scripts/build-share.mjs"
+    "build:share": "ARTIFACT=1 vite build && node scripts/build-share.mjs",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "@fontsource-variable/cairo": "^5.3.0",
