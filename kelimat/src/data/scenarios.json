@@ -15180,6 +15180,306 @@
           "verified": false
         },
         {
+          "id": "transport-61",
+          "level": "beginner",
+          "ro": "troleibuz",
+          "ar": "ترولي باص",
+          "pron": "تْروليبوز",
+          "example": {
+            "ro": "Troleibuzul 79 merge în centru.",
+            "ar": "الترولي باص 79 يذهب إلى وسط المدينة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-62",
+          "level": "beginner",
+          "ro": "microbuz",
+          "ar": "ميكروباص",
+          "pron": "ميكْروبوز",
+          "example": {
+            "ro": "Iau microbuzul până la sat.",
+            "ar": "آخذ الميكروباص حتى القرية."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-63",
+          "level": "beginner",
+          "ro": "avion",
+          "ar": "طائرة",
+          "pron": "آڤيون",
+          "example": {
+            "ro": "Avionul pleacă la ora șase.",
+            "ar": "الطائرة تقلع الساعة السادسة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-64",
+          "level": "beginner",
+          "ro": "motocicletă",
+          "ar": "دراجة نارية",
+          "pron": "موتوتْشيكْلِتَه",
+          "example": {
+            "ro": "Fratele meu are o motocicletă.",
+            "ar": "أخي عنده دراجة نارية."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-65",
+          "level": "beginner",
+          "ro": "sus / jos",
+          "ar": "فوق / تحت",
+          "pron": "سوس / ژوس",
+          "example": {
+            "ro": "Stația de metrou este jos.",
+            "ar": "محطة المترو تحت."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-66",
+          "level": "beginner",
+          "ro": "lângă",
+          "ar": "بجانب",
+          "pron": "لِنْگَه",
+          "example": {
+            "ro": "Stația este lângă parc.",
+            "ar": "المحطة بجانب الحديقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-67",
+          "level": "beginner",
+          "ro": "în fața",
+          "ar": "أمام",
+          "pron": "إن فاتْسا",
+          "example": {
+            "ro": "Ne vedem în fața gării.",
+            "ar": "نلتقي أمام المحطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-68",
+          "level": "beginner",
+          "ro": "în spatele",
+          "ar": "خلف",
+          "pron": "إن سْپاتِلِه",
+          "example": {
+            "ro": "Parcarea este în spatele clădirii.",
+            "ar": "الموقف خلف المبنى."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-69",
+          "level": "beginner",
+          "ro": "vizavi",
+          "ar": "مقابل",
+          "pron": "ڤيزاڤي",
+          "example": {
+            "ro": "Farmacia este vizavi.",
+            "ar": "الصيدلية في المقابل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-70",
+          "level": "beginner",
+          "ro": "drept înainte",
+          "ar": "على طول (للأمام مباشرة)",
+          "pron": "دْرِپْت إنائينْتِه",
+          "example": {
+            "ro": "Mergeți drept înainte.",
+            "ar": "امشِ على طول."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-71",
+          "level": "beginner",
+          "ro": "a merge",
+          "ar": "يذهب / يمشي",
+          "pron": "آ مِرْجِه",
+          "example": {
+            "ro": "Merg pe jos până acasă.",
+            "ar": "أمشي حتى البيت."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-72",
+          "level": "beginner",
+          "ro": "a conduce",
+          "ar": "يقود (سيارة)",
+          "pron": "آ كونْدوتْشِه",
+          "example": {
+            "ro": "Conduc cu grijă.",
+            "ar": "أقود بحذر."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-73",
+          "level": "beginner",
+          "ro": "a parca",
+          "ar": "يركن",
+          "pron": "آ پارْكا",
+          "example": {
+            "ro": "Unde pot să parchez?",
+            "ar": "أين يمكنني الركن؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-74",
+          "level": "beginner",
+          "ro": "a opri",
+          "ar": "يوقف / يتوقف",
+          "pron": "آ أوپْري",
+          "example": {
+            "ro": "Opriți aici, vă rog.",
+            "ar": "توقف هنا من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-75",
+          "level": "beginner",
+          "ro": "a întoarce",
+          "ar": "يلف (يرجع)",
+          "pron": "آ إنْتوآرْتْشِه",
+          "example": {
+            "ro": "Întoarceți la semafor.",
+            "ar": "لفّ عند الإشارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-76",
+          "level": "beginner",
+          "ro": "repede / încet",
+          "ar": "بسرعة / ببطء",
+          "pron": "رِپِدِه / إنْتْشِت",
+          "example": {
+            "ro": "Șoferul merge prea repede.",
+            "ar": "السائق يسير بسرعة كبيرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-77",
+          "level": "beginner",
+          "ro": "accident",
+          "ar": "حادث",
+          "pron": "آكْتْشيدِنْت",
+          "example": {
+            "ro": "A fost un accident pe pod.",
+            "ar": "حصل حادث على الجسر."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-78",
+          "level": "beginner",
+          "ro": "poliția rutieră",
+          "ar": "شرطة المرور",
+          "pron": "پوليتْسيا روتيِرَه",
+          "example": {
+            "ro": "Poliția rutieră m-a oprit.",
+            "ar": "شرطة المرور أوقفتني."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-79",
+          "level": "beginner",
+          "ro": "benzină / motorină",
+          "ar": "بنزين / ديزل",
+          "pron": "بِنْزينَه / موتورينَه",
+          "example": {
+            "ro": "Mașina merge pe motorină.",
+            "ar": "السيارة تعمل بالديزل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-80",
+          "level": "beginner",
+          "ro": "roată",
+          "ar": "عجلة",
+          "pron": "روآتَه",
+          "example": {
+            "ro": "Roata este dezumflată.",
+            "ar": "العجلة فارغة من الهواء."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-81",
+          "level": "beginner",
+          "ro": "cască",
+          "ar": "خوذة",
+          "pron": "كاسْكَه",
+          "example": {
+            "ro": "Purtați cască pe trotinetă.",
+            "ar": "البس خوذة على السكوتر."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-82",
+          "level": "beginner",
+          "ro": "plin / gol",
+          "ar": "ممتلئ / فارغ",
+          "pron": "پْلين / گول",
+          "example": {
+            "ro": "Autobuzul este plin.",
+            "ar": "الأتوبيس ممتلئ."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-83",
+          "level": "beginner",
+          "ro": "călător",
+          "ar": "مسافر (راكب)",
+          "pron": "كَلَتور",
+          "example": {
+            "ro": "Călătorii coboară aici.",
+            "ar": "الركاب ينزلون هنا."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-84",
+          "level": "beginner",
+          "ro": "bilet de autobuz",
+          "ar": "تذكرة أتوبيس",
+          "pron": "بيلِت دِه آوتوبوز",
+          "example": {
+            "ro": "Cumpăr un bilet de autobuz.",
+            "ar": "أشتري تذكرة أتوبيس."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-85",
+          "level": "beginner",
+          "ro": "cartelă",
+          "ar": "كارت المواصلات",
+          "pron": "كارْتِلَه",
+          "example": {
+            "ro": "Încarc cartela de metrou.",
+            "ar": "أشحن كارت المترو."
+          },
+          "verified": false
+        },
+        {
           "id": "transport-13",
           "level": "intermediate",
           "ro": "a valida biletul",
@@ -15420,6 +15720,366 @@
           "verified": false
         },
         {
+          "id": "transport-86",
+          "level": "intermediate",
+          "ro": "a schimba metroul",
+          "ar": "يغيّر خط المترو",
+          "pron": "آ سْكيمْبا مِتْرول",
+          "example": {
+            "ro": "Schimbați metroul la Piața Victoriei.",
+            "ar": "غيّر المترو في ساحة فيكتوريا."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-87",
+          "level": "intermediate",
+          "ro": "magistrală de metrou",
+          "ar": "خط مترو",
+          "pron": "ماجيسْتْرالَه دِه مِتْرو",
+          "example": {
+            "ro": "Luați magistrala M2.",
+            "ar": "خذ الخط M2."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-88",
+          "level": "intermediate",
+          "ro": "în direcția",
+          "ar": "باتجاه",
+          "pron": "إن ديرِكْتْسيا",
+          "example": {
+            "ro": "Luați metroul în direcția Pipera.",
+            "ar": "خذ المترو باتجاه پيپيرا."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-89",
+          "level": "intermediate",
+          "ro": "orar de autobuz",
+          "ar": "جدول مواعيد الأتوبيس",
+          "pron": "أورار دِه آوتوبوز",
+          "example": {
+            "ro": "Orarul de autobuz este afișat în stație.",
+            "ar": "جدول الأتوبيس معلق في المحطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-90",
+          "level": "intermediate",
+          "ro": "la fiecare zece minute",
+          "ar": "كل عشر دقائق",
+          "pron": "لا فيِكارِه زِتْشِه مينوتِه",
+          "example": {
+            "ro": "Tramvaiul vine la fiecare zece minute.",
+            "ar": "الترام يأتي كل عشر دقائق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-91",
+          "level": "intermediate",
+          "ro": "oră de vârf",
+          "ar": "ساعة الذروة",
+          "pron": "أورَه دِه ڤِرْف",
+          "example": {
+            "ro": "La ora de vârf este aglomerat.",
+            "ar": "في ساعة الذروة تكون زحمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-92",
+          "level": "intermediate",
+          "ro": "aglomerat",
+          "ar": "مزدحم",
+          "pron": "آگْلومِرات",
+          "example": {
+            "ro": "Metroul este aglomerat.",
+            "ar": "المترو مزدحم."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-93",
+          "level": "intermediate",
+          "ro": "loc pentru persoane în vârstă",
+          "ar": "مقعد لكبار السن",
+          "pron": "لوك پِنْترو پِرْسوآنِه إن ڤِرْسْتَه",
+          "example": {
+            "ro": "Lăsați locul pentru persoanele în vârstă.",
+            "ar": "اترك المقعد لكبار السن."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-94",
+          "level": "intermediate",
+          "ro": "a da prioritate",
+          "ar": "يعطي الأولوية",
+          "pron": "آ دا پْريوريتاتِه",
+          "example": {
+            "ro": "Dați prioritate pietonilor.",
+            "ar": "أعطِ الأولوية للمشاة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-95",
+          "level": "intermediate",
+          "ro": "limită de viteză",
+          "ar": "حد السرعة",
+          "pron": "ليميتَه دِه ڤيتِزَه",
+          "example": {
+            "ro": "Limita de viteză este cincizeci în oraș.",
+            "ar": "حد السرعة خمسون في المدينة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-96",
+          "level": "intermediate",
+          "ro": "radar",
+          "ar": "رادار",
+          "pron": "رادار",
+          "example": {
+            "ro": "Atenție, este radar pe drum!",
+            "ar": "انتبه، يوجد رادار على الطريق!"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-97",
+          "level": "intermediate",
+          "ro": "rovinietă",
+          "ar": "ملصق رسوم الطرق",
+          "pron": "روڤينيِتَه",
+          "example": {
+            "ro": "Am cumpărat rovinieta online.",
+            "ar": "اشتريت ملصق رسوم الطرق أونلاين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-98",
+          "level": "intermediate",
+          "ro": "ITP",
+          "ar": "الفحص الفني للسيارة",
+          "pron": "إي تِه پِه",
+          "example": {
+            "ro": "Mașina are ITP-ul valabil.",
+            "ar": "الفحص الفني للسيارة ساري."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-99",
+          "level": "intermediate",
+          "ro": "talon",
+          "ar": "رخصة السيارة",
+          "pron": "تالون",
+          "example": {
+            "ro": "Arătați-mi permisul și talonul.",
+            "ar": "أرني رخصة القيادة ورخصة السيارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-100",
+          "level": "intermediate",
+          "ro": "a face plinul",
+          "ar": "يملأ خزان الوقود",
+          "pron": "آ فاتْشِه پْلينول",
+          "example": {
+            "ro": "Fac plinul la benzinărie.",
+            "ar": "أملأ الخزان في محطة البنزين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-101",
+          "level": "intermediate",
+          "ro": "pană de cauciuc",
+          "ar": "ثقب في الكاوتش",
+          "pron": "پانَه دِه كاوتْشيوك",
+          "example": {
+            "ro": "Am făcut pană de cauciuc.",
+            "ar": "الكاوتش انثقب."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-102",
+          "level": "intermediate",
+          "ro": "tractare",
+          "ar": "سحب السيارة (ونش)",
+          "pron": "تْراكْتارِه",
+          "example": {
+            "ro": "Am nevoie de tractare.",
+            "ar": "أحتاج ونش."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-103",
+          "level": "intermediate",
+          "ro": "mașină închiriată",
+          "ar": "سيارة مستأجرة",
+          "pron": "ماشينَه إنْكيرياتَه",
+          "example": {
+            "ro": "Am o mașină închiriată pe o săptămână.",
+            "ar": "عندي سيارة مستأجرة لأسبوع."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-104",
+          "level": "intermediate",
+          "ro": "a comanda o mașină",
+          "ar": "يطلب سيارة (من تطبيق)",
+          "pron": "آ كومانْدا أو ماشينَه",
+          "example": {
+            "ro": "Comand o mașină din aplicație.",
+            "ar": "أطلب سيارة من التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-105",
+          "level": "intermediate",
+          "ro": "cursă",
+          "ar": "مشوار (رحلة)",
+          "pron": "كورْسَه",
+          "example": {
+            "ro": "Cursa a costat treizeci de lei.",
+            "ar": "المشوار كلف ثلاثين لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-106",
+          "level": "intermediate",
+          "ro": "tarif",
+          "ar": "تعرفة (سعر)",
+          "pron": "تاريف",
+          "example": {
+            "ro": "Care este tariful pe kilometru?",
+            "ar": "ما التعرفة للكيلومتر؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-107",
+          "level": "intermediate",
+          "ro": "aeroportul Otopeni",
+          "ar": "مطار أوتوپيني",
+          "pron": "آيروپورْتول أوتوپِني",
+          "example": {
+            "ro": "Autobuzul 783 merge la aeroportul Otopeni.",
+            "ar": "الأتوبيس 783 يذهب إلى مطار أوتوپيني."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-108",
+          "level": "intermediate",
+          "ro": "bagaj de cală",
+          "ar": "حقيبة شحن (طائرة)",
+          "pron": "باگاژ دِه كالَه",
+          "example": {
+            "ro": "Am un bagaj de cală.",
+            "ar": "معي حقيبة شحن."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-109",
+          "level": "intermediate",
+          "ro": "îmbarcare",
+          "ar": "صعود الطائرة",
+          "pron": "إمْبارْكارِه",
+          "example": {
+            "ro": "Îmbarcarea începe la poarta zece.",
+            "ar": "الصعود يبدأ من البوابة عشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-110",
+          "level": "intermediate",
+          "ro": "zbor",
+          "ar": "رحلة طيران",
+          "pron": "زْبور",
+          "example": {
+            "ro": "Zborul are întârziere.",
+            "ar": "الرحلة متأخرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-111",
+          "level": "intermediate",
+          "ro": "autogară",
+          "ar": "محطة أتوبيسات (بين المدن)",
+          "pron": "آوتوگارَه",
+          "example": {
+            "ro": "Autobuzul spre Iași pleacă de la autogară.",
+            "ar": "أتوبيس ياش يغادر من محطة الأتوبيسات."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-112",
+          "level": "intermediate",
+          "ro": "scară rulantă",
+          "ar": "سلم متحرك",
+          "pron": "سْكارَه رولانْتَه",
+          "example": {
+            "ro": "Luați scara rulantă în jos.",
+            "ar": "خذ السلم المتحرك للأسفل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-113",
+          "level": "intermediate",
+          "ro": "ieșirea spre...",
+          "ar": "المخرج باتجاه...",
+          "pron": "يِشيرِآ سْپْرِه",
+          "example": {
+            "ro": "Ieșirea spre Universitate este pe stânga.",
+            "ar": "المخرج باتجاه الجامعة على اليسار."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-114",
+          "level": "intermediate",
+          "ro": "a pierde autobuzul",
+          "ar": "يفوته الأتوبيس",
+          "pron": "آ پْيِرْدِه آوتوبوزول",
+          "example": {
+            "ro": "Am pierdut autobuzul de opt.",
+            "ar": "فاتني أتوبيس الثامنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-115",
+          "level": "intermediate",
+          "ro": "abonament pentru studenți",
+          "ar": "اشتراك الطلاب",
+          "pron": "آبونامِنْت پِنْترو سْتودِنْتْس",
+          "example": {
+            "ro": "Abonamentul pentru studenți este mai ieftin.",
+            "ar": "اشتراك الطلاب أرخص."
+          },
+          "verified": false
+        },
+        {
           "id": "transport-23",
           "level": "advanced",
           "ro": "Ce autobuz merge până la Gara de Nord?",
@@ -15596,6 +16256,426 @@
           "example": {
             "ro": "Pe străzile din spate, după ora optsprezece.",
             "ar": "في الشوارع الخلفية، بعد الساعة السادسة مساءً."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-116",
+          "level": "advanced",
+          "ro": "Scuzați, cum ajung la Gara de Nord de aici?",
+          "ar": "عفواً، كيف أصل إلى محطة الشمال من هنا؟",
+          "pron": "سْكوزاتْس، كوم آژونْگ لا گارا دِه نورْد دِه آئيتْش؟",
+          "example": {
+            "ro": "Luați metroul, sunt două stații.",
+            "ar": "خذ المترو، إنها محطتان."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-117",
+          "level": "advanced",
+          "ro": "Acest autobuz merge spre aeroport?",
+          "ar": "هل هذا الأتوبيس يذهب إلى المطار؟",
+          "pron": "آتْشِسْت آوتوبوز مِرْجِه سْپْرِه آيروپورْت؟",
+          "example": {
+            "ro": "Nu, luați 783 de la Piața Unirii.",
+            "ar": "لا، خذ 783 من ساحة أونيري."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-118",
+          "level": "advanced",
+          "ro": "Cât face o cursă de la gară până în centru?",
+          "ar": "كم تكلفة المشوار من المحطة إلى الوسط؟",
+          "pron": "كِت فاتْشِه أو كورْسَه دِه لا گارَه پِنَه إن تْشِنْترو؟",
+          "example": {
+            "ro": "Cam douăzeci și cinci de lei.",
+            "ar": "حوالي خمسة وعشرين لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-119",
+          "level": "advanced",
+          "ro": "Puteți porni aparatul de taxat, vă rog?",
+          "ar": "هل يمكنك تشغيل العداد من فضلك؟",
+          "pron": "پوتِتْس پورْني آپاراتول دِه تاكْسات، ڤَه روگ؟",
+          "example": {
+            "ro": "Da, scuze, l-am pornit acum.",
+            "ar": "نعم، آسف، شغلته الآن."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-120",
+          "level": "advanced",
+          "ro": "Unde pot să cumpăr un bilet de metrou?",
+          "ar": "أين يمكنني شراء تذكرة مترو؟",
+          "pron": "أونْدِه پوت سَه كومْپَر أون بيلِت دِه مِتْرو؟",
+          "example": {
+            "ro": "La automatele de la intrare.",
+            "ar": "من الماكينات عند المدخل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-121",
+          "level": "advanced",
+          "ro": "Trebuie să schimb ca să ajung la Pipera?",
+          "ar": "هل يجب أن أغيّر لأصل إلى پيپيرا؟",
+          "pron": "تْرِبويِه سَه سْكيمْب كا سَه آژونْگ لا پيپيرا؟",
+          "example": {
+            "ro": "Da, la Piața Victoriei, pe magistrala M1.",
+            "ar": "نعم، في ساحة فيكتوريا، على الخط M1."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-122",
+          "level": "advanced",
+          "ro": "Opriți la următorul colț, vă rog.",
+          "ar": "توقف عند الناصية القادمة من فضلك.",
+          "pron": "أوپْريتْس لا أورْمَتورول كولْتْس، ڤَه روگ",
+          "example": {
+            "ro": "Aici este bine?",
+            "ar": "هنا مناسب؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-123",
+          "level": "advanced",
+          "ro": "Am uitat să validez biletul, îmi pare rău.",
+          "ar": "نسيت تفعيل التذكرة، آسف.",
+          "pron": "آم أوئيتات سَه ڤاليدِز بيلِتول، إمْ پارِه رَو",
+          "example": {
+            "ro": "Data viitoare primiți amendă.",
+            "ar": "المرة القادمة ستأخذ غرامة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-124",
+          "level": "advanced",
+          "ro": "Cât de des vine tramvaiul seara?",
+          "ar": "كم مرة يأتي الترام في المساء؟",
+          "pron": "كِت دِه دِس ڤينِه تْرامْڤايول سيارا؟",
+          "example": {
+            "ro": "La fiecare cincisprezece minute.",
+            "ar": "كل خمس عشرة دقيقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-125",
+          "level": "advanced",
+          "ro": "Unde este cea mai apropiată stație de taxi?",
+          "ar": "أين أقرب موقف تاكسي؟",
+          "pron": "أونْدِه يِسْتِه تْشا ماي آپْروپْياتَه سْتاتْسيِه دِه تاكْسي؟",
+          "example": {
+            "ro": "În fața hotelului.",
+            "ar": "أمام الفندق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-126",
+          "level": "advanced",
+          "ro": "Mașina mea a rămas fără benzină.",
+          "ar": "سيارتي نفد منها البنزين.",
+          "pron": "ماشينا ميا آ رَماس فَرَه بِنْزينَه",
+          "example": {
+            "ro": "Benzinăria este la doi kilometri.",
+            "ar": "محطة البنزين على بعد كيلومترين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-127",
+          "level": "advanced",
+          "ro": "Am avut un mic accident, nimeni nu este rănit.",
+          "ar": "حصل لي حادث صغير، لا أحد مصاب.",
+          "pron": "آم آڤوت أون ميك آكْتْشيدِنْت، نيمِني نو يِسْتِه رَنيت",
+          "example": {
+            "ro": "Completați constatarea amiabilă.",
+            "ar": "املأ محضر الاتفاق الودي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-128",
+          "level": "advanced",
+          "ro": "Unde pot să parchez lângă spital?",
+          "ar": "أين يمكنني الركن بجانب المستشفى؟",
+          "pron": "أونْدِه پوت سَه پارْكِز لِنْگَه سْپيتال؟",
+          "example": {
+            "ro": "În parcarea subterană, cu plată.",
+            "ar": "في الموقف تحت الأرض، بفلوس."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-129",
+          "level": "advanced",
+          "ro": "Cum plătesc parcarea, prin SMS?",
+          "ar": "كيف أدفع الموقف، برسالة؟",
+          "pron": "كوم پْلَتِسْك پارْكارِآ، پْرين سِه مِه سِه؟",
+          "example": {
+            "ro": "Da, sau din aplicație.",
+            "ar": "نعم، أو من التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-130",
+          "level": "advanced",
+          "ro": "Pot să-mi schimb permisul de conducere cu unul românesc?",
+          "ar": "هل يمكنني تبديل رخصة قيادتي برخصة رومانية؟",
+          "pron": "پوت سَم سْكيمْب پِرْميسول دِه كونْدوتْشِرِه كو أونول رومينِسْك؟",
+          "example": {
+            "ro": "Depinde de țară; întrebați la Serviciul de Permise.",
+            "ar": "يعتمد على البلد؛ اسأل في مصلحة الرخص."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-131",
+          "level": "advanced",
+          "ro": "La ce oră este ultimul metrou?",
+          "ar": "متى آخر مترو؟",
+          "pron": "لا تْشِه أورَه يِسْتِه أولْتيمول مِتْرو؟",
+          "example": {
+            "ro": "Pe la ora douăzeci și trei.",
+            "ar": "حوالي الساعة الحادية عشرة ليلاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-132",
+          "level": "advanced",
+          "ro": "Șoferul nu a oprit în stație.",
+          "ar": "السائق لم يتوقف في المحطة.",
+          "pron": "شوفِرول نو آ أوپْريت إن سْتاتْسيِه",
+          "example": {
+            "ro": "Trebuia să apăsați butonul de oprire.",
+            "ar": "كان يجب أن تضغط زر التوقف."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-133",
+          "level": "advanced",
+          "ro": "Mă puteți ajuta să cumpăr bilet de la automat?",
+          "ar": "هل يمكنك مساعدتي في شراء تذكرة من الماكينة؟",
+          "pron": "مَه پوتِتْس آژوتا سَه كومْپَر بيلِت دِه لا آوتومات؟",
+          "example": {
+            "ro": "Sigur, alegeți «o călătorie» și plătiți cu cardul.",
+            "ar": "طبعاً، اختر «رحلة واحدة» وادفع بالبطاقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-134",
+          "level": "advanced",
+          "ro": "Este voie cu trotineta în metrou?",
+          "ar": "هل مسموح دخول السكوتر في المترو؟",
+          "pron": "يِسْتِه ڤويِه كو تْروتينِتا إن مِتْرو؟",
+          "example": {
+            "ro": "Doar dacă este pliată.",
+            "ar": "فقط إذا كان مطوياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-135",
+          "level": "advanced",
+          "ro": "Cât costă să închiriez o mașină pe o zi?",
+          "ar": "كم يكلف استئجار سيارة ليوم؟",
+          "pron": "كِت كوسْتَه سَه إنْكيرييِز أو ماشينَه پِه أو زي؟",
+          "example": {
+            "ro": "De la o sută cincizeci de lei, cu asigurare.",
+            "ar": "من مئة وخمسين لاي، مع التأمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-136",
+          "level": "advanced",
+          "ro": "Unde este ieșirea spre strada Lipscani?",
+          "ar": "أين المخرج باتجاه شارع ليپسكاني؟",
+          "pron": "أونْدِه يِسْتِه يِشيرِآ سْپْرِه سْتْرادا ليپْسْكاني؟",
+          "example": {
+            "ro": "Ieșirea doi, pe dreapta.",
+            "ar": "المخرج الثاني، على اليمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-137",
+          "level": "advanced",
+          "ro": "Taximetristul nu vrea să pornească aparatul.",
+          "ar": "سائق التاكسي لا يريد تشغيل العداد.",
+          "pron": "تاكْسيمِتْريسْتول نو ڤْرِيا سَه پورْنياسْكَه آپاراتول",
+          "example": {
+            "ro": "Coborâți și luați alt taxi.",
+            "ar": "انزل وخذ تاكسي آخر."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-138",
+          "level": "advanced",
+          "ro": "Am nevoie de o mașină cu scaun pentru copil.",
+          "ar": "أحتاج سيارة فيها كرسي أطفال.",
+          "pron": "آم نِڤويِه دِه أو ماشينَه كو سْكاون پِنْترو كوپيل",
+          "example": {
+            "ro": "Selectați opțiunea în aplicație.",
+            "ar": "اختر الخيار في التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-139",
+          "level": "advanced",
+          "ro": "Cât durează drumul cu mașina până la Brașov?",
+          "ar": "كم يستغرق الطريق بالسيارة إلى براشوف؟",
+          "pron": "كِت دورِآزَه دْرومول كو ماشينا پِنَه لا براشوڤ؟",
+          "example": {
+            "ro": "Cam trei ore, dacă nu este trafic.",
+            "ar": "حوالي ثلاث ساعات، إذا لم تكن هناك زحمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-140",
+          "level": "advanced",
+          "ro": "Poliția m-a oprit, ce documente trebuie să arăt?",
+          "ar": "الشرطة أوقفتني، ما الوثائق التي يجب أن أظهرها؟",
+          "pron": "پوليتْسيا ما أوپْريت، تْشِه دوكومِنْتِه تْرِبويِه سَه آرَت؟",
+          "example": {
+            "ro": "Permisul, talonul și asigurarea.",
+            "ar": "رخصة القيادة، ورخصة السيارة، والتأمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-141",
+          "level": "advanced",
+          "ro": "Am nevoie de tractare, mașina nu pornește.",
+          "ar": "أحتاج ونش، السيارة لا تشتغل.",
+          "pron": "آم نِڤويِه دِه تْراكْتارِه، ماشينا نو پورْنِشْتِه",
+          "example": {
+            "ro": "Unde vă aflați exact?",
+            "ar": "أين أنت بالضبط؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-142",
+          "level": "advanced",
+          "ro": "Ce linie de tramvai merge la stadion?",
+          "ar": "أي خط ترام يذهب إلى الملعب؟",
+          "pron": "تْشِه لينيِه دِه تْرامْڤاي مِرْجِه لا سْتاديون؟",
+          "example": {
+            "ro": "Linia unu, din fața gării.",
+            "ar": "الخط الأول، من أمام المحطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-143",
+          "level": "advanced",
+          "ro": "Locul acesta este liber? Pot să mă așez?",
+          "ar": "هل هذا المكان فارغ؟ هل يمكنني الجلوس؟",
+          "pron": "لوكول آتْشِسْتا يِسْتِه ليبِر؟ پوت سَه مَه آشِز؟",
+          "example": {
+            "ro": "Da, poftiți.",
+            "ar": "نعم، تفضل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-144",
+          "level": "advanced",
+          "ro": "Vă rog, lăsați-mă să cobor!",
+          "ar": "من فضلكم، دعوني أنزل!",
+          "pron": "ڤَه روگ، لَساتْسي مَه سَه كوبور",
+          "example": {
+            "ro": "Scuze, vă fac loc.",
+            "ar": "آسف، سأفسح لك."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-145",
+          "level": "advanced",
+          "ro": "Puteți să-mi arătați pe hartă unde suntem?",
+          "ar": "هل يمكنك أن تريني على الخريطة أين نحن؟",
+          "pron": "پوتِتْس سَم آرَتاتْس پِه هارْتَه أونْدِه سونْتِم؟",
+          "example": {
+            "ro": "Suntem aici, lângă piață.",
+            "ar": "نحن هنا، بجانب السوق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-146",
+          "level": "advanced",
+          "ro": "Este sigur să merg pe jos noaptea pe aici?",
+          "ar": "هل المشي هنا ليلاً آمن؟",
+          "pron": "يِسْتِه سيگور سَه مِرْگ پِه ژوس نواپْتِآ پِه آئيتْش؟",
+          "example": {
+            "ro": "Da, zona este liniștită.",
+            "ar": "نعم، المنطقة هادئة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-147",
+          "level": "advanced",
+          "ro": "Pe ce bandă trebuie să merg spre autostradă?",
+          "ar": "في أي حارة يجب أن أسير باتجاه الطريق السريع؟",
+          "pron": "پِه تْشِه بانْدَه تْرِبويِه سَه مِرْگ سْپْرِه آوتوسْتْرادَه؟",
+          "example": {
+            "ro": "Pe banda din stânga, apoi urmați indicatoarele.",
+            "ar": "في الحارة اليسرى، ثم اتبع اللافتات."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-148",
+          "level": "advanced",
+          "ro": "Mi-a fost ridicată mașina, unde o găsesc?",
+          "ar": "سُحبت سيارتي، أين أجدها؟",
+          "pron": "ميا فوسْت ريديكاتَه ماشينا، أونْدِه أو گَسِسْك؟",
+          "example": {
+            "ro": "Sunați la poliția locală.",
+            "ar": "اتصل بالشرطة المحلية."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-149",
+          "level": "advanced",
+          "ro": "Abonamentul meu a expirat, unde îl reînnoiesc?",
+          "ar": "اشتراكي انتهى، أين أجدده؟",
+          "pron": "آبونامِنْتول مِو آ إكْسْپيرات، أونْدِه إيل رِإنّويِسْك؟",
+          "example": {
+            "ro": "La casele de bilete sau din aplicație.",
+            "ar": "في شبابيك التذاكر أو من التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-150",
+          "level": "advanced",
+          "ro": "Mulțumesc pentru cursă, o zi bună!",
+          "ar": "شكراً على المشوار، يوماً سعيداً!",
+          "pron": "مولْتْسومِسْك پِنْترو كورْسَه، أو زي بونَه",
+          "example": {
+            "ro": "Mulțumesc, la fel!",
+            "ar": "شكراً، ولك كذلك!"
           },
           "verified": false
         }
@@ -15959,6 +17039,306 @@
           "verified": false
         },
         {
+          "id": "restaurant-61",
+          "level": "beginner",
+          "ro": "mic dejun",
+          "ar": "فطور",
+          "pron": "ميك دِژون",
+          "example": {
+            "ro": "Micul dejun este inclus.",
+            "ar": "الفطور مشمول."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-62",
+          "level": "beginner",
+          "ro": "prânz",
+          "ar": "غداء",
+          "pron": "پْرِنْز",
+          "example": {
+            "ro": "Luăm prânzul la ora unu.",
+            "ar": "نتناول الغداء الساعة الواحدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-63",
+          "level": "beginner",
+          "ro": "cină",
+          "ar": "عشاء",
+          "pron": "تْشينَه",
+          "example": {
+            "ro": "Cina este la ora opt.",
+            "ar": "العشاء الساعة الثامنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-64",
+          "level": "beginner",
+          "ro": "orez cu legume",
+          "ar": "أرز بالخضار",
+          "pron": "أورِز كو لِگومِه",
+          "example": {
+            "ro": "Iau orez cu legume.",
+            "ar": "آخذ أرزاً بالخضار."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-65",
+          "level": "beginner",
+          "ro": "cartofi prăjiți",
+          "ar": "بطاطس مقلية",
+          "pron": "كارْتوف پْرَژيتْس",
+          "example": {
+            "ro": "O porție de cartofi prăjiți, vă rog.",
+            "ar": "طبق بطاطس مقلية من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-66",
+          "level": "beginner",
+          "ro": "ou",
+          "ar": "بيضة",
+          "pron": "أوو",
+          "example": {
+            "ro": "Vreau un ou fiert.",
+            "ar": "أريد بيضة مسلوقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-67",
+          "level": "beginner",
+          "ro": "omletă",
+          "ar": "أومليت",
+          "pron": "أومْلِتَه",
+          "example": {
+            "ro": "O omletă cu brânză, vă rog.",
+            "ar": "أومليت بالجبنة من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-68",
+          "level": "beginner",
+          "ro": "clătite",
+          "ar": "كريب",
+          "pron": "كْلَتيتِه",
+          "example": {
+            "ro": "Clătitele cu ciocolată sunt bune.",
+            "ar": "الكريب بالشوكولاتة لذيذ."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-69",
+          "level": "beginner",
+          "ro": "înghețată",
+          "ar": "آيس كريم",
+          "pron": "إنْگِتْساتَه",
+          "example": {
+            "ro": "O înghețată de vanilie, vă rog.",
+            "ar": "آيس كريم فانيليا من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-70",
+          "level": "beginner",
+          "ro": "prăjitură",
+          "ar": "كيكة (قطعة حلوى)",
+          "pron": "پْرَژيتورَه",
+          "example": {
+            "ro": "Ce prăjitură îmi recomandați?",
+            "ar": "أي كيكة تنصحني بها؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-71",
+          "level": "beginner",
+          "ro": "limonadă",
+          "ar": "ليموناضة",
+          "pron": "ليمونادَه",
+          "example": {
+            "ro": "O limonadă cu mentă, vă rog.",
+            "ar": "ليموناضة بالنعناع من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-72",
+          "level": "beginner",
+          "ro": "suc de portocale",
+          "ar": "عصير برتقال",
+          "pron": "سوك دِه پورْتوكالِه",
+          "example": {
+            "ro": "Un suc de portocale proaspăt.",
+            "ar": "عصير برتقال طازج."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-73",
+          "level": "beginner",
+          "ro": "cafea cu lapte",
+          "ar": "قهوة بالحليب",
+          "pron": "كافِيا كو لاپْتِه",
+          "example": {
+            "ro": "O cafea cu lapte, fără zahăr.",
+            "ar": "قهوة بالحليب بدون سكر."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-74",
+          "level": "beginner",
+          "ro": "ceașcă",
+          "ar": "فنجان",
+          "pron": "تْشاشْكَه",
+          "example": {
+            "ro": "O ceașcă de ceai, vă rog.",
+            "ar": "فنجان شاي من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-75",
+          "level": "beginner",
+          "ro": "șervețel",
+          "ar": "منديل",
+          "pron": "شِرْڤِتْسِل",
+          "example": {
+            "ro": "Îmi dați un șervețel?",
+            "ar": "هل تعطيني منديلاً؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-76",
+          "level": "beginner",
+          "ro": "sare și piper",
+          "ar": "ملح وفلفل",
+          "pron": "سارِه شي پيپِر",
+          "example": {
+            "ro": "Aveți sare și piper?",
+            "ar": "هل عندكم ملح وفلفل؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-77",
+          "level": "beginner",
+          "ro": "dulce",
+          "ar": "حلو",
+          "pron": "دولْتْشِه",
+          "example": {
+            "ro": "Desertul este prea dulce.",
+            "ar": "الحلوى حلوة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-78",
+          "level": "beginner",
+          "ro": "sărat",
+          "ar": "مالح",
+          "pron": "سَرات",
+          "example": {
+            "ro": "Supa este prea sărată.",
+            "ar": "الشوربة مالحة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-79",
+          "level": "beginner",
+          "ro": "acru",
+          "ar": "حامض",
+          "pron": "آكْرو",
+          "example": {
+            "ro": "Ciorba este acră.",
+            "ar": "الشوربة حامضة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-80",
+          "level": "beginner",
+          "ro": "ospătăriță",
+          "ar": "نادلة",
+          "pron": "أوسْپَتَريتْسَه",
+          "example": {
+            "ro": "Ospătărița ne aduce meniul.",
+            "ar": "النادلة تحضر لنا المنيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-81",
+          "level": "beginner",
+          "ro": "restaurant",
+          "ar": "مطعم",
+          "pron": "رِسْتاورانْت",
+          "example": {
+            "ro": "Restaurantul este plin.",
+            "ar": "المطعم ممتلئ."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-82",
+          "level": "beginner",
+          "ro": "cafenea",
+          "ar": "مقهى",
+          "pron": "كافِنِيا",
+          "example": {
+            "ro": "Ne vedem la cafenea.",
+            "ar": "نلتقي في المقهى."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-83",
+          "level": "beginner",
+          "ro": "patiserie",
+          "ar": "محل معجنات",
+          "pron": "پاتيسِريِه",
+          "example": {
+            "ro": "Cumpăr covrigi de la patiserie.",
+            "ar": "أشتري كعكاً من محل المعجنات."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-84",
+          "level": "beginner",
+          "ro": "covrig",
+          "ar": "كعكة مملحة (بريتزل)",
+          "pron": "كوڤْريگ",
+          "example": {
+            "ro": "Un covrig cu susan, vă rog.",
+            "ar": "كعكة بالسمسم من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-85",
+          "level": "beginner",
+          "ro": "a mânca / a bea",
+          "ar": "يأكل / يشرب",
+          "pron": "آ مِنْكا / آ بيا",
+          "example": {
+            "ro": "Vreau să mănânc ceva cald.",
+            "ar": "أريد أن آكل شيئاً ساخناً."
+          },
+          "verified": false
+        },
+        {
           "id": "restaurant-13",
           "level": "intermediate",
           "ro": "fel principal",
@@ -16199,6 +17579,366 @@
           "verified": false
         },
         {
+          "id": "restaurant-86",
+          "level": "intermediate",
+          "ro": "aperitiv",
+          "ar": "مقبلات",
+          "pron": "آپِريتيڤ",
+          "example": {
+            "ro": "Ce aveți ca aperitiv?",
+            "ar": "ماذا عندكم كمقبلات؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-87",
+          "level": "intermediate",
+          "ro": "specialitatea casei",
+          "ar": "طبق البيت المميز",
+          "pron": "سْپِتْشياليتاتِآ كاسِي",
+          "example": {
+            "ro": "Care este specialitatea casei?",
+            "ar": "ما طبق البيت المميز؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-88",
+          "level": "intermediate",
+          "ro": "sarmale",
+          "ar": "سارمالي (محشي ملفوف)",
+          "pron": "سارْمالِه",
+          "example": {
+            "ro": "Sarmalele sunt cu carne de porc?",
+            "ar": "هل السارمالي بلحم الخنزير؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-89",
+          "level": "intermediate",
+          "ro": "mici",
+          "ar": "ميتشي (كفتة مشوية رومانية)",
+          "pron": "ميتْش",
+          "example": {
+            "ro": "Micii sunt din carne de vită?",
+            "ar": "هل الميتشي من لحم البقر؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-90",
+          "level": "intermediate",
+          "ro": "mămăligă",
+          "ar": "مماليغا (عصيدة الذرة)",
+          "pron": "مَمَليگَه",
+          "example": {
+            "ro": "Mămăliga cu brânză este tradițională.",
+            "ar": "المماليغا بالجبنة أكلة تقليدية."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-91",
+          "level": "intermediate",
+          "ro": "papanași",
+          "ar": "پاپاناش (حلوى رومانية)",
+          "pron": "پاپاناش",
+          "example": {
+            "ro": "Papanașii vin cu smântână și dulceață.",
+            "ar": "الپاپاناش يأتي بالقشطة والمربى."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-92",
+          "level": "intermediate",
+          "ro": "friptură",
+          "ar": "ستيك (لحم مشوي)",
+          "pron": "فْريپْتورَه",
+          "example": {
+            "ro": "O friptură de pui, vă rog.",
+            "ar": "ستيك دجاج من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-93",
+          "level": "intermediate",
+          "ro": "la cuptor",
+          "ar": "في الفرن",
+          "pron": "لا كوپْتور",
+          "example": {
+            "ro": "Pește la cuptor cu legume.",
+            "ar": "سمك في الفرن بالخضار."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-94",
+          "level": "intermediate",
+          "ro": "prăjit",
+          "ar": "مقلي",
+          "pron": "پْرَژيت",
+          "example": {
+            "ro": "Nu vreau nimic prăjit.",
+            "ar": "لا أريد شيئاً مقلياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-95",
+          "level": "intermediate",
+          "ro": "fiert",
+          "ar": "مسلوق",
+          "pron": "فيِرْت",
+          "example": {
+            "ro": "Prefer legumele fierte.",
+            "ar": "أفضّل الخضار المسلوقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-96",
+          "level": "intermediate",
+          "ro": "în sânge",
+          "ar": "غير مستوٍ (رير)",
+          "pron": "إن سِنْجِه",
+          "example": {
+            "ro": "Nu în sânge, bine făcută, vă rog.",
+            "ar": "ليس رير، ويل دن من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-97",
+          "level": "intermediate",
+          "ro": "fără ceapă / fără usturoi",
+          "ar": "بدون بصل / بدون ثوم",
+          "pron": "فَرَه تْشاپَه / فَرَه أوسْتوروي",
+          "example": {
+            "ro": "Fără ceapă, vă rog.",
+            "ar": "بدون بصل من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-98",
+          "level": "intermediate",
+          "ro": "alergeni",
+          "ar": "مواد مسببة للحساسية",
+          "pron": "آلِرْجِني",
+          "example": {
+            "ro": "Meniul indică alergenii.",
+            "ar": "المنيو يبيّن المواد المسببة للحساسية."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-99",
+          "level": "intermediate",
+          "ro": "vegan",
+          "ar": "نباتي صرف",
+          "pron": "ڤِگان",
+          "example": {
+            "ro": "Aveți ceva vegan?",
+            "ar": "هل عندكم شيء نباتي صرف؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-100",
+          "level": "intermediate",
+          "ro": "apă de la robinet",
+          "ar": "ماء الحنفية",
+          "pron": "آپَه دِه لا روبينِت",
+          "example": {
+            "ro": "Se poate bea apă de la robinet?",
+            "ar": "هل يمكن شرب ماء الحنفية؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-101",
+          "level": "intermediate",
+          "ro": "nota de plată",
+          "ar": "الحساب (الفاتورة)",
+          "pron": "نوتا دِه پْلاتَه",
+          "example": {
+            "ro": "Ne aduceți nota de plată?",
+            "ar": "هل تحضر لنا الحساب؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-102",
+          "level": "intermediate",
+          "ro": "a rezerva o masă",
+          "ar": "يحجز طاولة",
+          "pron": "آ رِزِرْڤا أو ماسَه",
+          "example": {
+            "ro": "Vreau să rezerv o masă pentru diseară.",
+            "ar": "أريد حجز طاولة لهذه الليلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-103",
+          "level": "intermediate",
+          "ro": "masă liberă",
+          "ar": "طاولة فارغة",
+          "pron": "ماسَه ليبِرَه",
+          "example": {
+            "ro": "Aveți o masă liberă?",
+            "ar": "هل عندكم طاولة فارغة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-104",
+          "level": "intermediate",
+          "ro": "a aștepta o masă",
+          "ar": "ينتظر طاولة",
+          "pron": "آ آشْتِپْتا أو ماسَه",
+          "example": {
+            "ro": "Așteptăm o masă zece minute.",
+            "ar": "ننتظر طاولة عشر دقائق."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-105",
+          "level": "intermediate",
+          "ro": "zonă pentru nefumători",
+          "ar": "منطقة لغير المدخنين",
+          "pron": "زونَه پِنْترو نِفوماتوري",
+          "example": {
+            "ro": "Vrem o masă în zona pentru nefumători.",
+            "ar": "نريد طاولة في منطقة غير المدخنين."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-106",
+          "level": "intermediate",
+          "ro": "a recomanda",
+          "ar": "ينصح (يوصي)",
+          "pron": "آ رِكومانْدا",
+          "example": {
+            "ro": "Vă recomand ciorba de perișoare.",
+            "ar": "أنصحك بشوربة كرات اللحم."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-107",
+          "level": "intermediate",
+          "ro": "a gusta",
+          "ar": "يتذوق",
+          "pron": "آ گوسْتا",
+          "example": {
+            "ro": "Gustați sosul, e făcut în casă.",
+            "ar": "تذوّق الصلصة، إنها من صنع المطعم."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-108",
+          "level": "intermediate",
+          "ro": "de casă",
+          "ar": "منزلي الصنع",
+          "pron": "دِه كاسَه",
+          "example": {
+            "ro": "Limonada este de casă.",
+            "ar": "الليموناضة منزلية الصنع."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-109",
+          "level": "intermediate",
+          "ro": "bacșiș inclus",
+          "ar": "البقشيش مشمول",
+          "pron": "باكْشيش إنْكْلوس",
+          "example": {
+            "ro": "Bacșișul nu este inclus în notă.",
+            "ar": "البقشيش غير مشمول في الحساب."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-110",
+          "level": "intermediate",
+          "ro": "aplicație de livrare",
+          "ar": "تطبيق توصيل",
+          "pron": "آپْليكاتْسيِه دِه ليڤْرارِه",
+          "example": {
+            "ro": "Comand din aplicația de livrare.",
+            "ar": "أطلب من تطبيق التوصيل."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-111",
+          "level": "intermediate",
+          "ro": "timp de livrare",
+          "ar": "وقت التوصيل",
+          "pron": "تيمْپ دِه ليڤْرارِه",
+          "example": {
+            "ro": "Timpul de livrare este de patruzeci de minute.",
+            "ar": "وقت التوصيل أربعون دقيقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-112",
+          "level": "intermediate",
+          "ro": "meniu pentru copii",
+          "ar": "منيو أطفال",
+          "pron": "مِنيو پِنْترو كوپيي",
+          "example": {
+            "ro": "Aveți meniu pentru copii?",
+            "ar": "هل عندكم منيو أطفال؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-113",
+          "level": "intermediate",
+          "ro": "porție mică / mare",
+          "ar": "طبق صغير / كبير",
+          "pron": "پورْتْسيِه ميكَه / مارِه",
+          "example": {
+            "ro": "O porție mică de cartofi, vă rog.",
+            "ar": "طبق صغير من البطاطس من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-114",
+          "level": "intermediate",
+          "ro": "autoservire",
+          "ar": "خدمة ذاتية",
+          "pron": "آوتوسِرْڤيرِه",
+          "example": {
+            "ro": "Aici este autoservire.",
+            "ar": "هنا خدمة ذاتية."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-115",
+          "level": "intermediate",
+          "ro": "a încălzi",
+          "ar": "يسخّن",
+          "pron": "آ إنْكَلْزي",
+          "example": {
+            "ro": "Puteți să-mi încălziți supa?",
+            "ar": "هل يمكنك تسخين الشوربة لي؟"
+          },
+          "verified": false
+        },
+        {
           "id": "restaurant-23",
           "level": "advanced",
           "ro": "Mâncarea asta conține porc sau alcool?",
@@ -16375,6 +18115,426 @@
           "example": {
             "ro": "Bineînțeles, vă aduc două note.",
             "ar": "بالتأكيد، سأحضر لكم فاتورتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-116",
+          "level": "advanced",
+          "ro": "Bună seara, aveți o masă pentru trei persoane?",
+          "ar": "مساء الخير، هل عندكم طاولة لثلاثة أشخاص؟",
+          "pron": "بونَه سيارا، آڤِتْس أو ماسَه پِنْترو تْرِي پِرْسوآنِه؟",
+          "example": {
+            "ro": "Da, poftiți lângă geam.",
+            "ar": "نعم، تفضلوا بجانب النافذة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-117",
+          "level": "advanced",
+          "ro": "Ce conține ciorba de perișoare?",
+          "ar": "ماذا تحتوي شوربة كرات اللحم؟",
+          "pron": "تْشِه كونْتْسينِه تْشورْبا دِه پِريشوآرِه؟",
+          "example": {
+            "ro": "Carne tocată de porc și vită, cu orez.",
+            "ar": "لحم مفروم خنزير وبقر، مع أرز."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-118",
+          "level": "advanced",
+          "ro": "Aveți ceva fără porc pentru copii?",
+          "ar": "هل عندكم شيء بدون خنزير للأطفال؟",
+          "pron": "آڤِتْس تْشِڤا فَرَه پورْك پِنْترو كوپيي؟",
+          "example": {
+            "ro": "Da, șnițel de pui cu cartofi.",
+            "ar": "نعم، شنيتسل دجاج مع بطاطس."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-119",
+          "level": "advanced",
+          "ro": "Se gătește cu untură sau cu ulei?",
+          "ar": "هل يُطبخ بشحم الخنزير أم بالزيت؟",
+          "pron": "سِه گَتِشْتِه كو أونْتورَه ساو كو أولِي؟",
+          "example": {
+            "ro": "Cu ulei de floarea-soarelui.",
+            "ar": "بزيت عباد الشمس."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-120",
+          "level": "advanced",
+          "ro": "Puteți să-mi aduceți sosul separat?",
+          "ar": "هل يمكنك إحضار الصلصة على جنب؟",
+          "pron": "پوتِتْس سَم آدوتْشِتْس سوسول سِپارات؟",
+          "example": {
+            "ro": "Sigur, într-un bol mic.",
+            "ar": "طبعاً، في وعاء صغير."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-121",
+          "level": "advanced",
+          "ro": "Am comandat altceva, nu asta.",
+          "ar": "طلبت شيئاً آخر، ليس هذا.",
+          "pron": "آم كومانْدات آلْتْتْشِڤا، نو آسْتا",
+          "example": {
+            "ro": "Scuze, vă aduc imediat ce ați comandat.",
+            "ar": "آسف، سأحضر لك ما طلبته حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-122",
+          "level": "advanced",
+          "ro": "Mâncarea este rece, o puteți încălzi?",
+          "ar": "الأكل بارد، هل يمكنك تسخينه؟",
+          "pron": "مِنْكارِآ يِسْتِه رِتْشِه، أو پوتِتْس إنْكَلْزي؟",
+          "example": {
+            "ro": "Desigur, îmi cer scuze.",
+            "ar": "بالتأكيد، أعتذر."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-123",
+          "level": "advanced",
+          "ro": "Cât durează până e gata comanda?",
+          "ar": "كم يستغرق حتى يجهز الطلب؟",
+          "pron": "كِت دورِآزَه پِنَه يِه گاتا كومانْدا؟",
+          "example": {
+            "ro": "Cam douăzeci de minute.",
+            "ar": "حوالي عشرين دقيقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-124",
+          "level": "advanced",
+          "ro": "Aș vrea să comand mâncare la pachet pentru patru persoane.",
+          "ar": "أريد طلب أكل تيك أواي لأربعة أشخاص.",
+          "pron": "آش ڤْريا سَه كوماند مِنْكارِه لا پاكِت پِنْترو پاتْرو پِرْسوآنِه",
+          "example": {
+            "ro": "Ce doriți să comandați?",
+            "ar": "ماذا تريد أن تطلب؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-125",
+          "level": "advanced",
+          "ro": "Ne puteți aduce încă o sticlă de apă?",
+          "ar": "هل يمكنك إحضار زجاجة ماء أخرى لنا؟",
+          "pron": "نِه پوتِتْس آدوتْشِه إنْكَه أو سْتيكْلَه دِه آپَه؟",
+          "example": {
+            "ro": "Plată sau minerală?",
+            "ar": "عادي أم غازي؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-126",
+          "level": "advanced",
+          "ro": "Se poate plăti cu cardul la masă?",
+          "ar": "هل يمكن الدفع بالبطاقة على الطاولة؟",
+          "pron": "سِه پوآتِه پْلَتي كو كارْدول لا ماسَه؟",
+          "example": {
+            "ro": "Da, vă aduc aparatul.",
+            "ar": "نعم، سأحضر لك جهاز الدفع."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-127",
+          "level": "advanced",
+          "ro": "Bacșișul este inclus în notă?",
+          "ar": "هل البقشيش مشمول في الحساب؟",
+          "pron": "باكْشيشول يِسْتِه إنْكْلوس إن نوتَه؟",
+          "example": {
+            "ro": "Nu, este la alegerea dumneavoastră.",
+            "ar": "لا، هو حسب اختيارك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-128",
+          "level": "advanced",
+          "ro": "Livrarea a ajuns, dar lipsește o porție.",
+          "ar": "التوصيل وصل، لكن ناقص طبق.",
+          "pron": "ليڤْرارِآ آ آژونْس، دار ليپْسِشْتِه أو پورْتْسيِه",
+          "example": {
+            "ro": "Vă returnăm banii sau o retrimitem.",
+            "ar": "سنرجع لك الفلوس أو نرسله مرة أخرى."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-129",
+          "level": "advanced",
+          "ro": "Avem o rezervare pe numele Hassan, la ora opt.",
+          "ar": "عندنا حجز باسم حسن، الساعة الثامنة.",
+          "pron": "آڤِم أو رِزِرْڤارِه پِه نومِلِه حَسان، لا أورا أوپْت",
+          "example": {
+            "ro": "Da, masa dumneavoastră este pregătită.",
+            "ar": "نعم، طاولتك جاهزة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-130",
+          "level": "advanced",
+          "ro": "Putem să mutăm rezervarea la ora nouă?",
+          "ar": "هل يمكننا نقل الحجز إلى الساعة التاسعة؟",
+          "pron": "پوتِم سَه موتَم رِزِرْڤارِآ لا أورا نووَه؟",
+          "example": {
+            "ro": "Da, nicio problemă.",
+            "ar": "نعم، لا مشكلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-131",
+          "level": "advanced",
+          "ro": "Vreau să anulez rezervarea pentru diseară.",
+          "ar": "أريد إلغاء الحجز لهذه الليلة.",
+          "pron": "ڤْرياو سَه آنولِز رِزِرْڤارِآ پِنْترو ديسيارَه",
+          "example": {
+            "ro": "Am anulat-o, mulțumim că ne-ați anunțat.",
+            "ar": "ألغيناه، شكراً لأنك أبلغتنا."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-132",
+          "level": "advanced",
+          "ro": "Ce fel de carne folosiți la șaorma?",
+          "ar": "أي نوع لحم تستخدمون في الشاورما؟",
+          "pron": "تْشِه فِل دِه كارْنِه فولوسيتْس لا شاوَرْما؟",
+          "example": {
+            "ro": "Doar pui.",
+            "ar": "دجاج فقط."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-133",
+          "level": "advanced",
+          "ro": "O șaorma fără cartofi și fără sos picant.",
+          "ar": "شاورما بدون بطاطس وبدون صلصة حارة.",
+          "pron": "أو شاوَرْما فَرَه كارْتوف شي فَرَه سوس پيكانْت",
+          "example": {
+            "ro": "Mare sau mică?",
+            "ar": "كبيرة أم صغيرة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-134",
+          "level": "advanced",
+          "ro": "Puteți să puneți mai puțină sare?",
+          "ar": "هل يمكنكم وضع ملح أقل؟",
+          "pron": "پوتِتْس سَه پونِتْس ماي پوتْسينَه سارِه؟",
+          "example": {
+            "ro": "Sigur, îi spun bucătarului.",
+            "ar": "طبعاً، سأخبر الطباخ."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-135",
+          "level": "advanced",
+          "ro": "Copilul meu are alergie la lapte, ce poate mânca?",
+          "ar": "ابني عنده حساسية من الحليب، ماذا يمكنه أن يأكل؟",
+          "pron": "كوپيلول مِو آرِه آلِرْجيِه لا لاپْتِه، تْشِه پوآتِه مِنْكا؟",
+          "example": {
+            "ro": "Puiul la grătar cu orez este fără lactoză.",
+            "ar": "الدجاج المشوي مع الأرز خالٍ من اللاكتوز."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-136",
+          "level": "advanced",
+          "ro": "Mai durează mult desertul?",
+          "ar": "هل ستتأخر الحلوى كثيراً؟",
+          "pron": "ماي دورِآزَه مولْت دِسِرْتول؟",
+          "example": {
+            "ro": "Nu, vine în două minute.",
+            "ar": "لا، تأتي خلال دقيقتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-137",
+          "level": "advanced",
+          "ro": "Unde este toaleta, vă rog?",
+          "ar": "أين الحمام من فضلك؟",
+          "pron": "أونْدِه يِسْتِه توآلِتا، ڤَه روگ؟",
+          "example": {
+            "ro": "Pe hol, în stânga.",
+            "ar": "في الممر، على اليسار."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-138",
+          "level": "advanced",
+          "ro": "Ce ne recomandați din bucătăria românească?",
+          "ar": "ماذا تنصحنا من المطبخ الروماني؟",
+          "pron": "تْشِه نِه رِكومانْداتْس دين بوكَتَريا رومينياسْكَه؟",
+          "example": {
+            "ro": "Ciorbă de legume și mămăligă cu brânză.",
+            "ar": "شوربة خضار ومماليغا بالجبنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-139",
+          "level": "advanced",
+          "ro": "Lingura mea este murdară, îmi aduceți alta?",
+          "ar": "معلقتي متسخة، هل تحضر لي أخرى؟",
+          "pron": "لينْگورا ميا يِسْتِه مورْدارَه، إمْ آدوتْشِتْس آلْتا؟",
+          "example": {
+            "ro": "Imediat, scuze.",
+            "ar": "حالاً، آسف."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-140",
+          "level": "advanced",
+          "ro": "Este prea picant pentru mine.",
+          "ar": "حار جداً بالنسبة لي.",
+          "pron": "يِسْتِه پْريا پيكانْت پِنْترو مينِه",
+          "example": {
+            "ro": "Vreți altceva în loc?",
+            "ar": "هل تريد شيئاً آخر بدلاً منه؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-141",
+          "level": "advanced",
+          "ro": "Totul a fost foarte bun, complimente bucătarului!",
+          "ar": "كل شيء كان لذيذاً جداً، تحياتي للطباخ!",
+          "pron": "توتول آ فوسْت فوآرْتِه بون، كومْپْليمِنْتِه بوكَتارولوي",
+          "example": {
+            "ro": "Mulțumim, vă mai așteptăm!",
+            "ar": "شكراً، ننتظركم مرة أخرى!"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-142",
+          "level": "advanced",
+          "ro": "Putem sta afară, pe terasă?",
+          "ar": "هل يمكننا الجلوس في الخارج على التراس؟",
+          "pron": "پوتِم سْتا آفارَه، پِه تِراسَه؟",
+          "example": {
+            "ro": "Da, dar seara este cam frig.",
+            "ar": "نعم، لكن الجو بارد قليلاً في المساء."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-143",
+          "level": "advanced",
+          "ro": "Aveți Wi-Fi? Care este parola?",
+          "ar": "هل عندكم واي فاي؟ ما كلمة السر؟",
+          "pron": "آڤِتْس واي فاي؟ كارِه يِسْتِه پارولا؟",
+          "example": {
+            "ro": "Da, parola este pe meniu.",
+            "ar": "نعم، كلمة السر على المنيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-144",
+          "level": "advanced",
+          "ro": "Ne puteți aduce nota, vă rog? Ne grăbim.",
+          "ar": "هل يمكنك إحضار الحساب من فضلك؟ نحن مستعجلون.",
+          "pron": "نِه پوتِتْس آدوتْشِه نوتا، ڤَه روگ؟ نِه گْرَبيم",
+          "example": {
+            "ro": "Imediat.",
+            "ar": "حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-145",
+          "level": "advanced",
+          "ro": "Am găsit un fir de păr în mâncare.",
+          "ar": "وجدت شعرة في الأكل.",
+          "pron": "آم گَسيت أون فير دِه پَر إن مِنْكارِه",
+          "example": {
+            "ro": "Îmi cer scuze, vă aducem altă porție.",
+            "ar": "أعتذر، سنحضر لك طبقاً آخر."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-146",
+          "level": "advanced",
+          "ro": "Ce este inclus în meniul zilei?",
+          "ar": "ماذا تشمل وجبة اليوم؟",
+          "pron": "تْشِه يِسْتِه إنْكْلوس إن مِنيول زيلِه؟",
+          "example": {
+            "ro": "Ciorbă, fel principal și desert.",
+            "ar": "شوربة وطبق رئيسي وحلوى."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-147",
+          "level": "advanced",
+          "ro": "Aveți și opțiuni fără gluten?",
+          "ar": "هل عندكم خيارات خالية من الغلوتين أيضاً؟",
+          "pron": "آڤِتْس شي أوپْتْسيوني فَرَه گْلوتِن؟",
+          "example": {
+            "ro": "Da, sunt marcate în meniu.",
+            "ar": "نعم، مؤشر عليها في المنيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-148",
+          "level": "advanced",
+          "ro": "Mai avem nevoie de câteva minute ca să alegem.",
+          "ar": "نحتاج بضع دقائق أخرى لنختار.",
+          "pron": "ماي آڤِم نِڤويِه دِه كِتِڤا مينوتِه كا سَه آلِجِم",
+          "example": {
+            "ro": "Sigur, revin imediat.",
+            "ar": "طبعاً، سأعود بعد قليل."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-149",
+          "level": "advanced",
+          "ro": "Aș dori o cafea și desertul, vă rog.",
+          "ar": "أود قهوة والحلوى، من فضلك.",
+          "pron": "آش دوري أو كافِيا شي دِسِرْتول، ڤَه روگ",
+          "example": {
+            "ro": "Ce desert alegeți?",
+            "ar": "أي حلوى تختار؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-150",
+          "level": "advanced",
+          "ro": "Mulțumim pentru masă, a fost o seară minunată!",
+          "ar": "شكراً على الوجبة، كانت أمسية رائعة!",
+          "pron": "مولْتْسوميم پِنْترو ماسَه، آ فوسْت أو سيارَه مينوناتَه",
+          "example": {
+            "ro": "Noi vă mulțumim, vă mai așteptăm!",
+            "ar": "نحن من نشكركم، ننتظركم مرة أخرى!"
           },
           "verified": false
         }

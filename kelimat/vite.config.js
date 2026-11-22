@@ -11,7 +11,7 @@ export default defineConfig({
   base: './',
   plugins: [react(), tailwindcss(), ...(artifact ? [viteSingleFile()] : [])],
   define: { __SHARE_BUILD__: JSON.stringify(artifact) },
-  build: artifact ? { outDir: 'dist-share' } : {},
+  build: { chunkSizeWarningLimit: 1500, ...(artifact ? { outDir: 'dist-share' } : {}) },
   server: { host: true },
   preview: { host: true },
 });

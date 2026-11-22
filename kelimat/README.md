@@ -17,8 +17,8 @@ npm run icons      # regenerate app icons from src/components/Ursu.jsx
 
 10 scenarios: basics, supermarket, university, train, doctor, renting, work, bank and papers, transport, restaurant. Each has:
 
-- `items` (60 and growing): `level`, `ro`, `ar`, `pron` (pronunciation in Arabic script), `example: { ro, ar }`, `verified`
-  - `level` is `beginner`, `intermediate` or `advanced` (target: about 50 of each per scenario)
+- `items` (150 per scenario): `level`, `ro`, `ar`, `pron` (pronunciation in Arabic script), `example: { ro, ar }`, `verified`
+  - `level` is `beginner`, `intermediate` or `advanced` (50 of each per scenario, 1500 in total)
 - `phrases` (7): full sentences for "كيف أقولها؟": `ro`, `ar`, `pron`, `verified`
 
 Every entry starts with `"verified": false`. Set it to `true` once you have checked it. `npm run check:content` shows how many are left.
