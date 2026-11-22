@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx';
 import Learn from './pages/Learn.jsx';
 import Say from './pages/Say.jsx';
 import Me from './pages/Me.jsx';
+import SpeechHelp from './components/SpeechHelp.jsx';
 import { useRoute } from './lib/router.js';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
   return (
     <div className="min-h-dvh">
       <main className={`max-w-md mx-auto px-4 pt-[max(env(safe-area-inset-top),0.75rem)] ${inSession ? 'pb-8' : 'pb-28'}`}>{view}</main>
+      <SpeechHelp />
       {!inSession && <BottomNav active={['learn', 'say', 'me'].includes(page) ? page : ''} />}
     </div>
   );

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
+import { isIOS } from '../lib/device.js';
 
 const standalone = () =>
   window.matchMedia?.('(display-mode: standalone)').matches || window.navigator.standalone === true;
-const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent);
 const DISMISS_KEY = 'kelimat:install-dismissed';
 
 /** Offers "install as app": a real button on Android/Chrome, instructions on iPhone Safari. */

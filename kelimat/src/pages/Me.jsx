@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Ursu from '../components/Ursu.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
+import VoiceTest from '../components/VoiceTest.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { allItems, scenarios } from '../lib/content.js';
 import { isLearned } from '../lib/srs.js';
@@ -73,6 +74,8 @@ export default function Me() {
         </ol>
         <p className="mt-3 text-xs text-bark/60">عارفها = 10 XP · لسه = 2 XP (المحاولة نفسها تستاهل!)</p>
       </section>
+
+      <VoiceTest />
 
       <section className="rounded-2xl bg-white p-4 shadow-sm">
         <h2 className="font-bold mb-1">دليل النطق</h2>
