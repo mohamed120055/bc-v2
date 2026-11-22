@@ -7744,6 +7744,306 @@
           "verified": false
         },
         {
+          "id": "doctor-61",
+          "level": "beginner",
+          "ro": "inimă",
+          "ar": "قلب",
+          "pron": "إينيمَه",
+          "example": {
+            "ro": "Am probleme cu inima.",
+            "ar": "عندي مشاكل في القلب."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-62",
+          "level": "beginner",
+          "ro": "ureche",
+          "ar": "أذن",
+          "pron": "أورِكِه",
+          "example": {
+            "ro": "Mă doare urechea.",
+            "ar": "أذني تؤلمني."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-63",
+          "level": "beginner",
+          "ro": "nas",
+          "ar": "أنف",
+          "pron": "ناس",
+          "example": {
+            "ro": "Îmi curge nasul.",
+            "ar": "أنفي يسيل."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-64",
+          "level": "beginner",
+          "ro": "gură",
+          "ar": "فم",
+          "pron": "گورَه",
+          "example": {
+            "ro": "Deschideți gura, vă rog.",
+            "ar": "افتح فمك من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-65",
+          "level": "beginner",
+          "ro": "braț",
+          "ar": "ذراع",
+          "pron": "براتْس",
+          "example": {
+            "ro": "Mi-am lovit brațul.",
+            "ar": "ضربت ذراعي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-66",
+          "level": "beginner",
+          "ro": "genunchi",
+          "ar": "ركبة",
+          "pron": "جِنونْكي",
+          "example": {
+            "ro": "Mă doare genunchiul.",
+            "ar": "ركبتي تؤلمني."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-67",
+          "level": "beginner",
+          "ro": "piele",
+          "ar": "جلد",
+          "pron": "پْيِلِه",
+          "example": {
+            "ro": "Am o iritație pe piele.",
+            "ar": "عندي تهيج في الجلد."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-68",
+          "level": "beginner",
+          "ro": "sânge",
+          "ar": "دم",
+          "pron": "سِنْجِه",
+          "example": {
+            "ro": "Grupa mea de sânge este A.",
+            "ar": "فصيلة دمي A."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-69",
+          "level": "beginner",
+          "ro": "temperatură",
+          "ar": "درجة الحرارة",
+          "pron": "تِمْپِراتورَه",
+          "example": {
+            "ro": "Am temperatură mare.",
+            "ar": "حرارتي مرتفعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-70",
+          "level": "beginner",
+          "ro": "termometru",
+          "ar": "ميزان حرارة",
+          "pron": "تِرْمومِتْرو",
+          "example": {
+            "ro": "Aveți un termometru?",
+            "ar": "هل عندك ميزان حرارة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-71",
+          "level": "beginner",
+          "ro": "plasture",
+          "ar": "لزقة جروح",
+          "pron": "پْلاسْتورِه",
+          "example": {
+            "ro": "Am nevoie de un plasture.",
+            "ar": "أحتاج لزقة جروح."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-72",
+          "level": "beginner",
+          "ro": "pansament",
+          "ar": "ضمادة",
+          "pron": "پانْسامِنْت",
+          "example": {
+            "ro": "Asistenta schimbă pansamentul.",
+            "ar": "الممرضة تغيّر الضمادة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-73",
+          "level": "beginner",
+          "ro": "rană",
+          "ar": "جرح",
+          "pron": "رانَه",
+          "example": {
+            "ro": "Rana nu este gravă.",
+            "ar": "الجرح ليس خطيراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-74",
+          "level": "beginner",
+          "ro": "a durea",
+          "ar": "يؤلم",
+          "pron": "آ دورِيا",
+          "example": {
+            "ro": "Unde vă doare?",
+            "ar": "أين يؤلمك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-75",
+          "level": "beginner",
+          "ro": "a tuși",
+          "ar": "يسعل",
+          "pron": "آ توشي",
+          "example": {
+            "ro": "Tușesc toată noaptea.",
+            "ar": "أسعل طوال الليل."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-76",
+          "level": "beginner",
+          "ro": "a strănuta",
+          "ar": "يعطس",
+          "pron": "آ سْتْرَنوتا",
+          "example": {
+            "ro": "Strănut din cauza alergiei.",
+            "ar": "أعطس بسبب الحساسية."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-77",
+          "level": "beginner",
+          "ro": "a vomita",
+          "ar": "يتقيأ",
+          "pron": "آ ڤوميتا",
+          "example": {
+            "ro": "Copilul a vomitat.",
+            "ar": "الطفل تقيأ."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-78",
+          "level": "beginner",
+          "ro": "diaree",
+          "ar": "إسهال",
+          "pron": "دياريِه",
+          "example": {
+            "ro": "Am diaree de ieri.",
+            "ar": "عندي إسهال منذ أمس."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-79",
+          "level": "beginner",
+          "ro": "gripă",
+          "ar": "إنفلونزا",
+          "pron": "گْريپَه",
+          "example": {
+            "ro": "Cred că am gripă.",
+            "ar": "أظن أن عندي إنفلونزا."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-80",
+          "level": "beginner",
+          "ro": "slăbit",
+          "ar": "ضعيف (مرهق)",
+          "pron": "سْلَبيت",
+          "example": {
+            "ro": "Mă simt slăbit.",
+            "ar": "أشعر بالضعف."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-81",
+          "level": "beginner",
+          "ro": "cabinet",
+          "ar": "عيادة",
+          "pron": "كابينِت",
+          "example": {
+            "ro": "Cabinetul este la etajul unu.",
+            "ar": "العيادة في الطابق الأول."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-82",
+          "level": "beginner",
+          "ro": "policlinică",
+          "ar": "مستوصف (مجمع عيادات)",
+          "pron": "پوليكْلينيكَه",
+          "example": {
+            "ro": "Merg la policlinică pentru analize.",
+            "ar": "أذهب إلى المستوصف للتحاليل."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-83",
+          "level": "beginner",
+          "ro": "doctor",
+          "ar": "دكتور",
+          "pron": "دوكْتور",
+          "example": {
+            "ro": "Doctorul vine imediat.",
+            "ar": "الدكتور قادم حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-84",
+          "level": "beginner",
+          "ro": "pacient",
+          "ar": "مريض (في العيادة)",
+          "pron": "پاتْشيِنْت",
+          "example": {
+            "ro": "Pacientul așteaptă.",
+            "ar": "المريض ينتظر."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-85",
+          "level": "beginner",
+          "ro": "picături",
+          "ar": "قطرات",
+          "pron": "پيكَتوري",
+          "example": {
+            "ro": "Picături pentru ochi, vă rog.",
+            "ar": "قطرة للعين من فضلك."
+          },
+          "verified": false
+        },
+        {
           "id": "doctor-06",
           "level": "intermediate",
           "ro": "rețetă",
@@ -7984,6 +8284,366 @@
           "verified": false
         },
         {
+          "id": "doctor-86",
+          "level": "intermediate",
+          "ro": "durere de cap",
+          "ar": "صداع",
+          "pron": "دورِرِه دِه كاپ",
+          "example": {
+            "ro": "Am durere de cap de dimineață.",
+            "ar": "عندي صداع منذ الصباح."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-87",
+          "level": "intermediate",
+          "ro": "durere de dinți",
+          "ar": "ألم أسنان",
+          "pron": "دورِرِه دِه دينْتْس",
+          "example": {
+            "ro": "Am o durere de dinți groaznică.",
+            "ar": "عندي ألم أسنان فظيع."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-88",
+          "level": "intermediate",
+          "ro": "nas înfundat",
+          "ar": "أنف مسدود",
+          "pron": "ناس إنْفونْدات",
+          "example": {
+            "ro": "Am nasul înfundat.",
+            "ar": "أنفي مسدود."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-89",
+          "level": "intermediate",
+          "ro": "a lua temperatura",
+          "ar": "يقيس الحرارة",
+          "pron": "آ لوا تِمْپِراتورا",
+          "example": {
+            "ro": "Asistenta îmi ia temperatura.",
+            "ar": "الممرضة تقيس حرارتي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-90",
+          "level": "intermediate",
+          "ro": "a măsura tensiunea",
+          "ar": "يقيس الضغط",
+          "pron": "آ مَسورا تِنْسيونيا",
+          "example": {
+            "ro": "Vă măsor tensiunea.",
+            "ar": "سأقيس ضغطك."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-91",
+          "level": "intermediate",
+          "ro": "alergic la...",
+          "ar": "عنده حساسية من...",
+          "pron": "آلِرْجيك لا",
+          "example": {
+            "ro": "Sunt alergic la polen.",
+            "ar": "عندي حساسية من حبوب اللقاح."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-92",
+          "level": "intermediate",
+          "ro": "boală cronică",
+          "ar": "مرض مزمن",
+          "pron": "بوآلَه كْرونيكَه",
+          "example": {
+            "ro": "Aveți vreo boală cronică?",
+            "ar": "هل عندك أي مرض مزمن؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-93",
+          "level": "intermediate",
+          "ro": "astm",
+          "ar": "ربو",
+          "pron": "آسْتْم",
+          "example": {
+            "ro": "Fiul meu are astm.",
+            "ar": "ابني عنده ربو."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-94",
+          "level": "intermediate",
+          "ro": "antibiotic",
+          "ar": "مضاد حيوي",
+          "pron": "آنْتيبيوتيك",
+          "example": {
+            "ro": "Medicul mi-a dat antibiotic.",
+            "ar": "الطبيب أعطاني مضاداً حيوياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-95",
+          "level": "intermediate",
+          "ro": "analgezic",
+          "ar": "مسكّن",
+          "pron": "آنالْجِزيك",
+          "example": {
+            "ro": "Iau un analgezic pentru durere.",
+            "ar": "آخذ مسكناً للألم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-96",
+          "level": "intermediate",
+          "ro": "unguent",
+          "ar": "مرهم",
+          "pron": "أونْگوِنْت",
+          "example": {
+            "ro": "Puneți unguent de două ori pe zi.",
+            "ar": "ضع المرهم مرتين في اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-97",
+          "level": "intermediate",
+          "ro": "doză",
+          "ar": "جرعة",
+          "pron": "دوزَه",
+          "example": {
+            "ro": "Nu depășiți doza.",
+            "ar": "لا تتجاوز الجرعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-98",
+          "level": "intermediate",
+          "ro": "efecte adverse",
+          "ar": "أعراض جانبية",
+          "pron": "إفِكْتِه آدْڤِرْسِه",
+          "example": {
+            "ro": "Ce efecte adverse are?",
+            "ar": "ما الأعراض الجانبية؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-99",
+          "level": "intermediate",
+          "ro": "fișă medicală",
+          "ar": "ملف طبي",
+          "pron": "فيشَه مِديكالَه",
+          "example": {
+            "ro": "Medicul se uită în fișa medicală.",
+            "ar": "الطبيب ينظر في الملف الطبي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-100",
+          "level": "intermediate",
+          "ro": "card de sănătate",
+          "ar": "بطاقة التأمين الصحي",
+          "pron": "كارْد دِه سَنَتاتِه",
+          "example": {
+            "ro": "Aveți cardul de sănătate?",
+            "ar": "هل معك بطاقة التأمين الصحي؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-101",
+          "level": "intermediate",
+          "ro": "Casa de Asigurări de Sănătate",
+          "ar": "صندوق التأمين الصحي",
+          "pron": "كاسا دِه آسيگورَري دِه سَنَتاتِه",
+          "example": {
+            "ro": "M-am înscris la Casa de Asigurări de Sănătate.",
+            "ar": "سجلت في صندوق التأمين الصحي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-102",
+          "level": "intermediate",
+          "ro": "asigurat",
+          "ar": "مؤمَّن عليه",
+          "pron": "آسيگورات",
+          "example": {
+            "ro": "Sunteți asigurat?",
+            "ar": "هل أنت مؤمّن عليك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-103",
+          "level": "intermediate",
+          "ro": "la privat",
+          "ar": "في عيادة خاصة",
+          "pron": "لا پْريڤات",
+          "example": {
+            "ro": "Am mers la privat, e mai rapid.",
+            "ar": "ذهبت لعيادة خاصة، أسرع."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-104",
+          "level": "intermediate",
+          "ro": "spital de stat",
+          "ar": "مستشفى حكومي",
+          "pron": "سْپيتال دِه سْتات",
+          "example": {
+            "ro": "Spitalul de stat este gratuit pentru asigurați.",
+            "ar": "المستشفى الحكومي مجاني للمؤمّن عليهم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-105",
+          "level": "intermediate",
+          "ro": "internare",
+          "ar": "دخول المستشفى",
+          "pron": "إنْتِرْنارِه",
+          "example": {
+            "ro": "Medicul recomandă internarea.",
+            "ar": "الطبيب يوصي بدخول المستشفى."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-106",
+          "level": "intermediate",
+          "ro": "operație",
+          "ar": "عملية جراحية",
+          "pron": "أوپِراتْسيِه",
+          "example": {
+            "ro": "Am avut o operație la genunchi.",
+            "ar": "أجريت عملية في الركبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-107",
+          "level": "intermediate",
+          "ro": "control",
+          "ar": "متابعة (فحص دوري)",
+          "pron": "كونْتْرول",
+          "example": {
+            "ro": "Revin la control peste o lună.",
+            "ar": "أعود للمتابعة بعد شهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-108",
+          "level": "intermediate",
+          "ro": "pediatru",
+          "ar": "طبيب أطفال",
+          "pron": "پِدياتْرو",
+          "example": {
+            "ro": "Copilul are programare la pediatru.",
+            "ar": "الطفل عنده موعد عند طبيب الأطفال."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-109",
+          "level": "intermediate",
+          "ro": "ginecolog",
+          "ar": "طبيب نساء",
+          "pron": "جينِكولوگ",
+          "example": {
+            "ro": "Am programare la ginecolog.",
+            "ar": "عندي موعد عند طبيب النساء."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-110",
+          "level": "intermediate",
+          "ro": "oftalmolog",
+          "ar": "طبيب عيون",
+          "pron": "أوفْتالْمولوگ",
+          "example": {
+            "ro": "Merg la oftalmolog pentru ochelari.",
+            "ar": "أذهب إلى طبيب العيون من أجل النظارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-111",
+          "level": "intermediate",
+          "ro": "dermatolog",
+          "ar": "طبيب جلدية",
+          "pron": "دِرْماتولوگ",
+          "example": {
+            "ro": "Dermatologul mi-a dat o cremă.",
+            "ar": "طبيب الجلدية أعطاني كريماً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-112",
+          "level": "intermediate",
+          "ro": "a respira",
+          "ar": "يتنفس",
+          "pron": "آ رِسْپيرا",
+          "example": {
+            "ro": "Respirați adânc.",
+            "ar": "تنفس بعمق."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-113",
+          "level": "intermediate",
+          "ro": "a se odihni",
+          "ar": "يرتاح",
+          "pron": "آ سِه أوديهْني",
+          "example": {
+            "ro": "Trebuie să vă odihniți trei zile.",
+            "ar": "يجب أن ترتاح ثلاثة أيام."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-114",
+          "level": "intermediate",
+          "ro": "fractură",
+          "ar": "كسر",
+          "pron": "فْراكْتورَه",
+          "example": {
+            "ro": "Radiografia arată o fractură.",
+            "ar": "الأشعة تُظهر كسراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-115",
+          "level": "intermediate",
+          "ro": "entorsă",
+          "ar": "التواء",
+          "pron": "إنْتورْسَه",
+          "example": {
+            "ro": "Am o entorsă la gleznă.",
+            "ar": "عندي التواء في الكاحل."
+          },
+          "verified": false
+        },
+        {
           "id": "doctor-23",
           "level": "advanced",
           "ro": "Mă doare capul de două zile și am febră.",
@@ -8160,6 +8820,426 @@
           "example": {
             "ro": "Doctorul Popescu vorbește engleză, joi are loc liber.",
             "ar": "الدكتور پوپيسكو يتكلم الإنجليزية، وعنده موعد فارغ يوم الخميس."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-116",
+          "level": "advanced",
+          "ro": "De trei zile am tuse și mă doare gâtul.",
+          "ar": "منذ ثلاثة أيام عندي سعال وحلقي يؤلمني.",
+          "pron": "دِه تْرِي زيلِه آم توسِه شي مَه دوآرِه گِتول",
+          "example": {
+            "ro": "Aveți și febră?",
+            "ar": "هل عندك حرارة أيضاً؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-117",
+          "level": "advanced",
+          "ro": "Mă doare aici când apăs.",
+          "ar": "يؤلمني هنا عندما أضغط.",
+          "pron": "مَه دوآرِه آئيتْش كِنْد آپَس",
+          "example": {
+            "ro": "Vă trimit la o ecografie.",
+            "ar": "سأحولك لعمل سونار."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-118",
+          "level": "advanced",
+          "ro": "Am nevoie de o programare cât mai repede.",
+          "ar": "أحتاج موعداً في أقرب وقت.",
+          "pron": "آم نِڤويِه دِه أو پْروگْرامارِه كِت ماي رِپِدِه",
+          "example": {
+            "ro": "Avem loc mâine la ora zece.",
+            "ar": "عندنا موعد غداً الساعة العاشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-119",
+          "level": "advanced",
+          "ro": "Copilul are erupții pe piele și mâncărime.",
+          "ar": "الطفل عنده طفح جلدي وحكة.",
+          "pron": "كوپيلول آرِه إروپْتْسيي پِه پْيِلِه شي مِنْكَريمِه",
+          "example": {
+            "ro": "Poate fi o alergie, vă dau un sirop.",
+            "ar": "قد تكون حساسية، سأعطيك شراباً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-120",
+          "level": "advanced",
+          "ro": "Pot să lucrez cât iau medicamentul acesta?",
+          "ar": "هل يمكنني العمل وأنا آخذ هذا الدواء؟",
+          "pron": "پوت سَه لوكْرِز كِت ياو مِديكامِنْتول آتْشِسْتا؟",
+          "example": {
+            "ro": "Da, dar nu conduceți.",
+            "ar": "نعم، لكن لا تقد السيارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-121",
+          "level": "advanced",
+          "ro": "Am uitat să iau pastila aseară, ce fac?",
+          "ar": "نسيت أخذ الحبة الليلة الماضية، ماذا أفعل؟",
+          "pron": "آم أوئيتات سَه ياو پاسْتيلا آسيارَه، تْشِه فاك؟",
+          "example": {
+            "ro": "Luați-o acum și continuați normal.",
+            "ar": "خذها الآن واستمر بشكل عادي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-122",
+          "level": "advanced",
+          "ro": "Rețeta este compensată?",
+          "ar": "هل الوصفة مدعومة من التأمين؟",
+          "pron": "رِتْسِتا يِسْتِه كومْپِنْساتَه؟",
+          "example": {
+            "ro": "Da, plătiți doar o parte.",
+            "ar": "نعم، تدفع جزءاً فقط."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-123",
+          "level": "advanced",
+          "ro": "Am fost mușcat de un câine.",
+          "ar": "عضني كلب.",
+          "pron": "آم فوسْت موشْكات دِه أون كِينِه",
+          "example": {
+            "ro": "Trebuie să faceți vaccinul antitetanos.",
+            "ar": "يجب أن تأخذ لقاح التيتانوس."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-124",
+          "level": "advanced",
+          "ro": "M-am tăiat la deget și nu se oprește sângele.",
+          "ar": "جرحت إصبعي والدم لا يتوقف.",
+          "pron": "مام تَيات لا دِجِت شي نو سِه أوپْرِشْتِه سِنْجِلِه",
+          "example": {
+            "ro": "Apăsați tare și veniți la urgențe.",
+            "ar": "اضغط بقوة وتعال إلى الطوارئ."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-125",
+          "level": "advanced",
+          "ro": "Am nevoie de un certificat medical pentru serviciu.",
+          "ar": "أحتاج تقريراً طبياً للعمل.",
+          "pron": "آم نِڤويِه دِه أون تْشِرْتيفيكات مِديكال پِنْترو سِرْڤيتْشيو",
+          "example": {
+            "ro": "Câte zile ați lipsit?",
+            "ar": "كم يوماً تغيبت؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-126",
+          "level": "advanced",
+          "ro": "Cât timp trebuie să aștept rezultatele?",
+          "ar": "كم يجب أن أنتظر النتائج؟",
+          "pron": "كِت تيمْپ تْرِبويِه سَه آشْتِپْت رِزولْتاتِلِه؟",
+          "example": {
+            "ro": "Două sau trei zile.",
+            "ar": "يومين أو ثلاثة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-127",
+          "level": "advanced",
+          "ro": "Pot să vin fără programare?",
+          "ar": "هل يمكنني المجيء بدون موعد؟",
+          "pron": "پوت سَه ڤين فَرَه پْروگْرامارِه؟",
+          "example": {
+            "ro": "Da, dar s-ar putea să așteptați mult.",
+            "ar": "نعم، لكن قد تنتظر كثيراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-128",
+          "level": "advanced",
+          "ro": "Medicul de familie e în concediu, cine îl înlocuiește?",
+          "ar": "طبيب العائلة في إجازة، من يحل محله؟",
+          "pron": "مِديكول دِه فاميليِه يِه إن كونْتْشِديو، تْشينِه إيل إنْلوكويِشْتِه؟",
+          "example": {
+            "ro": "Doamna doctor Ionescu, la cabinetul de alături.",
+            "ar": "الدكتورة يونيسكو، في العيادة المجاورة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-129",
+          "level": "advanced",
+          "ro": "Am alergie la anumite medicamente, vă arăt lista.",
+          "ar": "عندي حساسية من بعض الأدوية، سأريك القائمة.",
+          "pron": "آم آلِرْجيِه لا آنوميتِه مِديكامِنْتِه، ڤَه آرَت ليسْتا",
+          "example": {
+            "ro": "Mulțumesc, o trec în fișă.",
+            "ar": "شكراً، سأسجلها في الملف."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-130",
+          "level": "advanced",
+          "ro": "Dintele mă doare când beau ceva rece.",
+          "ar": "سني يؤلمني عندما أشرب شيئاً بارداً.",
+          "pron": "دينْتِلِه مَه دوآرِه كِنْد بياو تْشِڤا رِتْشِه",
+          "example": {
+            "ro": "Poate fi o carie, facem o radiografie.",
+            "ar": "قد يكون تسوساً، سنعمل أشعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-131",
+          "level": "advanced",
+          "ro": "Cât costă o plombă?",
+          "ar": "كم سعر الحشوة؟",
+          "pron": "كِت كوسْتَه أو پْلومْبَه؟",
+          "example": {
+            "ro": "Între două sute și trei sute de lei.",
+            "ar": "بين مئتين وثلاثمئة لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-132",
+          "level": "advanced",
+          "ro": "Am rămas fără medicamente, îmi puteți prelungi rețeta?",
+          "ar": "نفدت أدويتي، هل يمكنك تجديد الوصفة؟",
+          "pron": "آم رَماس فَرَه مِديكامِنْتِه، إمْ پوتِتْس پْرِلونْجي رِتْسِتا؟",
+          "example": {
+            "ro": "Da, pentru încă trei luni.",
+            "ar": "نعم، لثلاثة أشهر أخرى."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-133",
+          "level": "advanced",
+          "ro": "Sunt însărcinată în luna a patra.",
+          "ar": "أنا حامل في الشهر الرابع.",
+          "pron": "سونْت إنْسَرْتْشيناتَه إن لونا آ پاتْرا",
+          "example": {
+            "ro": "Facem o ecografie de control.",
+            "ar": "سنعمل سونار للمتابعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-134",
+          "level": "advanced",
+          "ro": "Copilul nu mănâncă nimic de ieri.",
+          "ar": "الطفل لا يأكل شيئاً منذ أمس.",
+          "pron": "كوپيلول نو مَنِنْكَه نيميك دِه يِير",
+          "example": {
+            "ro": "Are febră sau vărsături?",
+            "ar": "هل عنده حرارة أو قيء؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-135",
+          "level": "advanced",
+          "ro": "Simt o presiune în piept.",
+          "ar": "أشعر بضغط في صدري.",
+          "pron": "سيمْت أو پْرِسيونِه إن پْيِپْت",
+          "example": {
+            "ro": "Stați jos, vă facem imediat o electrocardiogramă.",
+            "ar": "اجلس، سنعمل لك تخطيط قلب فوراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-136",
+          "level": "advanced",
+          "ro": "Unde este secția de urgențe?",
+          "ar": "أين قسم الطوارئ؟",
+          "pron": "أونْدِه يِسْتِه سِكْتْسيا دِه أورْجِنْتْسِه؟",
+          "example": {
+            "ro": "La parter, intrarea din spate.",
+            "ar": "في الطابق الأرضي، المدخل الخلفي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-137",
+          "level": "advanced",
+          "ro": "Puteți să vorbiți mai rar? Nu înțeleg termenii medicali.",
+          "ar": "هل يمكنك التكلم ببطء؟ لا أفهم المصطلحات الطبية.",
+          "pron": "پوتِتْس سَه ڤورْبيتْس ماي رار؟ نو إنْتْسِلِگ تِرْمِنيي مِديكالي",
+          "example": {
+            "ro": "Sigur, vă explic simplu.",
+            "ar": "طبعاً، سأشرح لك ببساطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-138",
+          "level": "advanced",
+          "ro": "Trebuie să vin la analize pe nemâncate?",
+          "ar": "هل يجب أن آتي للتحاليل صائماً؟",
+          "pron": "تْرِبويِه سَه ڤين لا آناليزِه پِه نِمِنْكاتِه؟",
+          "example": {
+            "ro": "Da, fără mâncare după ora douăzeci.",
+            "ar": "نعم، بدون أكل بعد الساعة الثامنة مساءً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-139",
+          "level": "advanced",
+          "ro": "Am căzut pe gheață și mă doare încheietura.",
+          "ar": "سقطت على الجليد ومعصمي يؤلمني.",
+          "pron": "آم كَزوت پِه گياتْسَه شي مَه دوآرِه إنْكِيِتورا",
+          "example": {
+            "ro": "Facem o radiografie să vedem dacă e fractură.",
+            "ar": "سنعمل أشعة لنرى إذا كان هناك كسر."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-140",
+          "level": "advanced",
+          "ro": "Medicamentul acesta are un echivalent mai ieftin?",
+          "ar": "هل لهذا الدواء بديل أرخص؟",
+          "pron": "مِديكامِنْتول آتْشِسْتا آرِه أون إيكيڤالِنْت ماي يِفْتين؟",
+          "example": {
+            "ro": "Da, un generic, cu aceeași substanță.",
+            "ar": "نعم، دواء جنيس بنفس المادة الفعالة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-141",
+          "level": "advanced",
+          "ro": "Nu pot să dorm de câteva nopți.",
+          "ar": "لا أستطيع النوم منذ بضع ليالٍ.",
+          "pron": "نو پوت سَه دورْم دِه كِتِڤا نوپْتْس",
+          "example": {
+            "ro": "Aveți griji sau stres la muncă?",
+            "ar": "هل عندك هموم أو ضغط في العمل؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-142",
+          "level": "advanced",
+          "ro": "Mă simt foarte stresat în ultima vreme.",
+          "ar": "أشعر بتوتر شديد في الفترة الأخيرة.",
+          "pron": "مَه سيمْت فوآرْتِه سْتْرِسات إن أولْتيما ڤْرِمِه",
+          "example": {
+            "ro": "Vă recomand să vorbiți cu un psiholog.",
+            "ar": "أنصحك بالتحدث مع أخصائي نفسي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-143",
+          "level": "advanced",
+          "ro": "Vreau să fac vaccinul antigripal.",
+          "ar": "أريد أخذ لقاح الإنفلونزا.",
+          "pron": "ڤْرياو سَه فاك ڤاكْتْشينول آنْتيگْريپال",
+          "example": {
+            "ro": "Îl găsiți la farmacie sau la medicul de familie.",
+            "ar": "تجده في الصيدلية أو عند طبيب العائلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-144",
+          "level": "advanced",
+          "ro": "Pot primi rezultatele pe e-mail în loc să vin?",
+          "ar": "هل يمكنني استلام النتائج بالإيميل بدلاً من المجيء؟",
+          "pron": "پوت پْريمي رِزولْتاتِلِه پِه إيمِيل إن لوك سَه ڤين؟",
+          "example": {
+            "ro": "Da, lăsați adresa la recepție.",
+            "ar": "نعم، اترك عنوانك في الاستقبال."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-145",
+          "level": "advanced",
+          "ro": "Am un dosar medical din țara mea, tradus în engleză.",
+          "ar": "عندي ملف طبي من بلدي، مترجم للإنجليزية.",
+          "pron": "آم أون دوسار مِديكال دين تْسارا ميا، تْرادوس إن إنْگْلِزَه",
+          "example": {
+            "ro": "Perfect, îl atașăm la fișă.",
+            "ar": "ممتاز، سنرفقه بالملف."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-146",
+          "level": "advanced",
+          "ro": "Câte zile trebuie să stau internat?",
+          "ar": "كم يوماً يجب أن أبقى في المستشفى؟",
+          "pron": "كِتِه زيلِه تْرِبويِه سَه سْتاو إنْتِرْنات؟",
+          "example": {
+            "ro": "Probabil trei zile, depinde de evoluție.",
+            "ar": "غالباً ثلاثة أيام، حسب التحسن."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-147",
+          "level": "advanced",
+          "ro": "Pot să rămân cu copilul în spital peste noapte?",
+          "ar": "هل يمكنني البقاء مع الطفل في المستشفى ليلاً؟",
+          "pron": "پوت سَه رَمِن كو كوپيلول إن سْپيتال پِسْتِه نواپْتِه؟",
+          "example": {
+            "ro": "Da, un părinte poate rămâne.",
+            "ar": "نعم، أحد الوالدين يمكنه البقاء."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-148",
+          "level": "advanced",
+          "ro": "Care este programul de vizită?",
+          "ar": "ما مواعيد الزيارة؟",
+          "pron": "كارِه يِسْتِه پْروگْرامول دِه ڤيزيتَه؟",
+          "example": {
+            "ro": "Între ora cincisprezece și nouăsprezece.",
+            "ar": "بين الثالثة والسابعة مساءً."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-149",
+          "level": "advanced",
+          "ro": "Am nevoie de o scutire medicală de la sport.",
+          "ar": "أحتاج إعفاءً طبياً من الرياضة.",
+          "pron": "آم نِڤويِه دِه أو سْكوتيرِه مِديكالَه دِه لا سْپورْت",
+          "example": {
+            "ro": "Pentru cât timp?",
+            "ar": "لأي مدة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-150",
+          "level": "advanced",
+          "ro": "Mulțumesc mult, doamna doctor, mă simt deja mai bine.",
+          "ar": "شكراً جزيلاً يا دكتورة، أشعر بتحسن بالفعل.",
+          "pron": "مولْتْسومِسْك مولْت، دوآمْنا دوكْتور، مَه سيمْت دِژا ماي بينِه",
+          "example": {
+            "ro": "Mă bucur! Însănătoșire grabnică!",
+            "ar": "يسعدني! شفاءً عاجلاً!"
           },
           "verified": false
         }
@@ -8523,6 +9603,306 @@
           "verified": false
         },
         {
+          "id": "renting-61",
+          "level": "beginner",
+          "ro": "casă",
+          "ar": "بيت (منزل)",
+          "pron": "كاسَه",
+          "example": {
+            "ro": "Locuim într-o casă mică.",
+            "ar": "نسكن في بيت صغير."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-62",
+          "level": "beginner",
+          "ro": "perete",
+          "ar": "حائط",
+          "pron": "پِرِتِه",
+          "example": {
+            "ro": "Peretele este alb.",
+            "ar": "الحائط أبيض."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-63",
+          "level": "beginner",
+          "ro": "podea",
+          "ar": "أرضية",
+          "pron": "پودِيا",
+          "example": {
+            "ro": "Podeaua este din lemn.",
+            "ar": "الأرضية من خشب."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-64",
+          "level": "beginner",
+          "ro": "tavan",
+          "ar": "سقف",
+          "pron": "تاڤان",
+          "example": {
+            "ro": "Tavanul este înalt.",
+            "ar": "السقف عالٍ."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-65",
+          "level": "beginner",
+          "ro": "dulap",
+          "ar": "دولاب",
+          "pron": "دولاپ",
+          "example": {
+            "ro": "Dulapul este în dormitor.",
+            "ar": "الدولاب في غرفة النوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-66",
+          "level": "beginner",
+          "ro": "canapea",
+          "ar": "كنبة",
+          "pron": "كاناپِيا",
+          "example": {
+            "ro": "Canapeaua se face pat.",
+            "ar": "الكنبة تتحول إلى سرير."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-67",
+          "level": "beginner",
+          "ro": "covor",
+          "ar": "سجادة",
+          "pron": "كوڤور",
+          "example": {
+            "ro": "Covorul este nou.",
+            "ar": "السجادة جديدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-68",
+          "level": "beginner",
+          "ro": "perdea",
+          "ar": "ستارة",
+          "pron": "پِرْدِيا",
+          "example": {
+            "ro": "Perdelele sunt albastre.",
+            "ar": "الستائر زرقاء."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-69",
+          "level": "beginner",
+          "ro": "cuptor",
+          "ar": "فرن",
+          "pron": "كوپْتور",
+          "example": {
+            "ro": "Cuptorul funcționează bine.",
+            "ar": "الفرن يعمل جيداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-70",
+          "level": "beginner",
+          "ro": "cuptor cu microunde",
+          "ar": "ميكروويف",
+          "pron": "كوپْتور كو ميكروونْدِه",
+          "example": {
+            "ro": "Încălzesc mâncarea la cuptorul cu microunde.",
+            "ar": "أسخّن الأكل في الميكروويف."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-71",
+          "level": "beginner",
+          "ro": "duș",
+          "ar": "دُش",
+          "pron": "دوش",
+          "example": {
+            "ro": "Dușul este nou.",
+            "ar": "الدش جديد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-72",
+          "level": "beginner",
+          "ro": "cadă",
+          "ar": "بانيو",
+          "pron": "كادَه",
+          "example": {
+            "ro": "Baia are cadă.",
+            "ar": "الحمام فيه بانيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-73",
+          "level": "beginner",
+          "ro": "chiuvetă",
+          "ar": "حوض (مغسلة)",
+          "pron": "كْيوڤِتَه",
+          "example": {
+            "ro": "Chiuveta este înfundată.",
+            "ar": "الحوض مسدود."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-74",
+          "level": "beginner",
+          "ro": "robinet",
+          "ar": "حنفية",
+          "pron": "روبينِت",
+          "example": {
+            "ro": "Robinetul picură.",
+            "ar": "الحنفية تقطر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-75",
+          "level": "beginner",
+          "ro": "calorifer",
+          "ar": "دفاية (رديتر)",
+          "pron": "كالوريفِر",
+          "example": {
+            "ro": "Caloriferul este rece.",
+            "ar": "الدفاية باردة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-76",
+          "level": "beginner",
+          "ro": "geam",
+          "ar": "زجاج الشباك",
+          "pron": "جام",
+          "example": {
+            "ro": "Geamul este spart.",
+            "ar": "زجاج الشباك مكسور."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-77",
+          "level": "beginner",
+          "ro": "scară",
+          "ar": "درج (سلم)",
+          "pron": "سْكارَه",
+          "example": {
+            "ro": "Scara blocului este curată.",
+            "ar": "درج العمارة نظيف."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-78",
+          "level": "beginner",
+          "ro": "interfon",
+          "ar": "إنترفون (جرس العمارة)",
+          "pron": "إنْتِرْفون",
+          "example": {
+            "ro": "Sunați la interfon, apartamentul zece.",
+            "ar": "اضغط الإنترفون، الشقة عشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-79",
+          "level": "beginner",
+          "ro": "gunoi",
+          "ar": "قمامة (زبالة)",
+          "pron": "گونوي",
+          "example": {
+            "ro": "Duc gunoiul jos.",
+            "ar": "أنزل القمامة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-80",
+          "level": "beginner",
+          "ro": "a curăța",
+          "ar": "ينظّف",
+          "pron": "آ كورَتْسا",
+          "example": {
+            "ro": "Curăț apartamentul sâmbăta.",
+            "ar": "أنظف الشقة يوم السبت."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-81",
+          "level": "beginner",
+          "ro": "a locui",
+          "ar": "يسكن",
+          "pron": "آ لوكوي",
+          "example": {
+            "ro": "Locuiesc la etajul trei.",
+            "ar": "أسكن في الطابق الثالث."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-82",
+          "level": "beginner",
+          "ro": "spațios",
+          "ar": "واسع",
+          "pron": "سْپاتْسيوس",
+          "example": {
+            "ro": "Apartamentul este spațios.",
+            "ar": "الشقة واسعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-83",
+          "level": "beginner",
+          "ro": "cartier",
+          "ar": "حي",
+          "pron": "كارْتيِر",
+          "example": {
+            "ro": "Cartierul este liniștit.",
+            "ar": "الحي هادئ."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-84",
+          "level": "beginner",
+          "ro": "nemobilat",
+          "ar": "غير مفروش",
+          "pron": "نِموبيلات",
+          "example": {
+            "ro": "Apartamentul este nemobilat.",
+            "ar": "الشقة غير مفروشة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-85",
+          "level": "beginner",
+          "ro": "lunar",
+          "ar": "شهرياً",
+          "pron": "لونار",
+          "example": {
+            "ro": "Plătesc chiria lunar.",
+            "ar": "أدفع الإيجار شهرياً."
+          },
+          "verified": false
+        },
+        {
           "id": "renting-06",
           "level": "intermediate",
           "ro": "garanție",
@@ -8763,6 +10143,366 @@
           "verified": false
         },
         {
+          "id": "renting-86",
+          "level": "intermediate",
+          "ro": "chiriaș",
+          "ar": "مستأجر",
+          "pron": "كيرياش",
+          "example": {
+            "ro": "Chiriașul anterior a plecat.",
+            "ar": "المستأجر السابق رحل."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-87",
+          "level": "intermediate",
+          "ro": "anunț imobiliar",
+          "ar": "إعلان عقاري",
+          "pron": "آنونْتْس إيموبيليار",
+          "example": {
+            "ro": "Am văzut anunțul pe un site imobiliar.",
+            "ar": "رأيت الإعلان على موقع عقارات."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-88",
+          "level": "intermediate",
+          "ro": "vizionare",
+          "ar": "معاينة الشقة",
+          "pron": "ڤيزيونارِه",
+          "example": {
+            "ro": "Am o vizionare la ora cinci.",
+            "ar": "عندي معاينة الساعة الخامسة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-89",
+          "level": "intermediate",
+          "ro": "apartament de două camere",
+          "ar": "شقة من غرفتين",
+          "pron": "آپارْتامِنْت دِه دووَه كامِرِه",
+          "example": {
+            "ro": "Închiriez un apartament de două camere.",
+            "ar": "أستأجر شقة من غرفتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-90",
+          "level": "intermediate",
+          "ro": "decomandat",
+          "ar": "غرفه منفصلة",
+          "pron": "دِكومانْدات",
+          "example": {
+            "ro": "Apartamentul este decomandat.",
+            "ar": "الشقة غرفها منفصلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-91",
+          "level": "intermediate",
+          "ro": "metri pătrați",
+          "ar": "متر مربع",
+          "pron": "مِتْري پَتْراتْس",
+          "example": {
+            "ro": "Apartamentul are cincizeci de metri pătrați.",
+            "ar": "الشقة خمسون متراً مربعاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-92",
+          "level": "intermediate",
+          "ro": "avans",
+          "ar": "دفعة مقدمة",
+          "pron": "آڤانْس",
+          "example": {
+            "ro": "Plătesc o lună în avans și garanția.",
+            "ar": "أدفع شهراً مقدماً والتأمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-93",
+          "level": "intermediate",
+          "ro": "a prelungi contractul",
+          "ar": "يمدد العقد",
+          "pron": "آ پْرِلونْجي كونْتْراكْتول",
+          "example": {
+            "ro": "Vrem să prelungim contractul.",
+            "ar": "نريد تمديد العقد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-94",
+          "level": "intermediate",
+          "ro": "a rezilia contractul",
+          "ar": "يفسخ العقد",
+          "pron": "آ رِزيليا كونْتْراكْتول",
+          "example": {
+            "ro": "Pot rezilia contractul cu o lună înainte.",
+            "ar": "يمكنني فسخ العقد بإشعار قبل شهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-95",
+          "level": "intermediate",
+          "ro": "inventar",
+          "ar": "جرد المحتويات",
+          "pron": "إنْڤِنْتار",
+          "example": {
+            "ro": "Facem inventarul mobilei.",
+            "ar": "نعمل جرداً للأثاث."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-96",
+          "level": "intermediate",
+          "ro": "proces-verbal de predare",
+          "ar": "محضر التسليم",
+          "pron": "پْروتْشِس ڤِرْبال دِه پْرِدارِه",
+          "example": {
+            "ro": "Semnăm procesul-verbal de predare.",
+            "ar": "نوقع محضر التسليم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-97",
+          "level": "intermediate",
+          "ro": "administrator de bloc",
+          "ar": "مدير العمارة",
+          "pron": "آدْمينيسْتْراتور دِه بْلوك",
+          "example": {
+            "ro": "Administratorul de bloc strânge banii de întreținere.",
+            "ar": "مدير العمارة يجمع مصاريف العمارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-98",
+          "level": "intermediate",
+          "ro": "asociația de proprietari",
+          "ar": "اتحاد الملاك",
+          "pron": "آسوتْشياتْسيا دِه پْروپْرييِتاري",
+          "example": {
+            "ro": "Asociația de proprietari are ședință lunar.",
+            "ar": "اتحاد الملاك يجتمع شهرياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-99",
+          "level": "intermediate",
+          "ro": "izolație",
+          "ar": "عزل",
+          "pron": "إيزولاتْسيِه",
+          "example": {
+            "ro": "Blocul are izolație nouă.",
+            "ar": "العمارة فيها عزل جديد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-100",
+          "level": "intermediate",
+          "ro": "încălzire centralizată",
+          "ar": "تدفئة مركزية",
+          "pron": "إنْكَلْزيرِه تْشِنْتْراليزاتَه",
+          "example": {
+            "ro": "Blocul are încălzire centralizată.",
+            "ar": "العمارة فيها تدفئة مركزية."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-101",
+          "level": "intermediate",
+          "ro": "boiler",
+          "ar": "سخان مياه",
+          "pron": "بويلِر",
+          "example": {
+            "ro": "Boilerul s-a stricat.",
+            "ar": "سخان المياه تعطل."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-102",
+          "level": "intermediate",
+          "ro": "țeavă spartă",
+          "ar": "ماسورة مكسورة",
+          "pron": "تْسياڤَه سْپارْتَه",
+          "example": {
+            "ro": "Avem o țeavă spartă în baie.",
+            "ar": "عندنا ماسورة مكسورة في الحمام."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-103",
+          "level": "intermediate",
+          "ro": "inundație",
+          "ar": "تسرّب مياه",
+          "pron": "إينونْداتْسيِه",
+          "example": {
+            "ro": "Vecinul de sus a făcut inundație.",
+            "ar": "الجار في الأعلى سبّب تسرب مياه."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-104",
+          "level": "intermediate",
+          "ro": "electrician",
+          "ar": "كهربائي",
+          "pron": "إلِكْتْريتْشيان",
+          "example": {
+            "ro": "Chemăm un electrician.",
+            "ar": "نستدعي كهربائياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-105",
+          "level": "intermediate",
+          "ro": "lăcătuș",
+          "ar": "صانع أقفال",
+          "pron": "لَكَتوش",
+          "example": {
+            "ro": "Am rămas pe dinafară, chem un lăcătuș.",
+            "ar": "بقيت خارج الشقة، سأتصل بصانع أقفال."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-106",
+          "level": "intermediate",
+          "ro": "a schimba yala",
+          "ar": "يغيّر الكالون",
+          "pron": "آ سْكيمْبا يالا",
+          "example": {
+            "ro": "Proprietarul a schimbat yala.",
+            "ar": "المالك غيّر الكالون."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-107",
+          "level": "intermediate",
+          "ro": "abonament de internet",
+          "ar": "اشتراك إنترنت",
+          "pron": "آبونامِنْت دِه إنْتِرْنِت",
+          "example": {
+            "ro": "Fac un abonament de internet.",
+            "ar": "أعمل اشتراك إنترنت."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-108",
+          "level": "intermediate",
+          "ro": "a citi contorul",
+          "ar": "يقرأ العداد",
+          "pron": "آ تْشيتي كونْتورول",
+          "example": {
+            "ro": "Citesc contorul la sfârșitul lunii.",
+            "ar": "أقرأ العداد في نهاية الشهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-109",
+          "level": "intermediate",
+          "ro": "vecini gălăgioși",
+          "ar": "جيران مزعجون",
+          "pron": "ڤِتْشيني گَلَجيوشي",
+          "example": {
+            "ro": "Am vecini gălăgioși.",
+            "ar": "عندي جيران مزعجون."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-110",
+          "level": "intermediate",
+          "ro": "colectare selectivă",
+          "ar": "فرز النفايات",
+          "pron": "كولِكْتارِه سِلِكْتيڤَه",
+          "example": {
+            "ro": "În bloc facem colectare selectivă.",
+            "ar": "في العمارة نفرز النفايات."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-111",
+          "level": "intermediate",
+          "ro": "proaspăt zugrăvit",
+          "ar": "مدهون حديثاً",
+          "pron": "پْرواسْپَت زوگْرَڤيت",
+          "example": {
+            "ro": "Apartamentul este proaspăt zugrăvit.",
+            "ar": "الشقة مدهونة حديثاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-112",
+          "level": "intermediate",
+          "ro": "parter",
+          "ar": "الطابق الأرضي",
+          "pron": "پارْتِر",
+          "example": {
+            "ro": "Apartamentul este la parter.",
+            "ar": "الشقة في الطابق الأرضي."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-113",
+          "level": "intermediate",
+          "ro": "ultimul etaj",
+          "ar": "الطابق الأخير",
+          "pron": "أولْتيمول إيتاژ",
+          "example": {
+            "ro": "Ultimul etaj este cald vara.",
+            "ar": "الطابق الأخير حار في الصيف."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-114",
+          "level": "intermediate",
+          "ro": "aproape de metrou",
+          "ar": "قريب من المترو",
+          "pron": "آپْرواپِه دِه مِتْرو",
+          "example": {
+            "ro": "Caut ceva aproape de metrou.",
+            "ar": "أبحث عن شيء قريب من المترو."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-115",
+          "level": "intermediate",
+          "ro": "chitanță",
+          "ar": "إيصال",
+          "pron": "كيتانْتْسَه",
+          "example": {
+            "ro": "Îmi dați chitanță pentru chirie?",
+            "ar": "هل تعطيني إيصالاً بالإيجار؟"
+          },
+          "verified": false
+        },
+        {
           "id": "renting-23",
           "level": "advanced",
           "ro": "Caut o garsonieră aproape de metrou, până în 350 de euro.",
@@ -8939,6 +10679,426 @@
           "example": {
             "ro": "Rămân pe numele meu, îmi dați banii lunar.",
             "ar": "تبقى باسمي، وتعطيني الفلوس شهرياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-116",
+          "level": "advanced",
+          "ro": "Bună ziua, sun pentru anunțul cu garsoniera din Militari.",
+          "ar": "مرحباً، أتصل بخصوص إعلان الستوديو في ميليتاري.",
+          "pron": "بونَه زيوا، سون پِنْترو آنونْتْسول كو گارْسونيِرا دين ميليتاري",
+          "example": {
+            "ro": "Da, mai este disponibilă.",
+            "ar": "نعم، ما زال متاحاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-117",
+          "level": "advanced",
+          "ro": "Prețul chiriei este negociabil?",
+          "ar": "هل سعر الإيجار قابل للتفاوض؟",
+          "pron": "پْرِتْسول كيرييِي يِسْتِه نِگوتْشيابيل؟",
+          "example": {
+            "ro": "Puțin, dacă semnați pe un an.",
+            "ar": "قليلاً، إذا وقعت لسنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-118",
+          "level": "advanced",
+          "ro": "Cât este garanția și când o primesc înapoi?",
+          "ar": "كم التأمين ومتى أسترجعه؟",
+          "pron": "كِت يِسْتِه گارانْتْسيا شي كِنْد أو پْريمِسْك إناپوي؟",
+          "example": {
+            "ro": "O chirie; o primiți la sfârșitul contractului.",
+            "ar": "إيجار شهر؛ تسترجعه في نهاية العقد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-119",
+          "level": "advanced",
+          "ro": "Pot să văd facturile de întreținere de anul trecut?",
+          "ar": "هل يمكنني رؤية فواتير مصاريف العمارة للسنة الماضية؟",
+          "pron": "پوت سَه ڤَد فاكْتوريلِه دِه إنْتْرِتْسينِرِه دِه آنول تْرِكوت؟",
+          "example": {
+            "ro": "Sigur, vi le trimit pe e-mail.",
+            "ar": "طبعاً، سأرسلها لك على الإيميل."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-120",
+          "level": "advanced",
+          "ro": "Mobila rămâne în apartament?",
+          "ar": "هل يبقى الأثاث في الشقة؟",
+          "pron": "موبيلا رَمِنِه إن آپارْتامِنْت؟",
+          "example": {
+            "ro": "Da, tot ce vedeți rămâne.",
+            "ar": "نعم، كل ما تراه يبقى."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-121",
+          "level": "advanced",
+          "ro": "Când se plătește chiria, la începutul lunii?",
+          "ar": "متى يُدفع الإيجار، في بداية الشهر؟",
+          "pron": "كِنْد سِه پْلَتِشْتِه كيريا، لا إنْتْشِپوتول لونيي؟",
+          "example": {
+            "ro": "Până pe data de cinci a fiecărei luni.",
+            "ar": "حتى اليوم الخامس من كل شهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-122",
+          "level": "advanced",
+          "ro": "Apartamentul are probleme cu umezeala?",
+          "ar": "هل في الشقة مشاكل رطوبة؟",
+          "pron": "آپارْتامِنْتول آرِه پْروبْلِمِه كو أومِزِآلا؟",
+          "example": {
+            "ro": "Nu, are termopane și izolație.",
+            "ar": "لا، فيها شبابيك عازلة وعزل."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-123",
+          "level": "advanced",
+          "ro": "Avem apă caldă doar dimineața, este normal?",
+          "ar": "عندنا ماء ساخن فقط في الصباح، هل هذا طبيعي؟",
+          "pron": "آڤِم آپَه كالْدَه دوآر ديمينياتْسا، يِسْتِه نورْمال؟",
+          "example": {
+            "ro": "Nu, verific boilerul mâine.",
+            "ar": "لا، سأفحص السخان غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-124",
+          "level": "advanced",
+          "ro": "Caloriferele nu încălzesc deloc.",
+          "ar": "الدفايات لا تسخّن أبداً.",
+          "pron": "كالوريفِرِلِه نو إنْكَلْزِسْك دِلوك",
+          "example": {
+            "ro": "Trebuie aerisite, vin să le aerisesc.",
+            "ar": "تحتاج تنفيساً، سآتي لأنفّسها."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-125",
+          "level": "advanced",
+          "ro": "Vecinul de sus m-a inundat, ce trebuie să fac?",
+          "ar": "جاري في الأعلى سبّب تسرب ماء عندي، ماذا يجب أن أفعل؟",
+          "pron": "ڤِتْشينول دِه سوس ما إينونْدات، تْشِه تْرِبويِه سَه فاك؟",
+          "example": {
+            "ro": "Faceți poze și anunțați administratorul.",
+            "ar": "التقط صوراً وأبلغ مدير العمارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-126",
+          "level": "advanced",
+          "ro": "Contractul trebuie înregistrat pentru permisul de ședere.",
+          "ar": "يجب تسجيل العقد من أجل تصريح الإقامة.",
+          "pron": "كونْتْراكْتول تْرِبويِه إنْرِجيسْتْرات پِنْترو پِرْميسول دِه شِدِرِه",
+          "example": {
+            "ro": "Îl înregistrez la ANAF săptămâna asta.",
+            "ar": "سأسجله في مصلحة الضرائب هذا الأسبوع."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-127",
+          "level": "advanced",
+          "ro": "Putem semna contractul și în engleză?",
+          "ar": "هل يمكن أن نوقع العقد بالإنجليزية أيضاً؟",
+          "pron": "پوتِم سِمْنا كونْتْراكْتول شي إن إنْگْلِزَه؟",
+          "example": {
+            "ro": "Da, facem o variantă bilingvă.",
+            "ar": "نعم، سنعمل نسخة بلغتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-128",
+          "level": "advanced",
+          "ro": "Am pierdut cheile, aveți un rând de rezervă?",
+          "ar": "أضعت المفاتيح، هل عندك نسخة احتياطية؟",
+          "pron": "آم پْيِرْدوت كِيِلِه، آڤِتْس أون رِنْد دِه رِزِرْڤَه؟",
+          "example": {
+            "ro": "Da, vi-l aduc diseară.",
+            "ar": "نعم، سأحضرها لك الليلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-129",
+          "level": "advanced",
+          "ro": "Vreau să plec din apartament la sfârșitul lunii viitoare.",
+          "ar": "أريد مغادرة الشقة في نهاية الشهر القادم.",
+          "pron": "ڤْرياو سَه پْلِك دين آپارْتامِنْت لا سْفِرْشيتول لونيي ڤيتوآرِه",
+          "example": {
+            "ro": "Bine, facem predarea pe treizeci.",
+            "ar": "حسناً، نعمل التسليم يوم ثلاثين."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-130",
+          "level": "advanced",
+          "ro": "Cine plătește reparația, eu sau dumneavoastră?",
+          "ar": "من يدفع الإصلاح، أنا أم أنت؟",
+          "pron": "تْشينِه پْلَتِشْتِه رِپاراتْسيا، يِو ساو دومْنياڤوآسْتْرَه؟",
+          "example": {
+            "ro": "Dacă e uzură normală, plătesc eu.",
+            "ar": "إذا كان استهلاكاً عادياً، أدفع أنا."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-131",
+          "level": "advanced",
+          "ro": "Pot să locuiesc cu un coleg în garsonieră?",
+          "ar": "هل يمكنني السكن مع زميل في الستوديو؟",
+          "pron": "پوت سَه لوكويِسْك كو أون كولِگ إن گارْسونيِرَه؟",
+          "example": {
+            "ro": "Da, dar chiria crește puțin.",
+            "ar": "نعم، لكن الإيجار يزيد قليلاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-132",
+          "level": "advanced",
+          "ro": "Ce mijloace de transport sunt în apropiere?",
+          "ar": "ما وسائل المواصلات القريبة؟",
+          "pron": "تْشِه ميژلوآتْشِه دِه تْرانْسْپورْت سونْت إن آپْروپْيِرِه؟",
+          "example": {
+            "ro": "Metroul la cinci minute și tramvaiul 41.",
+            "ar": "المترو على بعد خمس دقائق والترام 41."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-133",
+          "level": "advanced",
+          "ro": "Este vreun magazin sau o farmacie aproape de bloc?",
+          "ar": "هل يوجد محل أو صيدلية قرب العمارة؟",
+          "pron": "يِسْتِه ڤْرِون ماگازين ساو أو فارْماتْشيِه آپْرواپِه دِه بْلوك؟",
+          "example": {
+            "ro": "Da, chiar la parter.",
+            "ar": "نعم، في الطابق الأرضي نفسه."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-134",
+          "level": "advanced",
+          "ro": "Aveți un uscător de rufe?",
+          "ar": "هل عندك منشر غسيل؟",
+          "pron": "آڤِتْس أون أوسْكَتور دِه روفِه؟",
+          "example": {
+            "ro": "Da, este pe balcon.",
+            "ar": "نعم، على الشرفة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-135",
+          "level": "advanced",
+          "ro": "Pot să pun câteva rafturi pe perete?",
+          "ar": "هل يمكنني تركيب بعض الرفوف على الحائط؟",
+          "pron": "پوت سَه پون كِتِڤا رافْتوري پِه پِرِتِه؟",
+          "example": {
+            "ro": "Da, dar astupați găurile la plecare.",
+            "ar": "نعم، لكن سد الثقوب عند المغادرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-136",
+          "level": "advanced",
+          "ro": "Soneria nu funcționează, curierii nu mă găsesc.",
+          "ar": "الجرس لا يعمل، المندوبون لا يجدونني.",
+          "pron": "سونِريا نو فونْكْتْسيونِآزَه، كوريِريي نو مَه گَسِسْك",
+          "example": {
+            "ro": "Pun una nouă săptămâna asta.",
+            "ar": "سأركّب واحداً جديداً هذا الأسبوع."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-137",
+          "level": "advanced",
+          "ro": "Cât costă de obicei curentul pe lună într-o garsonieră?",
+          "ar": "كم تكلف الكهرباء عادة في الشهر في ستوديو؟",
+          "pron": "كِت كوسْتَه دِه أوبيتْشِي كورِنْتول پِه لونَه إنْتْرو گارْسونيِرَه؟",
+          "example": {
+            "ro": "În jur de o sută de lei.",
+            "ar": "حوالي مئة لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-138",
+          "level": "advanced",
+          "ro": "Mașina de spălat face un zgomot ciudat.",
+          "ar": "الغسالة تصدر صوتاً غريباً.",
+          "pron": "ماشينا دِه سْپَلات فاتْشِه أون زْگوموت تْشيودات",
+          "example": {
+            "ro": "Trimit pe cineva să se uite.",
+            "ar": "سأرسل أحداً لينظر فيها."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-139",
+          "level": "advanced",
+          "ro": "Am găsit gândaci în bucătărie.",
+          "ar": "وجدت صراصير في المطبخ.",
+          "pron": "آم گَسيت گِنْداتْش إن بوكَتَريِه",
+          "example": {
+            "ro": "Chem firma de dezinsecție.",
+            "ar": "سأتصل بشركة مكافحة الحشرات."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-140",
+          "level": "advanced",
+          "ro": "Proprietarul acceptă o familie cu copii?",
+          "ar": "هل يقبل المالك عائلة مع أطفال؟",
+          "pron": "پْروپْرييِتارول آتْشِپْتَه أو فاميليِه كو كوپيي؟",
+          "example": {
+            "ro": "Da, nicio problemă.",
+            "ar": "نعم، لا مشكلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-141",
+          "level": "advanced",
+          "ro": "Chiria este în euro sau în lei?",
+          "ar": "الإيجار باليورو أم باللاي؟",
+          "pron": "كيريا يِسْتِه إن يورو ساو إن لِي؟",
+          "example": {
+            "ro": "În euro, dar plătiți în lei la cursul zilei.",
+            "ar": "باليورو، لكن تدفع باللاي بسعر اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-142",
+          "level": "advanced",
+          "ro": "Agenția cere comision și de la chiriaș?",
+          "ar": "هل الوكالة تأخذ عمولة من المستأجر أيضاً؟",
+          "pron": "آجِنْتْسيا تْشِرِه كوميسيون شي دِه لا كيرياش؟",
+          "example": {
+            "ro": "Da, jumătate din prima chirie.",
+            "ar": "نعم، نصف الإيجار الأول."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-143",
+          "level": "advanced",
+          "ro": "Pot să mă mut chiar de săptămâna viitoare?",
+          "ar": "هل يمكنني الانتقال من الأسبوع القادم مباشرة؟",
+          "pron": "پوت سَه مَه موت كْيار دِه سَپْتَمِنا ڤيتوآرِه؟",
+          "example": {
+            "ro": "Da, după ce semnăm și plătiți avansul.",
+            "ar": "نعم، بعد أن نوقع وتدفع المقدم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-144",
+          "level": "advanced",
+          "ro": "Apartamentul arată altfel decât în poze.",
+          "ar": "الشقة تبدو مختلفة عن الصور.",
+          "pron": "آپارْتامِنْتول آراتَه آلْتْفِل دِكِت إن پوزِه",
+          "example": {
+            "ro": "Pozele sunt mai vechi, între timp am renovat.",
+            "ar": "الصور أقدم، في الأثناء جددنا الشقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-145",
+          "level": "advanced",
+          "ro": "Vă rog să-mi trimiteți contractul ca să-l citesc înainte.",
+          "ar": "من فضلك أرسل لي العقد لأقرأه قبلاً.",
+          "pron": "ڤَه روگ سَم تْريميتِتْس كونْتْراكْتول كا سَل تْشيتِسْك إنائينْتِه",
+          "example": {
+            "ro": "Vi-l trimit azi pe e-mail.",
+            "ar": "سأرسله لك اليوم على الإيميل."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-146",
+          "level": "advanced",
+          "ro": "Ce se întâmplă dacă vreau să plec înainte de termen?",
+          "ar": "ماذا يحدث إذا أردت المغادرة قبل نهاية المدة؟",
+          "pron": "تْشِه سِه إنْتِمْپْلَه داكَه ڤْرياو سَه پْلِك إنائينْتِه دِه تِرْمِن؟",
+          "example": {
+            "ro": "Pierdeți garanția, dacă nu găsiți alt chiriaș.",
+            "ar": "تخسر التأمين، إلا إذا وجدت مستأجراً آخر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-147",
+          "level": "advanced",
+          "ro": "Am plătit chiria prin transfer, ați primit banii?",
+          "ar": "دفعت الإيجار بتحويل، هل استلمت الفلوس؟",
+          "pron": "آم پْلَتيت كيريا پْرين تْرانْسْفِر، آتْس پْريميت بانيي؟",
+          "example": {
+            "ro": "Da, i-am primit, mulțumesc.",
+            "ar": "نعم، استلمتها، شكراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-148",
+          "level": "advanced",
+          "ro": "Puteți să-mi dați o chitanță pentru chiria de luna asta?",
+          "ar": "هل يمكنك إعطائي إيصالاً بإيجار هذا الشهر؟",
+          "pron": "پوتِتْس سَم داتْس أو كيتانْتْسَه پِنْترو كيريا دِه لونا آسْتا؟",
+          "example": {
+            "ro": "Sigur, vă fac una acum.",
+            "ar": "طبعاً، سأعمل لك واحداً الآن."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-149",
+          "level": "advanced",
+          "ro": "Am nevoie de acordul dumneavoastră scris pentru Imigrări.",
+          "ar": "أحتاج موافقتك المكتوبة من أجل الهجرة.",
+          "pron": "آم نِڤويِه دِه آكورْدول دومْنياڤوآسْتْرَه سْكْريس پِنْترو إيميگْرَري",
+          "example": {
+            "ro": "Bine, vi-l dau semnat mâine.",
+            "ar": "حسناً، سأعطيك إياها موقّعة غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-150",
+          "level": "advanced",
+          "ro": "Mulțumesc, apartamentul îmi place, îl iau.",
+          "ar": "شكراً، الشقة تعجبني، سآخذها.",
+          "pron": "مولْتْسومِسْك، آپارْتامِنْتول إمْ پْلاتْشِه، إيل ياو",
+          "example": {
+            "ro": "Perfect, pregătesc contractul.",
+            "ar": "ممتاز، سأجهز العقد."
           },
           "verified": false
         }
