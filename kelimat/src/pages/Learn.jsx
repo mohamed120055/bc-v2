@@ -5,12 +5,13 @@ import ScenarioGrid from '../components/ScenarioGrid.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import VoiceNotice from '../components/VoiceNotice.jsx';
 import LevelTabs from '../components/LevelTabs.jsx';
+import BackButton from '../components/BackButton.jsx';
 import Ro from '../components/Ro.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { getMode, itemsForMode, scenarioById, scenarioItems } from '../lib/content.js';
 import { buildQueue, countDue, requeue } from '../lib/srs.js';
 import { currentStreak } from '../lib/progress.js';
-import { go } from '../lib/router.js';
+import { go, goBack } from '../lib/router.js';
 
 export default function Learn({ scenarioId }) {
   const [round, setRound] = useState(0);
@@ -25,6 +26,7 @@ function Picker() {
   const due = countDue(itemsForMode(state.mode), state.cards);
   return (
     <div className="space-y-4 pt-2">
+      <BackButton />
       <h1 className="text-2xl font-extrabold">البطاقات</h1>
       <LevelTabs />
       <VoiceNotice />
@@ -78,7 +80,9 @@ function Session({ scenarioId, onAgain }) {
   return (
     <div className="pt-2 flex flex-col gap-4">
       <div className="flex items-center gap-3">
-        <button type="button" onClick={() => go('learn')} className="size-10 grid place-items-center rounded-full bg-white shadow-sm text-xl" aria-label="إنهاء الجلسة">✕</button>
+        <button type="button" onClick={goBack} className="size-10 grid place-items-center rounded-full bg-white shadow-sm" aria-label="رجوع">
+          <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M9 6l6 6-6 6" /></svg>
+        </button>
         <div className="flex-1">
           <div className="flex justify-between text-sm font-semibold">
             <span>{title} <span className="text-bark/50 font-normal">· {mode.icon} {mode.name}</span></span>

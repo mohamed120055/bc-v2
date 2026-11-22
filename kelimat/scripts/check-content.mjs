@@ -7,7 +7,7 @@ const ids = new Set();
 const need = (cond, msg) => { if (!cond) errors.push(msg); };
 const str = (v) => typeof v === 'string' && v.trim().length > 0;
 
-const LEVELS = { beginner: 12, intermediate: 10, advanced: 8 };
+const LEVELS = { beginner: 25, intermediate: 20, advanced: 15 };
 need(Array.isArray(data.scenarios) && data.scenarios.length >= 6, 'expected at least 6 scenarios');
 let items = 0, phrases = 0, unItems = 0, unPhrases = 0;
 

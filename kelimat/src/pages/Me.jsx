@@ -4,6 +4,7 @@ import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
 import VoiceTest from '../components/VoiceTest.jsx';
 import LevelTabs from '../components/LevelTabs.jsx';
+import BackButton from '../components/BackButton.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { getMode, itemsForMode, scenarioItems, scenarios } from '../lib/content.js';
 import { isLearned } from '../lib/srs.js';
@@ -38,6 +39,7 @@ export default function Me({ section }) {
 
   return (
     <div className="space-y-5 pt-2">
+      <BackButton />
       <div className="flex items-center gap-3">
         <Ursu mood={state.reviews ? 'cheer' : 'sleepy'} size={80} />
         <div>

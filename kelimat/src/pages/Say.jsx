@@ -3,6 +3,7 @@ import SpeakButton from '../components/SpeakButton.jsx';
 import VoiceNotice from '../components/VoiceNotice.jsx';
 import Ursu from '../components/Ursu.jsx';
 import Ro from '../components/Ro.jsx';
+import BackButton from '../components/BackButton.jsx';
 import { scenarios } from '../lib/content.js';
 import { go } from '../lib/router.js';
 
@@ -26,6 +27,7 @@ export default function Say({ scenarioId }) {
 
   return (
     <div className="space-y-4 pt-2">
+      <BackButton />
       <div className="flex items-center gap-2">
         <Ursu mood="think" size={56} />
         <div>
