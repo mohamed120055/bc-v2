@@ -7,6 +7,7 @@ export const defaultState = () => ({
   bestStreak: 0,
   lastActive: null, // YYYY-MM-DD
   reviews: 0,
+  mode: null,       // 'beginner' | 'intermediate' | 'advanced' — chosen on first launch
 });
 
 export function loadState() {

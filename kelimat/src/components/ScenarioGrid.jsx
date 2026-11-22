@@ -1,4 +1,4 @@
-import { scenarios } from '../lib/content.js';
+import { scenarios, scenarioItems } from '../lib/content.js';
 import { isLearned } from '../lib/srs.js';
 import { useProgress } from '../lib/useProgress.jsx';
 import ProgressBar from './ProgressBar.jsx';
@@ -9,7 +9,8 @@ export default function ScenarioGrid({ onPick }) {
   return (
     <div className="grid grid-cols-2 gap-3">
       {scenarios.map((s) => {
-        const learned = s.items.filter((it) => isLearned(state.cards[it.id])).length;
+        const items = scenarioItems(s.id, state.mode);
+        const learned = items.filter((it) => isLearned(state.cards[it.id])).length;
         return (
           <button
             key={s.id}
@@ -20,8 +21,8 @@ export default function ScenarioGrid({ onPick }) {
             <div className="text-3xl" aria-hidden>{s.icon}</div>
             <div className="mt-1 font-bold">{s.title}</div>
             <Ro className="block text-xs text-bark/55">{s.titleRo}</Ro>
-            <ProgressBar value={learned / s.items.length} className="mt-2.5 h-1.5" color="bg-leaf" />
-            <div className="mt-1 text-[11px] text-bark/55">{learned} من {s.items.length}</div>
+            <ProgressBar value={learned / items.length} className="mt-2.5 h-1.5" color="bg-leaf" />
+            <div className="mt-1 text-[11px] text-bark/55">{learned} من {items.length}</div>
           </button>
         );
       })}

@@ -1,6 +1,425 @@
 {
-  "version": 1,
+  "version": 2,
   "scenarios": [
+    {
+      "id": "basics",
+      "title": "أساسيات",
+      "titleRo": "Primii pași",
+      "icon": "👋",
+      "items": [
+        {
+          "id": "basics-01",
+          "level": "beginner",
+          "ro": "Bună ziua",
+          "ar": "مرحباً (نهاراً)",
+          "pron": "بونَه زيوا",
+          "example": {
+            "ro": "Bună ziua, doamnă!",
+            "ar": "مرحباً يا سيدتي!"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-02",
+          "level": "beginner",
+          "ro": "Salut",
+          "ar": "أهلاً (بين الأصحاب)",
+          "pron": "سالوت",
+          "example": {
+            "ro": "Salut, ce faci?",
+            "ar": "أهلاً، كيف حالك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-03",
+          "level": "beginner",
+          "ro": "Mulțumesc",
+          "ar": "شكراً",
+          "pron": "مولْتْسومِسْك",
+          "example": {
+            "ro": "Mulțumesc pentru ajutor.",
+            "ar": "شكراً على المساعدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-04",
+          "level": "beginner",
+          "ro": "Vă rog",
+          "ar": "من فضلك",
+          "pron": "ڤَه روگ",
+          "example": {
+            "ro": "O cafea, vă rog.",
+            "ar": "قهوة من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-05",
+          "level": "beginner",
+          "ro": "Da / Nu",
+          "ar": "نعم / لا",
+          "pron": "دا / نو",
+          "example": {
+            "ro": "Da, înțeleg.",
+            "ar": "نعم، أفهم."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-06",
+          "level": "beginner",
+          "ro": "Scuzați",
+          "ar": "عفواً (لو سمحت)",
+          "pron": "سْكوزاتْس",
+          "example": {
+            "ro": "Scuzați, unde este stația?",
+            "ar": "عفواً، أين المحطة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-07",
+          "level": "beginner",
+          "ro": "La revedere",
+          "ar": "مع السلامة",
+          "pron": "لا رِڤِدِرِه",
+          "example": {
+            "ro": "La revedere și o zi bună!",
+            "ar": "مع السلامة ويوم سعيد!"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-08",
+          "level": "beginner",
+          "ro": "unu, doi, trei",
+          "ar": "واحد، اثنان، ثلاثة",
+          "pron": "أونو، دوي، تْرِي",
+          "example": {
+            "ro": "Am trei frați.",
+            "ar": "عندي ثلاثة إخوة."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-09",
+          "level": "beginner",
+          "ro": "astăzi",
+          "ar": "اليوم",
+          "pron": "آسْتَزي",
+          "example": {
+            "ro": "Astăzi este luni.",
+            "ar": "اليوم الإثنين."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-10",
+          "level": "beginner",
+          "ro": "mâine",
+          "ar": "غداً (بكرة)",
+          "pron": "مِينِه",
+          "example": {
+            "ro": "Ne vedem mâine.",
+            "ar": "نلتقي غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-11",
+          "level": "beginner",
+          "ro": "ieri",
+          "ar": "أمس",
+          "pron": "يِيرْ",
+          "example": {
+            "ro": "Ieri am fost la muncă.",
+            "ar": "أمس كنت في العمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-12",
+          "level": "beginner",
+          "ro": "bine",
+          "ar": "بخير / كويس",
+          "pron": "بينِه",
+          "example": {
+            "ro": "Sunt bine, mulțumesc.",
+            "ar": "أنا بخير، شكراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-13",
+          "level": "intermediate",
+          "ro": "Ce faci?",
+          "ar": "كيف حالك؟",
+          "pron": "تْشِه فاتْش؟",
+          "example": {
+            "ro": "Salut, Andrei! Ce faci?",
+            "ar": "أهلاً أندريه! كيف حالك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-14",
+          "level": "intermediate",
+          "ro": "Mă numesc...",
+          "ar": "اسمي...",
+          "pron": "مَه نومِسْك",
+          "example": {
+            "ro": "Mă numesc Ahmed.",
+            "ar": "اسمي أحمد."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-15",
+          "level": "intermediate",
+          "ro": "Sunt din...",
+          "ar": "أنا من...",
+          "pron": "سونْت دين",
+          "example": {
+            "ro": "Sunt din Egipt.",
+            "ar": "أنا من مصر."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-16",
+          "level": "intermediate",
+          "ro": "Cât e ceasul?",
+          "ar": "كم الساعة؟",
+          "pron": "كِت يِه تْشاسول؟",
+          "example": {
+            "ro": "Cât e ceasul, vă rog?",
+            "ar": "كم الساعة من فضلك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-17",
+          "level": "intermediate",
+          "ro": "Nu înțeleg",
+          "ar": "لا أفهم",
+          "pron": "نو إنْتْسِلِگ",
+          "example": {
+            "ro": "Scuze, nu înțeleg bine românește.",
+            "ar": "آسف، لا أفهم الرومانية جيداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-18",
+          "level": "intermediate",
+          "ro": "Vorbiți engleză?",
+          "ar": "هل تتكلم الإنجليزية؟",
+          "pron": "ڤورْبيتْس إنْگْلِزَه؟",
+          "example": {
+            "ro": "Vorbiți engleză sau arabă?",
+            "ar": "هل تتكلم الإنجليزية أو العربية؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-19",
+          "level": "intermediate",
+          "ro": "Îmi pare rău",
+          "ar": "آسف",
+          "pron": "إمْ پارِه رَو",
+          "example": {
+            "ro": "Îmi pare rău, am întârziat.",
+            "ar": "آسف، تأخرت."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-20",
+          "level": "intermediate",
+          "ro": "Cu plăcere",
+          "ar": "العفو (على الرحب)",
+          "pron": "كو پْلَتْشِرِه",
+          "example": {
+            "ro": "— Mulțumesc! — Cu plăcere!",
+            "ar": "— شكراً! — العفو!"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-21",
+          "level": "intermediate",
+          "ro": "săptămâna viitoare",
+          "ar": "الأسبوع القادم",
+          "pron": "سَپْتَمِنا ڤيتوآرِه",
+          "example": {
+            "ro": "Plec în vacanță săptămâna viitoare.",
+            "ar": "أسافر في إجازة الأسبوع القادم."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-22",
+          "level": "intermediate",
+          "ro": "Încântat de cunoștință",
+          "ar": "تشرفت بمعرفتك",
+          "pron": "إنْكِنْتات دِه كونوشْتينْتْسَه",
+          "example": {
+            "ro": "Încântat de cunoștință, eu sunt Omar.",
+            "ar": "تشرفت بمعرفتك، أنا عمر."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-23",
+          "level": "advanced",
+          "ro": "Puteți să vorbiți mai rar? Încă învăț românește.",
+          "ar": "هل يمكنك التكلم ببطء؟ ما زلت أتعلم الرومانية.",
+          "pron": "پوتِتْس سَه ڤورْبيتْس ماي رار؟ إنْكَه إنْڤَتْس رومينِشْتِه",
+          "example": {
+            "ro": "Sigur! Vorbiți foarte bine deja.",
+            "ar": "طبعاً! أنت تتكلم جيداً جداً بالفعل."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-24",
+          "level": "advanced",
+          "ro": "Locuiesc în România de șase luni.",
+          "ar": "أعيش في رومانيا منذ ستة أشهر.",
+          "pron": "لوكويِسْك إن رومينيا دِه شاسِه لوني",
+          "example": {
+            "ro": "Și vă place aici?",
+            "ar": "وهل يعجبك المكان هنا؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-25",
+          "level": "advanced",
+          "ro": "Ce înseamnă cuvântul acesta?",
+          "ar": "ماذا تعني هذه الكلمة؟",
+          "pron": "تْشِه إنْسِآمْنَه كوڤِنْتول آتْشِسْتا؟",
+          "example": {
+            "ro": "Înseamnă «liber».",
+            "ar": "تعني «حر» أو «فاضي»."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-26",
+          "level": "advanced",
+          "ro": "Cum se spune «shukran» în română?",
+          "ar": "كيف تقول «شكراً» بالرومانية؟",
+          "pron": "كوم سِه سْپونِه شوكْران إن رومينَه؟",
+          "example": {
+            "ro": "Se spune «mulțumesc».",
+            "ar": "يُقال «mulțumesc»."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-27",
+          "level": "advanced",
+          "ro": "Mă puteți ajuta, vă rog? M-am pierdut.",
+          "ar": "هل يمكنك مساعدتي من فضلك؟ أنا تائه.",
+          "pron": "مَه پوتِتْس آژوتا، ڤَه روگ؟ مام پْيِرْدوت",
+          "example": {
+            "ro": "Desigur, unde vreți să ajungeți?",
+            "ar": "طبعاً، إلى أين تريد أن تصل؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-28",
+          "level": "advanced",
+          "ro": "Vă deranjează dacă deschid fereastra?",
+          "ar": "هل يضايقك أن أفتح النافذة؟",
+          "pron": "ڤَه دِرانْژِآزَه داكَه دِسْكيد فِرِآسْتْرا؟",
+          "example": {
+            "ro": "Nu, deloc.",
+            "ar": "لا، أبداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-29",
+          "level": "advanced",
+          "ro": "Ne vedem sâmbătă la ora cinci?",
+          "ar": "نلتقي يوم السبت الساعة الخامسة؟",
+          "pron": "نِه ڤِدِم سِمْبَتَه لا أورا تْشينْتْش؟",
+          "example": {
+            "ro": "Perfect, ne vedem atunci!",
+            "ar": "ممتاز، نلتقي وقتها!"
+          },
+          "verified": false
+        },
+        {
+          "id": "basics-30",
+          "level": "advanced",
+          "ro": "Îmi puteți repeta numărul de telefon?",
+          "ar": "هل يمكنك أن تعيد لي رقم الهاتف؟",
+          "pron": "إمْ پوتِتْس رِپِتا نومَرول دِه تِلِفون؟",
+          "example": {
+            "ro": "Sigur: zero, șapte, doi, doi...",
+            "ar": "طبعاً: صفر، سبعة، اثنان، اثنان..."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "basics-p01",
+          "ro": "Bună dimineața!",
+          "ar": "صباح الخير!",
+          "pron": "بونَه ديمينياتْسا",
+          "verified": false
+        },
+        {
+          "id": "basics-p02",
+          "ro": "Bună seara!",
+          "ar": "مساء الخير!",
+          "pron": "بونَه سيارا",
+          "verified": false
+        },
+        {
+          "id": "basics-p03",
+          "ro": "Noapte bună!",
+          "ar": "تصبح على خير!",
+          "pron": "نواپْتِه بونَه",
+          "verified": false
+        },
+        {
+          "id": "basics-p04",
+          "ro": "Ce mai faci?",
+          "ar": "إيه أخبارك؟ (كيف حالك)",
+          "pron": "تْشِه ماي فاتْش؟",
+          "verified": false
+        },
+        {
+          "id": "basics-p05",
+          "ro": "Sunt nou în România.",
+          "ar": "أنا جديد في رومانيا.",
+          "pron": "سونْت نوو إن رومينيا",
+          "verified": false
+        },
+        {
+          "id": "basics-p06",
+          "ro": "Vorbesc puțin românește.",
+          "ar": "أتكلم الرومانية قليلاً.",
+          "pron": "ڤورْبِسْك پوتْسين رومينِشْتِه",
+          "verified": false
+        },
+        {
+          "id": "basics-p07",
+          "ro": "Poți să scrii asta, te rog?",
+          "ar": "ممكن تكتب ده من فضلك؟",
+          "pron": "پوتْس سَه سْكْريي آسْتا، تِه روگ؟",
+          "verified": false
+        }
+      ]
+    },
     {
       "id": "supermarket",
       "title": "السوبرماركت",
@@ -9,6 +428,7 @@
       "items": [
         {
           "id": "supermarket-01",
+          "level": "beginner",
           "ro": "pâine",
           "ar": "خبز",
           "pron": "پِينِه",
@@ -20,6 +440,7 @@
         },
         {
           "id": "supermarket-02",
+          "level": "beginner",
           "ro": "lapte",
           "ar": "حليب",
           "pron": "لاپْتِه",
@@ -31,6 +452,7 @@
         },
         {
           "id": "supermarket-03",
+          "level": "beginner",
           "ro": "ouă",
           "ar": "بيض",
           "pron": "أوَه",
@@ -42,6 +464,7 @@
         },
         {
           "id": "supermarket-04",
+          "level": "beginner",
           "ro": "apă plată",
           "ar": "ماء عادي (غير غازي)",
           "pron": "آپَه پْلاتَه",
@@ -53,6 +476,7 @@
         },
         {
           "id": "supermarket-05",
+          "level": "beginner",
           "ro": "carne de pui",
           "ar": "لحم دجاج",
           "pron": "كارْنِه دِه پوي",
@@ -64,6 +488,7 @@
         },
         {
           "id": "supermarket-06",
+          "level": "beginner",
           "ro": "carne de porc",
           "ar": "لحم خنزير",
           "pron": "كارْنِه دِه پورْك",
@@ -75,6 +500,7 @@
         },
         {
           "id": "supermarket-07",
+          "level": "beginner",
           "ro": "fructe",
           "ar": "فواكه",
           "pron": "فْروكْتِه",
@@ -86,6 +512,7 @@
         },
         {
           "id": "supermarket-08",
+          "level": "beginner",
           "ro": "legume",
           "ar": "خضار",
           "pron": "لِگومِه",
@@ -97,6 +524,7 @@
         },
         {
           "id": "supermarket-09",
+          "level": "beginner",
           "ro": "coș",
           "ar": "سلة التسوق",
           "pron": "كوش",
@@ -107,18 +535,8 @@
           "verified": false
         },
         {
-          "id": "supermarket-10",
-          "ro": "casa de marcat",
-          "ar": "الصندوق (الكاشير)",
-          "pron": "كاسا دِه ماركات",
-          "example": {
-            "ro": "Plătesc la casa de marcat.",
-            "ar": "أدفع عند الكاشير."
-          },
-          "verified": false
-        },
-        {
           "id": "supermarket-11",
+          "level": "beginner",
           "ro": "pungă",
           "ar": "كيس",
           "pron": "پونْگَه",
@@ -129,29 +547,8 @@
           "verified": false
         },
         {
-          "id": "supermarket-12",
-          "ro": "bon",
-          "ar": "الإيصال (الفاتورة)",
-          "pron": "بون",
-          "example": {
-            "ro": "Doriți bonul?",
-            "ar": "هل تريد الإيصال؟"
-          },
-          "verified": false
-        },
-        {
-          "id": "supermarket-13",
-          "ro": "reducere",
-          "ar": "تخفيض",
-          "pron": "رِدوتْشِرِه",
-          "example": {
-            "ro": "Azi este reducere la brânză.",
-            "ar": "اليوم يوجد تخفيض على الجبن."
-          },
-          "verified": false
-        },
-        {
           "id": "supermarket-14",
+          "level": "beginner",
           "ro": "Cât costă?",
           "ar": "كم السعر؟",
           "pron": "كِت كوسْتَه؟",
@@ -163,12 +560,229 @@
         },
         {
           "id": "supermarket-15",
+          "level": "beginner",
           "ro": "card",
           "ar": "بطاقة بنكية",
           "pron": "كارْد",
           "example": {
             "ro": "Pot plăti cu cardul?",
             "ar": "هل أستطيع الدفع بالبطاقة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-10",
+          "level": "intermediate",
+          "ro": "casa de marcat",
+          "ar": "الصندوق (الكاشير)",
+          "pron": "كاسا دِه ماركات",
+          "example": {
+            "ro": "Plătesc la casa de marcat.",
+            "ar": "أدفع عند الكاشير."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-12",
+          "level": "intermediate",
+          "ro": "bon",
+          "ar": "الإيصال (الفاتورة)",
+          "pron": "بون",
+          "example": {
+            "ro": "Doriți bonul?",
+            "ar": "هل تريد الإيصال؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-13",
+          "level": "intermediate",
+          "ro": "reducere",
+          "ar": "تخفيض",
+          "pron": "رِدوتْشِرِه",
+          "example": {
+            "ro": "Azi este reducere la brânză.",
+            "ar": "اليوم يوجد تخفيض على الجبن."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-16",
+          "level": "intermediate",
+          "ro": "a plăti cash",
+          "ar": "يدفع نقداً (كاش)",
+          "pron": "آ پْلَتي كيش",
+          "example": {
+            "ro": "Pot să plătesc cash?",
+            "ar": "هل يمكنني الدفع نقداً؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-17",
+          "level": "intermediate",
+          "ro": "data de expirare",
+          "ar": "تاريخ انتهاء الصلاحية",
+          "pron": "داتا دِه إكْسْپيرارِه",
+          "example": {
+            "ro": "Verific data de expirare pe cutie.",
+            "ar": "أتحقق من تاريخ انتهاء الصلاحية على العلبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-18",
+          "level": "intermediate",
+          "ro": "la ofertă",
+          "ar": "عليه عرض",
+          "pron": "لا أوفِرْتَه",
+          "example": {
+            "ro": "Cafeaua este la ofertă săptămâna asta.",
+            "ar": "القهوة عليها عرض هذا الأسبوع."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-19",
+          "level": "intermediate",
+          "ro": "raionul de lactate",
+          "ar": "قسم الألبان",
+          "pron": "رايونول دِه لاكْتاتِه",
+          "example": {
+            "ro": "Iaurtul este la raionul de lactate.",
+            "ar": "الزبادي في قسم الألبان."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-20",
+          "level": "intermediate",
+          "ro": "fără zahăr",
+          "ar": "بدون سكر",
+          "pron": "فَرَه زاهَر",
+          "example": {
+            "ro": "Caut un suc fără zahăr.",
+            "ar": "أبحث عن عصير بدون سكر."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-21",
+          "level": "intermediate",
+          "ro": "un kilogram de...",
+          "ar": "كيلو من...",
+          "pron": "أون كيلوگْرام دِه",
+          "example": {
+            "ro": "Vreau un kilogram de mere.",
+            "ar": "أريد كيلو تفاح."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-22",
+          "level": "intermediate",
+          "ro": "card de fidelitate",
+          "ar": "بطاقة نقاط (ولاء)",
+          "pron": "كارْد دِه فيدِليتاتِه",
+          "example": {
+            "ro": "Aveți card de fidelitate?",
+            "ar": "هل عندك بطاقة نقاط؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-23",
+          "level": "advanced",
+          "ro": "Mă scuzați, unde găsesc produsele fără gluten?",
+          "ar": "لو سمحت، أين أجد المنتجات الخالية من الغلوتين؟",
+          "pron": "مَه سْكوزاتْس، أونْدِه گَسِسْك پْرودوسِلِه فَرَه گْلوتِن؟",
+          "example": {
+            "ro": "Sunt pe ultimul raft, lângă cereale.",
+            "ar": "في آخر رف، بجانب الحبوب."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-24",
+          "level": "advanced",
+          "ro": "Prețul de pe raft nu e același cu cel de pe bon.",
+          "ar": "السعر على الرف ليس نفس السعر في الإيصال.",
+          "pron": "پْرِتْسول دِه پِه رافْت نو يِه آتْشِلاشي كو تْشِل دِه پِه بون",
+          "example": {
+            "ro": "Imediat verific, îmi pare rău.",
+            "ar": "سأتحقق فوراً، آسف."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-25",
+          "level": "advanced",
+          "ro": "Aș vrea să returnez produsul acesta.",
+          "ar": "أريد إرجاع هذا المنتج.",
+          "pron": "آش ڤْريا سَه رِتورْنِز پْرودوسول آتْشِسْتا",
+          "example": {
+            "ro": "Aveți bonul fiscal?",
+            "ar": "هل معك الإيصال؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-26",
+          "level": "advanced",
+          "ro": "Puteți să-mi tăiați o jumătate de kilogram de brânză?",
+          "ar": "هل يمكنك أن تقطع لي نصف كيلو جبنة؟",
+          "pron": "پوتِتْس سَم تَياتْس أو ژومَتاتِه دِه كيلوگْرام دِه بْرِنْزَه؟",
+          "example": {
+            "ro": "Felii sau bucată întreagă?",
+            "ar": "شرائح أم قطعة كاملة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-27",
+          "level": "advanced",
+          "ro": "Cardul meu a fost refuzat, pot încerca din nou?",
+          "ar": "بطاقتي رُفضت، هل يمكنني المحاولة مرة أخرى؟",
+          "pron": "كارْدول مِو آ فوسْت رِفوزات، پوت إنْتْشِرْكا دين نوو؟",
+          "example": {
+            "ro": "Sigur, introduceți cardul din nou.",
+            "ar": "طبعاً، أدخل البطاقة مرة أخرى."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-28",
+          "level": "advanced",
+          "ro": "Când primiți marfă nouă?",
+          "ar": "متى تصلكم بضاعة جديدة؟",
+          "pron": "كِنْد پْريميتْس مارْفَه نووَه؟",
+          "example": {
+            "ro": "De obicei, marțea și vinerea.",
+            "ar": "عادةً يوم الثلاثاء والجمعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-29",
+          "level": "advanced",
+          "ro": "Am nevoie de o pungă mare, vă rog.",
+          "ar": "أحتاج كيساً كبيراً من فضلك.",
+          "pron": "آم نِڤويِه دِه أو پونْگَه مارِه، ڤَه روگ",
+          "example": {
+            "ro": "Costă cincizeci de bani.",
+            "ar": "سعره خمسون باني."
+          },
+          "verified": false
+        },
+        {
+          "id": "supermarket-30",
+          "level": "advanced",
+          "ro": "Aveți și pâine proaspătă de azi?",
+          "ar": "هل عندكم خبز طازج من اليوم؟",
+          "pron": "آڤِتْس شي پِينِه پْرواسْپَتَه دِه آز؟",
+          "example": {
+            "ro": "Da, a venit acum o oră.",
+            "ar": "نعم، وصل منذ ساعة."
           },
           "verified": false
         }
@@ -233,6 +847,7 @@
       "items": [
         {
           "id": "university-01",
+          "level": "beginner",
           "ro": "facultate",
           "ar": "كلية",
           "pron": "فاكولْتاتِه",
@@ -244,6 +859,7 @@
         },
         {
           "id": "university-02",
+          "level": "beginner",
           "ro": "curs",
           "ar": "محاضرة",
           "pron": "كورْس",
@@ -255,6 +871,7 @@
         },
         {
           "id": "university-03",
+          "level": "beginner",
           "ro": "seminar",
           "ar": "حصة تطبيقية (سمينار)",
           "pron": "سِمينار",
@@ -266,6 +883,7 @@
         },
         {
           "id": "university-04",
+          "level": "beginner",
           "ro": "profesor",
           "ar": "أستاذ",
           "pron": "پْروفِسور",
@@ -277,6 +895,7 @@
         },
         {
           "id": "university-05",
+          "level": "beginner",
           "ro": "examen",
           "ar": "امتحان",
           "pron": "إكْسامِن",
@@ -288,6 +907,7 @@
         },
         {
           "id": "university-06",
+          "level": "beginner",
           "ro": "notă",
           "ar": "علامة (درجة)",
           "pron": "نوتَه",
@@ -299,6 +919,7 @@
         },
         {
           "id": "university-07",
+          "level": "beginner",
           "ro": "bibliotecă",
           "ar": "مكتبة",
           "pron": "بيبْليوتِكَه",
@@ -310,6 +931,7 @@
         },
         {
           "id": "university-08",
+          "level": "beginner",
           "ro": "cămin",
           "ar": "سكن جامعي",
           "pron": "كَمين",
@@ -320,29 +942,8 @@
           "verified": false
         },
         {
-          "id": "university-09",
-          "ro": "secretariat",
-          "ar": "السكرتارية (شؤون الطلاب)",
-          "pron": "سِكْرِتارِيات",
-          "example": {
-            "ro": "Secretariatul se deschide la ora zece.",
-            "ar": "السكرتارية تفتح الساعة العاشرة."
-          },
-          "verified": false
-        },
-        {
-          "id": "university-10",
-          "ro": "carnet de student",
-          "ar": "بطاقة الطالب",
-          "pron": "كارْنِت دِه سْتودِنْت",
-          "example": {
-            "ro": "Am nevoie de carnetul de student.",
-            "ar": "أحتاج بطاقة الطالب."
-          },
-          "verified": false
-        },
-        {
           "id": "university-11",
+          "level": "beginner",
           "ro": "orar",
           "ar": "جدول الحصص",
           "pron": "أورار",
@@ -354,6 +955,7 @@
         },
         {
           "id": "university-12",
+          "level": "beginner",
           "ro": "temă",
           "ar": "واجب منزلي",
           "pron": "تِمَه",
@@ -365,6 +967,7 @@
         },
         {
           "id": "university-13",
+          "level": "beginner",
           "ro": "sală",
           "ar": "قاعة",
           "pron": "سالَه",
@@ -376,6 +979,7 @@
         },
         {
           "id": "university-14",
+          "level": "beginner",
           "ro": "coleg / colegă",
           "ar": "زميل / زميلة",
           "pron": "كولِگ / كولِگَه",
@@ -386,13 +990,218 @@
           "verified": false
         },
         {
+          "id": "university-09",
+          "level": "intermediate",
+          "ro": "secretariat",
+          "ar": "السكرتارية (شؤون الطلاب)",
+          "pron": "سِكْرِتارِيات",
+          "example": {
+            "ro": "Secretariatul se deschide la ora zece.",
+            "ar": "السكرتارية تفتح الساعة العاشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-10",
+          "level": "intermediate",
+          "ro": "carnet de student",
+          "ar": "بطاقة الطالب",
+          "pron": "كارْنِت دِه سْتودِنْت",
+          "example": {
+            "ro": "Am nevoie de carnetul de student.",
+            "ar": "أحتاج بطاقة الطالب."
+          },
+          "verified": false
+        },
+        {
           "id": "university-15",
+          "level": "intermediate",
           "ro": "bursă",
           "ar": "منحة",
           "pron": "بورْسَه",
           "example": {
             "ro": "Am primit o bursă.",
             "ar": "حصلت على منحة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-16",
+          "level": "intermediate",
+          "ro": "a se înscrie",
+          "ar": "يسجّل (في الجامعة أو المادة)",
+          "pron": "آ سِه إنْسْكْريِه",
+          "example": {
+            "ro": "Vreau să mă înscriu la master.",
+            "ar": "أريد التسجيل في الماجستير."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-17",
+          "level": "intermediate",
+          "ro": "taxă de școlarizare",
+          "ar": "رسوم الدراسة",
+          "pron": "تاكْسَه دِه شْكولاريزارِه",
+          "example": {
+            "ro": "Taxa de școlarizare se plătește în două rate.",
+            "ar": "رسوم الدراسة تُدفع على قسطين."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-18",
+          "level": "intermediate",
+          "ro": "sesiune",
+          "ar": "فترة الامتحانات",
+          "pron": "سِسيونِه",
+          "example": {
+            "ro": "Sesiunea începe în ianuarie.",
+            "ar": "فترة الامتحانات تبدأ في يناير."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-19",
+          "level": "intermediate",
+          "ro": "restanță",
+          "ar": "مادة راسب فيها (إعادة امتحان)",
+          "pron": "رِسْتانْتْسَه",
+          "example": {
+            "ro": "Am o restanță la matematică.",
+            "ar": "عندي إعادة امتحان في الرياضيات."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-20",
+          "level": "intermediate",
+          "ro": "credite",
+          "ar": "نقاط (ساعات معتمدة)",
+          "pron": "كْرِديتِه",
+          "example": {
+            "ro": "Cursul acesta are șase credite.",
+            "ar": "هذه المادة لها ست نقاط."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-21",
+          "level": "intermediate",
+          "ro": "an pregătitor",
+          "ar": "السنة التحضيرية (للغة)",
+          "pron": "آن پْرِگَتيتور",
+          "example": {
+            "ro": "Fac anul pregătitor de limba română.",
+            "ar": "أدرس السنة التحضيرية للغة الرومانية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-22",
+          "level": "intermediate",
+          "ro": "lucrare de licență",
+          "ar": "مشروع التخرج",
+          "pron": "لوكْرارِه دِه ليتْشِنْتْسَه",
+          "example": {
+            "ro": "Scriu lucrarea de licență.",
+            "ar": "أكتب مشروع التخرج."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-23",
+          "level": "advanced",
+          "ro": "Aș putea să susțin examenul în altă zi?",
+          "ar": "هل يمكنني أن أقدّم الامتحان في يوم آخر؟",
+          "pron": "آش پوتيا سَه سوسْتْسين إكْسامِنول إن آلْتَه زي؟",
+          "example": {
+            "ro": "Trebuie să depuneți o cerere la secretariat.",
+            "ar": "يجب أن تقدّم طلباً في السكرتارية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-24",
+          "level": "advanced",
+          "ro": "Nu am primit nota pe platformă.",
+          "ar": "لم تصلني العلامة على المنصة.",
+          "pron": "نو آم پْريميت نوتا پِه پْلاتْفورْمَه",
+          "example": {
+            "ro": "Verificați din nou mâine.",
+            "ar": "تحقق مرة أخرى غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-25",
+          "level": "advanced",
+          "ro": "Puteți să-mi trimiteți materialele pe e-mail?",
+          "ar": "هل يمكنك إرسال المواد لي بالإيميل؟",
+          "pron": "پوتِتْس سَم تْريميتِتْس ماتِريالِلِه پِه إيمِيل؟",
+          "example": {
+            "ro": "Le găsiți pe pagina cursului.",
+            "ar": "تجدها على صفحة المادة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-26",
+          "level": "advanced",
+          "ro": "Când este termenul limită pentru proiect?",
+          "ar": "متى آخر موعد لتسليم المشروع؟",
+          "pron": "كِنْد يِسْتِه تِرْمِنول ليميتَه پِنْترو پْرويِكْت؟",
+          "example": {
+            "ro": "Până vineri la miezul nopții.",
+            "ar": "حتى الجمعة منتصف الليل."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-27",
+          "level": "advanced",
+          "ro": "Pot să fac practica într-o firmă privată?",
+          "ar": "هل يمكنني أن أعمل التدريب العملي في شركة خاصة؟",
+          "pron": "پوت سَه فاك پْراكْتيكا إنْتْرو فيرْمَه پْريڤاتَه؟",
+          "example": {
+            "ro": "Da, dacă aveți un acord semnat.",
+            "ar": "نعم، إذا كان عندك اتفاقية موقّعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-28",
+          "level": "advanced",
+          "ro": "Mi-ar plăcea să mă alătur grupului de studiu.",
+          "ar": "أحب أن أنضم لمجموعة الدراسة.",
+          "pron": "ميار پْلَتْشا سَه مَه آلَتور گْروپولوي دِه سْتوديو",
+          "example": {
+            "ro": "Bine ai venit! Ne vedem joi.",
+            "ar": "أهلاً بك! نلتقي يوم الخميس."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-29",
+          "level": "advanced",
+          "ro": "Vreau să mă transfer la altă facultate.",
+          "ar": "أريد التحويل إلى كلية أخرى.",
+          "pron": "ڤْرياو سَه مَه تْرانْسْفِر لا آلْتَه فاكولْتاتِه",
+          "example": {
+            "ro": "Aveți nevoie de foaia matricolă.",
+            "ar": "تحتاج كشف الدرجات."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-30",
+          "level": "advanced",
+          "ro": "Puteți să-mi explicați cum se calculează media?",
+          "ar": "هل يمكنك أن تشرح لي كيف يُحسب المعدل؟",
+          "pron": "پوتِتْس سَم إكْسْپْليكاتْس كوم سِه كالْكولِآزَه ميديا؟",
+          "example": {
+            "ro": "Se face media ponderată cu creditele.",
+            "ar": "يُحسب المعدل الموزون حسب النقاط."
           },
           "verified": false
         }
@@ -457,6 +1266,7 @@
       "items": [
         {
           "id": "train-01",
+          "level": "beginner",
           "ro": "gară",
           "ar": "محطة القطار",
           "pron": "گارَه",
@@ -468,6 +1278,7 @@
         },
         {
           "id": "train-02",
+          "level": "beginner",
           "ro": "tren",
           "ar": "قطار",
           "pron": "تْرِن",
@@ -479,6 +1290,7 @@
         },
         {
           "id": "train-03",
+          "level": "beginner",
           "ro": "bilet",
           "ar": "تذكرة",
           "pron": "بيلِت",
@@ -490,6 +1302,7 @@
         },
         {
           "id": "train-04",
+          "level": "beginner",
           "ro": "dus-întors",
           "ar": "ذهاب وعودة",
           "pron": "دوس إنْتورْس",
@@ -501,6 +1314,7 @@
         },
         {
           "id": "train-05",
+          "level": "beginner",
           "ro": "peron",
           "ar": "رصيف المحطة",
           "pron": "پِرون",
@@ -512,6 +1326,7 @@
         },
         {
           "id": "train-06",
+          "level": "beginner",
           "ro": "linie",
           "ar": "خط (سكة)",
           "pron": "لينيِه",
@@ -523,6 +1338,7 @@
         },
         {
           "id": "train-07",
+          "level": "beginner",
           "ro": "vagon",
           "ar": "عربة القطار",
           "pron": "ڤاگون",
@@ -534,6 +1350,7 @@
         },
         {
           "id": "train-08",
+          "level": "beginner",
           "ro": "loc",
           "ar": "مقعد (مكان)",
           "pron": "لوك",
@@ -545,6 +1362,7 @@
         },
         {
           "id": "train-09",
+          "level": "beginner",
           "ro": "întârziere",
           "ar": "تأخير",
           "pron": "إنْتِرْزييرِه",
@@ -556,6 +1374,7 @@
         },
         {
           "id": "train-10",
+          "level": "beginner",
           "ro": "plecare",
           "ar": "مغادرة",
           "pron": "پْلِكارِه",
@@ -567,6 +1386,7 @@
         },
         {
           "id": "train-11",
+          "level": "beginner",
           "ro": "sosire",
           "ar": "وصول",
           "pron": "سوسيرِه",
@@ -577,7 +1397,20 @@
           "verified": false
         },
         {
+          "id": "train-15",
+          "level": "beginner",
+          "ro": "direct",
+          "ar": "مباشر",
+          "pron": "ديرِكْت",
+          "example": {
+            "ro": "Există un tren direct?",
+            "ar": "هل يوجد قطار مباشر؟"
+          },
+          "verified": false
+        },
+        {
           "id": "train-12",
+          "level": "intermediate",
           "ro": "controlor",
           "ar": "المراقب (الكمسري)",
           "pron": "كونْتْرولور",
@@ -589,6 +1422,7 @@
         },
         {
           "id": "train-13",
+          "level": "intermediate",
           "ro": "casa de bilete",
           "ar": "شباك التذاكر",
           "pron": "كاسا دِه بيلِتِه",
@@ -600,6 +1434,7 @@
         },
         {
           "id": "train-14",
+          "level": "intermediate",
           "ro": "a schimba trenul",
           "ar": "يغيّر القطار",
           "pron": "آ سْكيمْبا تْرِنول",
@@ -610,13 +1445,182 @@
           "verified": false
         },
         {
-          "id": "train-15",
-          "ro": "direct",
-          "ar": "مباشر",
-          "pron": "ديرِكْت",
+          "id": "train-16",
+          "level": "intermediate",
+          "ro": "clasa a doua",
+          "ar": "الدرجة الثانية",
+          "pron": "كْلاسا آ دووا",
           "example": {
-            "ro": "Există un tren direct?",
-            "ar": "هل يوجد قطار مباشر؟"
+            "ro": "Un bilet la clasa a doua, vă rog.",
+            "ar": "تذكرة درجة ثانية من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-17",
+          "level": "intermediate",
+          "ro": "tren de noapte",
+          "ar": "قطار ليلي",
+          "pron": "تْرِن دِه نواپْتِه",
+          "example": {
+            "ro": "Iau trenul de noapte spre Timișoara.",
+            "ar": "آخذ القطار الليلي إلى تيميشوارا."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-18",
+          "level": "intermediate",
+          "ro": "bagaj",
+          "ar": "حقيبة سفر (أمتعة)",
+          "pron": "باگاژ",
+          "example": {
+            "ro": "Bagajul meu este prea greu.",
+            "ar": "حقيبتي ثقيلة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-19",
+          "level": "intermediate",
+          "ro": "mersul trenurilor",
+          "ar": "جدول مواعيد القطارات",
+          "pron": "مِرْسول تْرِنوريلور",
+          "example": {
+            "ro": "Verific mersul trenurilor pe internet.",
+            "ar": "أتحقق من جدول القطارات على الإنترنت."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-20",
+          "level": "intermediate",
+          "ro": "a pierde trenul",
+          "ar": "يفوته القطار",
+          "pron": "آ پْيِرْدِه تْرِنول",
+          "example": {
+            "ro": "Am pierdut trenul de ora șapte.",
+            "ar": "فاتني قطار الساعة السابعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-21",
+          "level": "intermediate",
+          "ro": "tren regio",
+          "ar": "قطار محلي (بطيء)",
+          "pron": "تْرِن رِجيو",
+          "example": {
+            "ro": "Trenul regio oprește în fiecare gară.",
+            "ar": "القطار المحلي يتوقف في كل محطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-22",
+          "level": "intermediate",
+          "ro": "legătură",
+          "ar": "قطار مواصلة (ترانزيت)",
+          "pron": "لِگَتورَه",
+          "example": {
+            "ro": "Am legătură la Brașov după zece minute.",
+            "ar": "عندي قطار مواصلة في براشوف بعد عشر دقائق."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-23",
+          "level": "advanced",
+          "ro": "Am pierdut legătura, ce tren pot să iau acum?",
+          "ar": "فاتني قطار المواصلة، أي قطار أستطيع أخذه الآن؟",
+          "pron": "آم پْيِرْدوت لِگَتورا، تْشِه تْرِن پوت سَه ياو آكوم؟",
+          "example": {
+            "ro": "Următorul pleacă peste o oră de la linia patru.",
+            "ar": "التالي يغادر بعد ساعة من الخط الرابع."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-24",
+          "level": "advanced",
+          "ro": "Biletul meu e valabil și pentru trenul acesta?",
+          "ar": "هل تذكرتي صالحة لهذا القطار أيضاً؟",
+          "pron": "بيلِتول مِو يِه ڤالابيل شي پِنْترو تْرِنول آتْشِسْتا؟",
+          "example": {
+            "ro": "Nu, trebuie să plătiți diferența.",
+            "ar": "لا، يجب أن تدفع الفرق."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-25",
+          "level": "advanced",
+          "ro": "Vreau să schimb data biletului.",
+          "ar": "أريد تغيير تاريخ التذكرة.",
+          "pron": "ڤْرياو سَه سْكيمْب داتا بيلِتولوي",
+          "example": {
+            "ro": "Se poate, cu o taxă mică.",
+            "ar": "ممكن، برسوم صغيرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-26",
+          "level": "advanced",
+          "ro": "Mă scuzați, cred că stați pe locul meu.",
+          "ar": "عذراً، أظن أنك جالس في مقعدي.",
+          "pron": "مَه سْكوزاتْس، كْرِد كَه سْتاتْس پِه لوكول مِو",
+          "example": {
+            "ro": "Ah, scuze! Ce număr aveți?",
+            "ar": "آه، آسف! ما رقم مقعدك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "train-27",
+          "level": "advanced",
+          "ro": "La ce oră ajunge trenul la Iași?",
+          "ar": "في أي ساعة يصل القطار إلى ياش؟",
+          "pron": "لا تْشِه أورَه آژونْجِه تْرِنول لا ياش؟",
+          "example": {
+            "ro": "Ajunge la ora 18:45.",
+            "ar": "يصل الساعة 18:45."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-28",
+          "level": "advanced",
+          "ro": "Pot să cumpăr bilet direct de la controlor?",
+          "ar": "هل يمكنني شراء تذكرة من المراقب مباشرة؟",
+          "pron": "پوت سَه كومْپَر بيلِت ديرِكْت دِه لا كونْتْرولور؟",
+          "example": {
+            "ro": "Da, dar costă mai mult.",
+            "ar": "نعم، لكنها أغلى."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-29",
+          "level": "advanced",
+          "ro": "Am uitat bagajul în tren, unde pot să întreb?",
+          "ar": "نسيت حقيبتي في القطار، أين يمكنني أن أسأل؟",
+          "pron": "آم أوئيتات باگاژول إن تْرِن، أونْدِه پوت سَه إنْتْرِب؟",
+          "example": {
+            "ro": "Mergeți la biroul de obiecte pierdute.",
+            "ar": "اذهب إلى مكتب المفقودات."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-30",
+          "level": "advanced",
+          "ro": "Trenul a fost anulat? Ce alternative am?",
+          "ar": "هل أُلغي القطار؟ ما البدائل المتاحة لي؟",
+          "pron": "تْرِنول آ فوسْت آنولات؟ تْشِه آلْتِرْناتيڤِه آم؟",
+          "example": {
+            "ro": "Puteți lua autobuzul de înlocuire.",
+            "ar": "يمكنك أخذ الحافلة البديلة."
           },
           "verified": false
         }
@@ -681,6 +1685,7 @@
       "items": [
         {
           "id": "doctor-01",
+          "level": "beginner",
           "ro": "medic de familie",
           "ar": "طبيب العائلة",
           "pron": "مِديك دِه فاميليِه",
@@ -692,6 +1697,7 @@
         },
         {
           "id": "doctor-02",
+          "level": "beginner",
           "ro": "programare",
           "ar": "موعد",
           "pron": "پْروگْرامارِه",
@@ -703,6 +1709,7 @@
         },
         {
           "id": "doctor-03",
+          "level": "beginner",
           "ro": "durere",
           "ar": "ألم",
           "pron": "دورِرِه",
@@ -714,6 +1721,7 @@
         },
         {
           "id": "doctor-04",
+          "level": "beginner",
           "ro": "febră",
           "ar": "حمّى (حرارة)",
           "pron": "فِبْرَه",
@@ -725,6 +1733,7 @@
         },
         {
           "id": "doctor-05",
+          "level": "beginner",
           "ro": "tuse",
           "ar": "سعال (كحة)",
           "pron": "توسِه",
@@ -735,18 +1744,8 @@
           "verified": false
         },
         {
-          "id": "doctor-06",
-          "ro": "rețetă",
-          "ar": "وصفة طبية",
-          "pron": "رِتْسِتَه",
-          "example": {
-            "ro": "Medicul mi-a dat o rețetă.",
-            "ar": "أعطاني الطبيب وصفة طبية."
-          },
-          "verified": false
-        },
-        {
           "id": "doctor-07",
+          "level": "beginner",
           "ro": "farmacie",
           "ar": "صيدلية",
           "pron": "فارْماتْشيِه",
@@ -758,6 +1757,7 @@
         },
         {
           "id": "doctor-08",
+          "level": "beginner",
           "ro": "medicament",
           "ar": "دواء",
           "pron": "مِديكامِنْت",
@@ -769,6 +1769,7 @@
         },
         {
           "id": "doctor-09",
+          "level": "beginner",
           "ro": "alergie",
           "ar": "حساسية",
           "pron": "آلِرْجيِه",
@@ -779,18 +1780,8 @@
           "verified": false
         },
         {
-          "id": "doctor-10",
-          "ro": "asigurare medicală",
-          "ar": "تأمين صحي",
-          "pron": "آسيگورارِه مِديكالَه",
-          "example": {
-            "ro": "Am asigurare medicală.",
-            "ar": "عندي تأمين صحي."
-          },
-          "verified": false
-        },
-        {
           "id": "doctor-11",
+          "level": "beginner",
           "ro": "urgență",
           "ar": "طوارئ",
           "pron": "أورْجِنْتْسَه",
@@ -801,18 +1792,8 @@
           "verified": false
         },
         {
-          "id": "doctor-12",
-          "ro": "analize",
-          "ar": "تحاليل",
-          "pron": "آناليزِه",
-          "example": {
-            "ro": "Trebuie să fac analize de sânge.",
-            "ar": "يجب أن أعمل تحاليل دم."
-          },
-          "verified": false
-        },
-        {
           "id": "doctor-13",
+          "level": "beginner",
           "ro": "gât",
           "ar": "حلق",
           "pron": "گِت",
@@ -824,6 +1805,7 @@
         },
         {
           "id": "doctor-14",
+          "level": "beginner",
           "ro": "stomac",
           "ar": "معدة",
           "pron": "سْتوماك",
@@ -835,12 +1817,229 @@
         },
         {
           "id": "doctor-15",
+          "level": "beginner",
           "ro": "ambulanță",
           "ar": "إسعاف",
           "pron": "آمْبولانْتْسَه",
           "example": {
             "ro": "Sunați la 112 pentru ambulanță!",
             "ar": "اتصلوا بالرقم 112 لطلب الإسعاف!"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-06",
+          "level": "intermediate",
+          "ro": "rețetă",
+          "ar": "وصفة طبية",
+          "pron": "رِتْسِتَه",
+          "example": {
+            "ro": "Medicul mi-a dat o rețetă.",
+            "ar": "أعطاني الطبيب وصفة طبية."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-10",
+          "level": "intermediate",
+          "ro": "asigurare medicală",
+          "ar": "تأمين صحي",
+          "pron": "آسيگورارِه مِديكالَه",
+          "example": {
+            "ro": "Am asigurare medicală.",
+            "ar": "عندي تأمين صحي."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-12",
+          "level": "intermediate",
+          "ro": "analize",
+          "ar": "تحاليل",
+          "pron": "آناليزِه",
+          "example": {
+            "ro": "Trebuie să fac analize de sânge.",
+            "ar": "يجب أن أعمل تحاليل دم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-16",
+          "level": "intermediate",
+          "ro": "trimitere",
+          "ar": "تحويل (لطبيب مختص)",
+          "pron": "تْريميتِرِه",
+          "example": {
+            "ro": "Am nevoie de o trimitere la cardiolog.",
+            "ar": "أحتاج تحويلاً لطبيب القلب."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-17",
+          "level": "intermediate",
+          "ro": "medic specialist",
+          "ar": "طبيب مختص",
+          "pron": "مِديك سْپِتْشياليسْت",
+          "example": {
+            "ro": "Medicul specialist are program doar marți.",
+            "ar": "الطبيب المختص يعمل يوم الثلاثاء فقط."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-18",
+          "level": "intermediate",
+          "ro": "pastile",
+          "ar": "حبوب (أقراص دواء)",
+          "pron": "پاسْتيلِه",
+          "example": {
+            "ro": "Luați două pastile pe zi.",
+            "ar": "خذ حبتين في اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-19",
+          "level": "intermediate",
+          "ro": "pe stomacul gol",
+          "ar": "على معدة فارغة",
+          "pron": "پِه سْتوماكول گول",
+          "example": {
+            "ro": "Medicamentul se ia pe stomacul gol.",
+            "ar": "الدواء يؤخذ على معدة فارغة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-20",
+          "level": "intermediate",
+          "ro": "certificat medical",
+          "ar": "تقرير طبي",
+          "pron": "تْشِرْتيفيكات مِديكال",
+          "example": {
+            "ro": "Am nevoie de un certificat medical pentru facultate.",
+            "ar": "أحتاج تقريراً طبياً للجامعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-21",
+          "level": "intermediate",
+          "ro": "răceală",
+          "ar": "زكام (برد)",
+          "pron": "رَتْشالَه",
+          "example": {
+            "ro": "Cred că am o răceală.",
+            "ar": "أظن أن عندي زكام."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-22",
+          "level": "intermediate",
+          "ro": "amețeală",
+          "ar": "دوخة",
+          "pron": "آمِتْسالَه",
+          "example": {
+            "ro": "Am amețeli dimineața.",
+            "ar": "عندي دوخة في الصباح."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-23",
+          "level": "advanced",
+          "ro": "Mă doare capul de două zile și am febră.",
+          "ar": "رأسي يؤلمني منذ يومين وعندي حرارة.",
+          "pron": "مَه دوآرِه كاپول دِه دووَه زيلِه شي آم فِبْرَه",
+          "example": {
+            "ro": "Ați luat ceva pentru durere?",
+            "ar": "هل أخذت شيئاً للألم؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-24",
+          "level": "advanced",
+          "ro": "Iau deja un tratament pentru tensiune.",
+          "ar": "أنا آخذ علاجاً للضغط بالفعل.",
+          "pron": "ياو دِژا أون تْراتامِنْت پِنْترو تِنْسيونِه",
+          "example": {
+            "ro": "Ce medicamente luați exact?",
+            "ar": "ما الأدوية التي تأخذها بالضبط؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-25",
+          "level": "advanced",
+          "ro": "Pot să iau medicamentul acesta fără rețetă?",
+          "ar": "هل يمكنني أخذ هذا الدواء بدون وصفة؟",
+          "pron": "پوت سَه ياو مِديكامِنْتول آتْشِسْتا فَرَه رِتْسِتَه؟",
+          "example": {
+            "ro": "Nu, aveți nevoie de rețetă de la medic.",
+            "ar": "لا، تحتاج وصفة من الطبيب."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-26",
+          "level": "advanced",
+          "ro": "Mi-e greu să respir când urc scările.",
+          "ar": "يصعب علي التنفس عندما أصعد الدرج.",
+          "pron": "مييه گْرِو سَه رِسْپير كِنْد ورْك سْكارِلِه",
+          "example": {
+            "ro": "De când aveți problema asta?",
+            "ar": "منذ متى عندك هذه المشكلة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-27",
+          "level": "advanced",
+          "ro": "Asigurarea mea acoperă consultația?",
+          "ar": "هل يغطي تأميني الكشف؟",
+          "pron": "آسيگورارِآ ميا آكوپِرَه كونْسولْتاتْسيا؟",
+          "example": {
+            "ro": "Da, dacă aveți trimitere de la medicul de familie.",
+            "ar": "نعم، إذا كان معك تحويل من طبيب العائلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-28",
+          "level": "advanced",
+          "ro": "Cât timp trebuie să iau antibioticul?",
+          "ar": "كم من الوقت يجب أن آخذ المضاد الحيوي؟",
+          "pron": "كِت تيمْپ تْرِبويِه سَه ياو آنْتيبيوتيكول؟",
+          "example": {
+            "ro": "Șapte zile, chiar dacă vă simțiți mai bine.",
+            "ar": "سبعة أيام، حتى لو شعرت بتحسن."
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-29",
+          "level": "advanced",
+          "ro": "Copilul meu a vomitat toată noaptea.",
+          "ar": "طفلي تقيأ طوال الليل.",
+          "pron": "كوپيلول مِو آ ڤوميتات تواتَه نواپْتِا",
+          "example": {
+            "ro": "Are și febră?",
+            "ar": "هل عنده حرارة أيضاً؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "doctor-30",
+          "level": "advanced",
+          "ro": "Puteți să-mi scrieți diagnosticul în engleză?",
+          "ar": "هل يمكنك أن تكتب لي التشخيص بالإنجليزية؟",
+          "pron": "پوتِتْس سَم سْكْرييِتْس دياگْنوسْتيكول إن إنْگْلِزَه؟",
+          "example": {
+            "ro": "Sigur, vi-l scriu și în engleză.",
+            "ar": "طبعاً، سأكتبه لك بالإنجليزية أيضاً."
           },
           "verified": false
         }
@@ -905,6 +2104,7 @@
       "items": [
         {
           "id": "renting-01",
+          "level": "beginner",
           "ro": "apartament",
           "ar": "شقة",
           "pron": "آپارْتامِنْت",
@@ -916,6 +2116,7 @@
         },
         {
           "id": "renting-02",
+          "level": "beginner",
           "ro": "garsonieră",
           "ar": "ستوديو (شقة بغرفة واحدة)",
           "pron": "گارْسونيِرَه",
@@ -927,6 +2128,7 @@
         },
         {
           "id": "renting-03",
+          "level": "beginner",
           "ro": "chirie",
           "ar": "إيجار",
           "pron": "كيريِه",
@@ -938,6 +2140,7 @@
         },
         {
           "id": "renting-04",
+          "level": "beginner",
           "ro": "proprietar",
           "ar": "المالك",
           "pron": "پْروپْرييِتار",
@@ -949,6 +2152,7 @@
         },
         {
           "id": "renting-05",
+          "level": "beginner",
           "ro": "contract de închiriere",
           "ar": "عقد إيجار",
           "pron": "كونْتْراكْت دِه إنْكيرييرِه",
@@ -959,40 +2163,8 @@
           "verified": false
         },
         {
-          "id": "renting-06",
-          "ro": "garanție",
-          "ar": "التأمين (مبلغ الضمان)",
-          "pron": "گارانْتْسيِه",
-          "example": {
-            "ro": "Garanția este o chirie.",
-            "ar": "التأمين يساوي إيجار شهر واحد."
-          },
-          "verified": false
-        },
-        {
-          "id": "renting-07",
-          "ro": "utilități",
-          "ar": "الفواتير (ماء وكهرباء وغاز)",
-          "pron": "أوتيليتَتس",
-          "example": {
-            "ro": "Utilitățile nu sunt incluse.",
-            "ar": "الفواتير غير مشمولة."
-          },
-          "verified": false
-        },
-        {
-          "id": "renting-08",
-          "ro": "întreținere",
-          "ar": "مصاريف العمارة",
-          "pron": "إنْتْرِتْسينِرِه",
-          "example": {
-            "ro": "Cât este întreținerea pe lună?",
-            "ar": "كم مصاريف العمارة في الشهر؟"
-          },
-          "verified": false
-        },
-        {
           "id": "renting-09",
+          "level": "beginner",
           "ro": "mobilat",
           "ar": "مفروش",
           "pron": "موبيلات",
@@ -1004,6 +2176,7 @@
         },
         {
           "id": "renting-10",
+          "level": "beginner",
           "ro": "cameră",
           "ar": "غرفة",
           "pron": "كامِرَه",
@@ -1015,6 +2188,7 @@
         },
         {
           "id": "renting-11",
+          "level": "beginner",
           "ro": "bucătărie",
           "ar": "مطبخ",
           "pron": "بوكَتَريِه",
@@ -1026,6 +2200,7 @@
         },
         {
           "id": "renting-12",
+          "level": "beginner",
           "ro": "baie",
           "ar": "حمّام",
           "pron": "بايِه",
@@ -1037,6 +2212,7 @@
         },
         {
           "id": "renting-13",
+          "level": "beginner",
           "ro": "vecin",
           "ar": "جار",
           "pron": "ڤِتْشين",
@@ -1048,6 +2224,7 @@
         },
         {
           "id": "renting-14",
+          "level": "beginner",
           "ro": "a se muta",
           "ar": "ينتقل (إلى سكن جديد)",
           "pron": "آ سِه موتا",
@@ -1059,12 +2236,229 @@
         },
         {
           "id": "renting-15",
+          "level": "beginner",
           "ro": "cheie",
           "ar": "مفتاح",
           "pron": "كيِيِه",
           "example": {
             "ro": "Am pierdut cheia.",
             "ar": "أضعت المفتاح."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-06",
+          "level": "intermediate",
+          "ro": "garanție",
+          "ar": "التأمين (مبلغ الضمان)",
+          "pron": "گارانْتْسيِه",
+          "example": {
+            "ro": "Garanția este o chirie.",
+            "ar": "التأمين يساوي إيجار شهر واحد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-07",
+          "level": "intermediate",
+          "ro": "utilități",
+          "ar": "الفواتير (ماء وكهرباء وغاز)",
+          "pron": "أوتيليتَتس",
+          "example": {
+            "ro": "Utilitățile nu sunt incluse.",
+            "ar": "الفواتير غير مشمولة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-08",
+          "level": "intermediate",
+          "ro": "întreținere",
+          "ar": "مصاريف العمارة",
+          "pron": "إنْتْرِتْسينِرِه",
+          "example": {
+            "ro": "Cât este întreținerea pe lună?",
+            "ar": "كم مصاريف العمارة في الشهر؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-16",
+          "level": "intermediate",
+          "ro": "agenție imobiliară",
+          "ar": "وكالة عقارات",
+          "pron": "آجِنْتْسيِه إيموبيليارَه",
+          "example": {
+            "ro": "Am găsit apartamentul printr-o agenție imobiliară.",
+            "ar": "وجدت الشقة عن طريق وكالة عقارات."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-17",
+          "level": "intermediate",
+          "ro": "comision",
+          "ar": "عمولة",
+          "pron": "كوميسيون",
+          "example": {
+            "ro": "Agenția cere un comision de 50%.",
+            "ar": "الوكالة تطلب عمولة 50%."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-18",
+          "level": "intermediate",
+          "ro": "centrală termică",
+          "ar": "سخان التدفئة (كومبي)",
+          "pron": "تْشِنْتْرالَه تِرْميكَه",
+          "example": {
+            "ro": "Apartamentul are centrală termică proprie.",
+            "ar": "الشقة فيها سخان تدفئة خاص."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-19",
+          "level": "intermediate",
+          "ro": "bloc",
+          "ar": "عمارة سكنية",
+          "pron": "بْلوك",
+          "example": {
+            "ro": "Locuiesc într-un bloc vechi.",
+            "ar": "أسكن في عمارة قديمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-20",
+          "level": "intermediate",
+          "ro": "etaj",
+          "ar": "طابق",
+          "pron": "إيتاژ",
+          "example": {
+            "ro": "Apartamentul este la etajul patru.",
+            "ar": "الشقة في الطابق الرابع."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-21",
+          "level": "intermediate",
+          "ro": "lift",
+          "ar": "مصعد",
+          "pron": "ليفْت",
+          "example": {
+            "ro": "Blocul nu are lift.",
+            "ar": "العمارة ليس فيها مصعد."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-22",
+          "level": "intermediate",
+          "ro": "a semna contractul",
+          "ar": "يوقّع العقد",
+          "pron": "آ سِمْنا كونْتْراكْتول",
+          "example": {
+            "ro": "Când semnăm contractul?",
+            "ar": "متى نوقّع العقد؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-23",
+          "level": "advanced",
+          "ro": "Caut o garsonieră aproape de metrou, până în 350 de euro.",
+          "ar": "أبحث عن ستوديو قريب من المترو، بحد أقصى 350 يورو.",
+          "pron": "كاوت أو گارْسونيِرَه آپْرواپِه دِه مِتْرو، پِنَه إن تْرِي سوتِه تْشينْتْشِزِتْش دِه يورو",
+          "example": {
+            "ro": "Avem una liberă de luna viitoare.",
+            "ar": "عندنا واحد متاح من الشهر القادم."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-24",
+          "level": "advanced",
+          "ro": "Contractul va fi înregistrat la ANAF?",
+          "ar": "هل سيُسجَّل العقد في مصلحة الضرائب (ANAF)؟",
+          "pron": "كونْتْراكْتول ڤا في إنْرِجيسْتْرات لا آناف؟",
+          "example": {
+            "ro": "Da, îl înregistrez eu săptămâna asta.",
+            "ar": "نعم، سأسجله بنفسي هذا الأسبوع."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-25",
+          "level": "advanced",
+          "ro": "Caloriferul din dormitor nu funcționează.",
+          "ar": "المدفأة في غرفة النوم لا تعمل.",
+          "pron": "كالوريفِرول دين دورْميتور نو فونْكْتْسيونِآزَه",
+          "example": {
+            "ro": "Trimit un instalator mâine.",
+            "ar": "سأرسل سبّاكاً غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-26",
+          "level": "advanced",
+          "ro": "Pot să primesc garanția înapoi când mă mut?",
+          "ar": "هل أسترجع التأمين عندما أنتقل؟",
+          "pron": "پوت سَه پْريمِسْك گارانْتْسيا إناپوي كِنْد مَه موت؟",
+          "example": {
+            "ro": "Da, dacă apartamentul e în stare bună.",
+            "ar": "نعم، إذا كانت الشقة بحالة جيدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-27",
+          "level": "advanced",
+          "ro": "Cât plătesc în medie la utilități iarna?",
+          "ar": "كم أدفع في المتوسط للفواتير في الشتاء؟",
+          "pron": "كِت پْلَتِسْك إن ميديِه لا أوتيليتَتْس يارْنا؟",
+          "example": {
+            "ro": "Cam 150 de lei pe lună.",
+            "ar": "حوالي 150 لاي في الشهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-28",
+          "level": "advanced",
+          "ro": "Am voie să am animale de companie?",
+          "ar": "هل مسموح لي باقتناء حيوانات أليفة؟",
+          "pron": "آم ڤويِه سَه آم آنيمالِه دِه كومْپانيِه؟",
+          "example": {
+            "ro": "Doar o pisică, nu câini.",
+            "ar": "قطة فقط، ليس كلاباً."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-29",
+          "level": "advanced",
+          "ro": "Vecinii fac gălăgie după ora 22.",
+          "ar": "الجيران يعملون إزعاجاً بعد الساعة 22.",
+          "pron": "ڤِتْشيني فاك گَلَجيِه دوپَه أورا دوآزِتْشي شي دووَه",
+          "example": {
+            "ro": "Vorbiți cu administratorul blocului.",
+            "ar": "تحدّث مع مدير العمارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "renting-30",
+          "level": "advanced",
+          "ro": "Aș vrea să prelungesc contractul încă un an.",
+          "ar": "أريد تمديد العقد سنة أخرى.",
+          "pron": "آش ڤْريا سَه پْرِلونْجِسْك كونْتْراكْتول إنْكَه أون آن",
+          "example": {
+            "ro": "Bine, dar chiria crește puțin.",
+            "ar": "حسناً، لكن الإيجار سيزيد قليلاً."
           },
           "verified": false
         }
@@ -1129,6 +2523,7 @@
       "items": [
         {
           "id": "work-01",
+          "level": "beginner",
           "ro": "loc de muncă",
           "ar": "وظيفة (مكان عمل)",
           "pron": "لوك دِه مونْكَه",
@@ -1140,6 +2535,7 @@
         },
         {
           "id": "work-02",
+          "level": "beginner",
           "ro": "angajator",
           "ar": "صاحب العمل",
           "pron": "آنْگاژاتور",
@@ -1151,6 +2547,7 @@
         },
         {
           "id": "work-03",
+          "level": "beginner",
           "ro": "șef",
           "ar": "المدير (الرئيس)",
           "pron": "شِف",
@@ -1162,6 +2559,7 @@
         },
         {
           "id": "work-04",
+          "level": "beginner",
           "ro": "salariu",
           "ar": "راتب",
           "pron": "سالاريو",
@@ -1173,6 +2571,7 @@
         },
         {
           "id": "work-05",
+          "level": "beginner",
           "ro": "program",
           "ar": "الدوام (ساعات العمل)",
           "pron": "پْروگْرام",
@@ -1184,6 +2583,7 @@
         },
         {
           "id": "work-06",
+          "level": "beginner",
           "ro": "contract de muncă",
           "ar": "عقد عمل",
           "pron": "كونْتْراكْت دِه مونْكَه",
@@ -1195,6 +2595,7 @@
         },
         {
           "id": "work-07",
+          "level": "beginner",
           "ro": "interviu",
           "ar": "مقابلة عمل",
           "pron": "إنْتِرْڤيو",
@@ -1206,6 +2607,7 @@
         },
         {
           "id": "work-08",
+          "level": "beginner",
           "ro": "CV",
           "ar": "سيرة ذاتية",
           "pron": "تْشي ڤي",
@@ -1217,6 +2619,7 @@
         },
         {
           "id": "work-09",
+          "level": "beginner",
           "ro": "concediu",
           "ar": "إجازة",
           "pron": "كونْتْشِديو",
@@ -1227,29 +2630,8 @@
           "verified": false
         },
         {
-          "id": "work-10",
-          "ro": "concediu medical",
-          "ar": "إجازة مرضية",
-          "pron": "كونْتْشِديو مِديكال",
-          "example": {
-            "ro": "Sunt în concediu medical.",
-            "ar": "أنا في إجازة مرضية."
-          },
-          "verified": false
-        },
-        {
-          "id": "work-11",
-          "ro": "ore suplimentare",
-          "ar": "ساعات إضافية",
-          "pron": "أورِه سوپْليمِنْتارِه",
-          "example": {
-            "ro": "Lucrez ore suplimentare.",
-            "ar": "أعمل ساعات إضافية."
-          },
-          "verified": false
-        },
-        {
           "id": "work-12",
+          "level": "beginner",
           "ro": "tură",
           "ar": "وردية (شيفت)",
           "pron": "تورَه",
@@ -1261,6 +2643,7 @@
         },
         {
           "id": "work-13",
+          "level": "beginner",
           "ro": "pauză",
           "ar": "استراحة",
           "pron": "پاوزَه",
@@ -1272,6 +2655,7 @@
         },
         {
           "id": "work-14",
+          "level": "beginner",
           "ro": "ședință",
           "ar": "اجتماع",
           "pron": "شِدينْتْسَه",
@@ -1282,13 +2666,218 @@
           "verified": false
         },
         {
+          "id": "work-10",
+          "level": "intermediate",
+          "ro": "concediu medical",
+          "ar": "إجازة مرضية",
+          "pron": "كونْتْشِديو مِديكال",
+          "example": {
+            "ro": "Sunt în concediu medical.",
+            "ar": "أنا في إجازة مرضية."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-11",
+          "level": "intermediate",
+          "ro": "ore suplimentare",
+          "ar": "ساعات إضافية",
+          "pron": "أورِه سوپْليمِنْتارِه",
+          "example": {
+            "ro": "Lucrez ore suplimentare.",
+            "ar": "أعمل ساعات إضافية."
+          },
+          "verified": false
+        },
+        {
           "id": "work-15",
+          "level": "intermediate",
           "ro": "permis de muncă",
           "ar": "تصريح عمل",
           "pron": "پِرْميس دِه مونْكَه",
           "example": {
             "ro": "Am nevoie de permis de muncă.",
             "ar": "أحتاج تصريح عمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-16",
+          "level": "intermediate",
+          "ro": "fluturaș de salariu",
+          "ar": "قسيمة الراتب",
+          "pron": "فْلوتوراش دِه سالاريو",
+          "example": {
+            "ro": "Am primit fluturașul de salariu pe e-mail.",
+            "ar": "استلمت قسيمة الراتب بالإيميل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-17",
+          "level": "intermediate",
+          "ro": "salariu net / brut",
+          "ar": "الراتب الصافي / الإجمالي",
+          "pron": "سالاريو نِت / بْروت",
+          "example": {
+            "ro": "Salariul net este mai mic decât cel brut.",
+            "ar": "الراتب الصافي أقل من الإجمالي."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-18",
+          "level": "intermediate",
+          "ro": "perioadă de probă",
+          "ar": "فترة تجربة",
+          "pron": "پِريوآدَه دِه پْروبَه",
+          "example": {
+            "ro": "Perioada de probă este de trei luni.",
+            "ar": "فترة التجربة ثلاثة أشهر."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-19",
+          "level": "intermediate",
+          "ro": "demisie",
+          "ar": "استقالة",
+          "pron": "دِميسيِه",
+          "example": {
+            "ro": "Mi-am dat demisia.",
+            "ar": "قدّمت استقالتي."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-20",
+          "level": "intermediate",
+          "ro": "preaviz",
+          "ar": "مهلة الإشعار (قبل ترك العمل)",
+          "pron": "پْريآڤيز",
+          "example": {
+            "ro": "Preavizul este de douăzeci de zile lucrătoare.",
+            "ar": "مهلة الإشعار عشرون يوم عمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-21",
+          "level": "intermediate",
+          "ro": "bonuri de masă",
+          "ar": "قسائم الطعام (تيكت ريستوران)",
+          "pron": "بونوري دِه ماسَه",
+          "example": {
+            "ro": "Primim bonuri de masă pe card.",
+            "ar": "نستلم قسائم الطعام على البطاقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-22",
+          "level": "intermediate",
+          "ro": "zi liberă",
+          "ar": "يوم إجازة",
+          "pron": "زي ليبِرَه",
+          "example": {
+            "ro": "Mâine am zi liberă.",
+            "ar": "غداً عندي يوم إجازة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-23",
+          "level": "advanced",
+          "ro": "Am experiență de trei ani în domeniul acesta.",
+          "ar": "عندي خبرة ثلاث سنوات في هذا المجال.",
+          "pron": "آم إكْسْپِرْيِنْتْسَه دِه تْرِي آني إن دومِنيول آتْشِسْتا",
+          "example": {
+            "ro": "Foarte bine. De ce vreți să lucrați la noi?",
+            "ar": "جيد جداً. لماذا تريد العمل عندنا؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "work-24",
+          "level": "advanced",
+          "ro": "Care ar fi salariul net pentru acest post?",
+          "ar": "كم سيكون الراتب الصافي لهذه الوظيفة؟",
+          "pron": "كارِه آر في سالاريول نِت پِنْترو آتْشِسْت پوسْت؟",
+          "example": {
+            "ro": "În jur de patru mii de lei net.",
+            "ar": "حوالي أربعة آلاف لاي صافي."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-25",
+          "level": "advanced",
+          "ro": "Orele suplimentare sunt plătite?",
+          "ar": "هل الساعات الإضافية مدفوعة؟",
+          "pron": "أورِلِه سوپْليمِنْتارِه سونْت پْلَتيتِه؟",
+          "example": {
+            "ro": "Da, cu un spor de 75%.",
+            "ar": "نعم، بزيادة 75%."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-26",
+          "level": "advanced",
+          "ro": "Nu mă simt bine, aș vrea să plec mai devreme azi.",
+          "ar": "لست بخير، أريد أن أغادر مبكراً اليوم.",
+          "pron": "نو مَه سيمْت بينِه، آش ڤْريا سَه پْلِك ماي دِڤْرِمِه آز",
+          "example": {
+            "ro": "Sigur, odihnește-te.",
+            "ar": "طبعاً، ارتح."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-27",
+          "level": "advanced",
+          "ro": "Contractul meu este pe perioadă determinată sau nedeterminată?",
+          "ar": "هل عقدي محدد المدة أم غير محدد؟",
+          "pron": "كونْتْراكْتول مِو يِسْتِه پِه پِريوآدَه دِتِرْميناتَه ساو نِدِتِرْميناتَه؟",
+          "example": {
+            "ro": "Pe perioadă nedeterminată.",
+            "ar": "غير محدد المدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-28",
+          "level": "advanced",
+          "ro": "Aș vrea să discutăm despre o mărire de salariu.",
+          "ar": "أريد أن نتناقش في زيادة الراتب.",
+          "pron": "آش ڤْريا سَه ديسْكوتَم دِسْپْرِه أو مَريرِه دِه سالاريو",
+          "example": {
+            "ro": "Bine, hai să programăm o întâlnire.",
+            "ar": "حسناً، لنحدد موعداً لاجتماع."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-29",
+          "level": "advanced",
+          "ro": "Am nevoie de o adeverință de salariat pentru bancă.",
+          "ar": "أحتاج إفادة عمل للبنك.",
+          "pron": "آم نِڤويِه دِه أو آدِڤِرينْتْسَه دِه سالاريات پِنْترو بانْكَه",
+          "example": {
+            "ro": "O pregătește contabilitatea până mâine.",
+            "ar": "قسم المحاسبة سيجهّزها حتى الغد."
+          },
+          "verified": false
+        },
+        {
+          "id": "work-30",
+          "level": "advanced",
+          "ro": "Când pot să-mi iau concediul de odihnă?",
+          "ar": "متى يمكنني أخذ إجازتي السنوية؟",
+          "pron": "كِنْد پوت سَم ياو كونْتْشِديول دِه أوديهْنَه؟",
+          "example": {
+            "ro": "Spune-mi perioada și verific planificarea.",
+            "ar": "قل لي الفترة وسأتحقق من الجدول."
           },
           "verified": false
         }
@@ -1341,6 +2930,1263 @@
           "ro": "Am terminat sarcina.",
           "ar": "أنهيت المهمة.",
           "pron": "آم تِرْمينات سارْتْشينا",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "bank",
+      "title": "البنك والأوراق",
+      "titleRo": "Bancă și acte",
+      "icon": "🏦",
+      "items": [
+        {
+          "id": "bank-01",
+          "level": "beginner",
+          "ro": "bancă",
+          "ar": "بنك",
+          "pron": "بانْكَه",
+          "example": {
+            "ro": "Banca se deschide la ora nouă.",
+            "ar": "البنك يفتح الساعة التاسعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-02",
+          "level": "beginner",
+          "ro": "cont",
+          "ar": "حساب",
+          "pron": "كونْت",
+          "example": {
+            "ro": "Vreau să deschid un cont.",
+            "ar": "أريد أن أفتح حساباً."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-03",
+          "level": "beginner",
+          "ro": "bani",
+          "ar": "فلوس",
+          "pron": "باني",
+          "example": {
+            "ro": "Nu am bani la mine.",
+            "ar": "ليس معي فلوس."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-04",
+          "level": "beginner",
+          "ro": "bancomat",
+          "ar": "صراف آلي (ATM)",
+          "pron": "بانْكومات",
+          "example": {
+            "ro": "Unde este un bancomat?",
+            "ar": "أين يوجد صراف آلي؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-05",
+          "level": "beginner",
+          "ro": "lei",
+          "ar": "لاي (العملة الرومانية)",
+          "pron": "لِي",
+          "example": {
+            "ro": "Costă douăzeci de lei.",
+            "ar": "سعره عشرون لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-06",
+          "level": "beginner",
+          "ro": "pașaport",
+          "ar": "جواز سفر",
+          "pron": "پاشاپورْت",
+          "example": {
+            "ro": "Am nevoie de pașaport.",
+            "ar": "أحتاج جواز السفر."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-07",
+          "level": "beginner",
+          "ro": "act de identitate",
+          "ar": "إثبات شخصية",
+          "pron": "آكْت دِه إيدِنْتيتاتِه",
+          "example": {
+            "ro": "Arătați-mi un act de identitate, vă rog.",
+            "ar": "أرني إثبات شخصية من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-08",
+          "level": "beginner",
+          "ro": "formular",
+          "ar": "استمارة",
+          "pron": "فورْمولار",
+          "example": {
+            "ro": "Completați acest formular.",
+            "ar": "املأ هذه الاستمارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-09",
+          "level": "beginner",
+          "ro": "semnătură",
+          "ar": "توقيع",
+          "pron": "سِمْنَتورَه",
+          "example": {
+            "ro": "Aici este nevoie de semnătura dumneavoastră.",
+            "ar": "هنا نحتاج توقيعك."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-10",
+          "level": "beginner",
+          "ro": "adresă",
+          "ar": "عنوان",
+          "pron": "آدْرِسَه",
+          "example": {
+            "ro": "Care este adresa dumneavoastră?",
+            "ar": "ما عنوانك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-11",
+          "level": "beginner",
+          "ro": "ghișeu",
+          "ar": "شباك (الخدمة)",
+          "pron": "گيشِو",
+          "example": {
+            "ro": "Mergeți la ghișeul trei.",
+            "ar": "اذهب إلى الشباك الثالث."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-12",
+          "level": "beginner",
+          "ro": "coadă",
+          "ar": "طابور",
+          "pron": "كوآدَه",
+          "example": {
+            "ro": "E o coadă foarte lungă.",
+            "ar": "الطابور طويل جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-13",
+          "level": "intermediate",
+          "ro": "permis de ședere",
+          "ar": "تصريح إقامة",
+          "pron": "پِرْميس دِه شِدِرِه",
+          "example": {
+            "ro": "Permisul de ședere expiră în martie.",
+            "ar": "تصريح الإقامة ينتهي في مارس."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-14",
+          "level": "intermediate",
+          "ro": "a depune bani",
+          "ar": "يودع فلوس",
+          "pron": "آ دِپونِه باني",
+          "example": {
+            "ro": "Vreau să depun bani în cont.",
+            "ar": "أريد إيداع فلوس في الحساب."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-15",
+          "level": "intermediate",
+          "ro": "a retrage bani",
+          "ar": "يسحب فلوس",
+          "pron": "آ رِتْراجِه باني",
+          "example": {
+            "ro": "Am retras bani de la bancomat.",
+            "ar": "سحبت فلوس من الصراف."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-16",
+          "level": "intermediate",
+          "ro": "transfer bancar",
+          "ar": "تحويل بنكي",
+          "pron": "تْرانْسْفِر بانْكار",
+          "example": {
+            "ro": "Am făcut un transfer bancar.",
+            "ar": "عملت تحويلاً بنكياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-17",
+          "level": "intermediate",
+          "ro": "cod PIN",
+          "ar": "الرقم السري",
+          "pron": "كود پين",
+          "example": {
+            "ro": "Am uitat codul PIN.",
+            "ar": "نسيت الرقم السري."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-18",
+          "level": "intermediate",
+          "ro": "copie",
+          "ar": "نسخة (صورة)",
+          "pron": "كوپيِه",
+          "example": {
+            "ro": "Aveți o copie după pașaport?",
+            "ar": "هل معك نسخة من الجواز؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-19",
+          "level": "intermediate",
+          "ro": "dosar",
+          "ar": "ملف (أوراق)",
+          "pron": "دوسار",
+          "example": {
+            "ro": "Dosarul trebuie depus până vineri.",
+            "ar": "الملف يجب تقديمه حتى الجمعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-20",
+          "level": "intermediate",
+          "ro": "programare online",
+          "ar": "موعد أونلاين",
+          "pron": "پْروگْرامارِه أونلاين",
+          "example": {
+            "ro": "Am făcut o programare online la Imigrări.",
+            "ar": "حجزت موعداً أونلاين في الهجرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-21",
+          "level": "intermediate",
+          "ro": "CNP",
+          "ar": "الرقم الشخصي (القومي)",
+          "pron": "تْشِه نِه پِه",
+          "example": {
+            "ro": "Care este CNP-ul dumneavoastră?",
+            "ar": "ما هو رقمك الشخصي؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-22",
+          "level": "intermediate",
+          "ro": "extras de cont",
+          "ar": "كشف حساب",
+          "pron": "إكْسْتْراس دِه كونْت",
+          "example": {
+            "ro": "Am nevoie de un extras de cont.",
+            "ar": "أحتاج كشف حساب."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-23",
+          "level": "advanced",
+          "ro": "Ce acte îmi trebuie pentru a deschide un cont?",
+          "ar": "ما الأوراق التي أحتاجها لفتح حساب؟",
+          "pron": "تْشِه آكْتِه إمْ تْرِبويِه پِنْترو آ دِسْكيدِه أون كونْت؟",
+          "example": {
+            "ro": "Pașaportul și permisul de ședere.",
+            "ar": "الجواز وتصريح الإقامة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-24",
+          "level": "advanced",
+          "ro": "Vreau să-mi prelungesc permisul de ședere.",
+          "ar": "أريد تجديد تصريح الإقامة.",
+          "pron": "ڤْرياو سَم پْرِلونْجِسْك پِرْميسول دِه شِدِرِه",
+          "example": {
+            "ro": "Aveți programare la Imigrări?",
+            "ar": "هل عندك موعد في الهجرة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-25",
+          "level": "advanced",
+          "ro": "Bancomatul mi-a reținut cardul.",
+          "ar": "الصراف الآلي احتجز بطاقتي.",
+          "pron": "بانْكوماتول ميا رِتْسينوت كارْدول",
+          "example": {
+            "ro": "Sunați la numărul de pe ecran.",
+            "ar": "اتصل بالرقم الموجود على الشاشة."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-26",
+          "level": "advanced",
+          "ro": "Cât durează un transfer în străinătate?",
+          "ar": "كم يستغرق التحويل إلى الخارج؟",
+          "pron": "كِت دورِآزَه أون تْرانْسْفِر إن سْتْرَئينَتاتِه؟",
+          "example": {
+            "ro": "Între una și trei zile lucrătoare.",
+            "ar": "من يوم إلى ثلاثة أيام عمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-27",
+          "level": "advanced",
+          "ro": "Trebuie să traduc documentele la un traducător autorizat?",
+          "ar": "هل يجب أن أترجم الوثائق عند مترجم معتمد؟",
+          "pron": "تْرِبويِه سَه تْرادوك دوكومِنْتِلِه لا أون تْرادوكَتور آوتوريزات؟",
+          "example": {
+            "ro": "Da, și să le legalizați la notar.",
+            "ar": "نعم، وأن توثّقها عند كاتب العدل."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-28",
+          "level": "advanced",
+          "ro": "Mi s-a blocat cardul, ce trebuie să fac?",
+          "ar": "بطاقتي اتقفلت، ماذا يجب أن أفعل؟",
+          "pron": "مي سا بْلوكات كارْدول، تْشِه تْرِبويِه سَه فاك؟",
+          "example": {
+            "ro": "Vă putem debloca imediat din aplicație.",
+            "ar": "يمكننا فتحها فوراً من التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-29",
+          "level": "advanced",
+          "ro": "Am primit o amendă, unde pot să o plătesc?",
+          "ar": "جاءتني غرامة، أين يمكنني دفعها؟",
+          "pron": "آم پْريميت أو آمِنْدَه، أونْدِه پوت سَه أو پْلَتِسْك؟",
+          "example": {
+            "ro": "Online pe ghiseul.ro sau la poștă.",
+            "ar": "أونلاين على ghiseul.ro أو في البريد."
+          },
+          "verified": false
+        },
+        {
+          "id": "bank-30",
+          "level": "advanced",
+          "ro": "Cât costă administrarea contului pe lună?",
+          "ar": "كم رسوم إدارة الحساب في الشهر؟",
+          "pron": "كِت كوسْتَه آدْمينيسْتْرارِآ كونْتولوي پِه لونَه؟",
+          "example": {
+            "ro": "Este gratuit pentru studenți.",
+            "ar": "مجاني للطلاب."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "bank-p01",
+          "ro": "Vreau să deschid un cont curent.",
+          "ar": "أريد فتح حساب جاري.",
+          "pron": "ڤْرياو سَه دِسْكيد أون كونْت كورِنْت",
+          "verified": false
+        },
+        {
+          "id": "bank-p02",
+          "ro": "Unde este cel mai apropiat bancomat?",
+          "ar": "أين أقرب صراف آلي؟",
+          "pron": "أونْدِه يِسْتِه تْشِل ماي آپْروپْيات بانْكومات؟",
+          "verified": false
+        },
+        {
+          "id": "bank-p03",
+          "ro": "Care este programul de lucru cu publicul?",
+          "ar": "ما مواعيد العمل مع الجمهور؟",
+          "pron": "كارِه يِسْتِه پْروگْرامول دِه لوكْرو كو پوبْليكول؟",
+          "verified": false
+        },
+        {
+          "id": "bank-p04",
+          "ro": "Am venit pentru permisul de ședere.",
+          "ar": "جئت من أجل تصريح الإقامة.",
+          "pron": "آم ڤِنيت پِنْترو پِرْميسول دِه شِدِرِه",
+          "verified": false
+        },
+        {
+          "id": "bank-p05",
+          "ro": "Ce documente mai lipsesc din dosar?",
+          "ar": "ما الوثائق الناقصة في الملف؟",
+          "pron": "تْشِه دوكومِنْتِه ماي ليپْسِسْك دين دوسار؟",
+          "verified": false
+        },
+        {
+          "id": "bank-p06",
+          "ro": "Pot să plătesc taxa cu cardul?",
+          "ar": "هل يمكنني دفع الرسوم بالبطاقة؟",
+          "pron": "پوت سَه پْلَتِسْك تاكْسا كو كارْدول؟",
+          "verified": false
+        },
+        {
+          "id": "bank-p07",
+          "ro": "Când pot să ridic actele?",
+          "ar": "متى يمكنني استلام الأوراق؟",
+          "pron": "كِنْد پوت سَه ريديك آكْتِلِه؟",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "المواصلات",
+      "titleRo": "Transport în oraș",
+      "icon": "🚌",
+      "items": [
+        {
+          "id": "transport-01",
+          "level": "beginner",
+          "ro": "autobuz",
+          "ar": "أتوبيس",
+          "pron": "آوتوبوز",
+          "example": {
+            "ro": "Iau autobuzul la ora opt.",
+            "ar": "آخذ الأتوبيس الساعة الثامنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-02",
+          "level": "beginner",
+          "ro": "tramvai",
+          "ar": "ترام",
+          "pron": "تْرامْڤاي",
+          "example": {
+            "ro": "Tramvaiul vine imediat.",
+            "ar": "الترام سيأتي حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-03",
+          "level": "beginner",
+          "ro": "metrou",
+          "ar": "مترو",
+          "pron": "مِتْرو",
+          "example": {
+            "ro": "Merg cu metroul la muncă.",
+            "ar": "أذهب بالمترو إلى العمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-04",
+          "level": "beginner",
+          "ro": "taxi",
+          "ar": "تاكسي",
+          "pron": "تاكْسي",
+          "example": {
+            "ro": "Chem un taxi.",
+            "ar": "أطلب تاكسي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-05",
+          "level": "beginner",
+          "ro": "stație",
+          "ar": "محطة (أتوبيس أو مترو)",
+          "pron": "سْتاتْسيِه",
+          "example": {
+            "ro": "Stația este după colț.",
+            "ar": "المحطة بعد الناصية."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-06",
+          "level": "beginner",
+          "ro": "abonament",
+          "ar": "اشتراك",
+          "pron": "آبونامِنْت",
+          "example": {
+            "ro": "Am abonament lunar.",
+            "ar": "عندي اشتراك شهري."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-07",
+          "level": "beginner",
+          "ro": "stânga",
+          "ar": "يسار",
+          "pron": "سْتِنْگا",
+          "example": {
+            "ro": "Faceți la stânga.",
+            "ar": "انعطف يساراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-08",
+          "level": "beginner",
+          "ro": "dreapta",
+          "ar": "يمين",
+          "pron": "دْرياپْتا",
+          "example": {
+            "ro": "Stația este pe dreapta.",
+            "ar": "المحطة على اليمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-09",
+          "level": "beginner",
+          "ro": "înainte",
+          "ar": "على طول (للأمام)",
+          "pron": "إنائينْتِه",
+          "example": {
+            "ro": "Mergeți înainte.",
+            "ar": "امشِ على طول."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-10",
+          "level": "beginner",
+          "ro": "aproape",
+          "ar": "قريب",
+          "pron": "آپْرواپِه",
+          "example": {
+            "ro": "Piața este aproape.",
+            "ar": "السوق قريب."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-11",
+          "level": "beginner",
+          "ro": "departe",
+          "ar": "بعيد",
+          "pron": "دِپارْتِه",
+          "example": {
+            "ro": "Aeroportul este departe.",
+            "ar": "المطار بعيد."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-12",
+          "level": "beginner",
+          "ro": "bicicletă",
+          "ar": "دراجة (عجلة)",
+          "pron": "بيتْشيكْلِتَه",
+          "example": {
+            "ro": "Merg cu bicicleta în parc.",
+            "ar": "أذهب بالدراجة إلى الحديقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-13",
+          "level": "intermediate",
+          "ro": "a valida biletul",
+          "ar": "يفعّل التذكرة",
+          "pron": "آ ڤاليدا بيلِتول",
+          "example": {
+            "ro": "Nu uitați să validați biletul!",
+            "ar": "لا تنسَ تفعيل التذكرة!"
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-14",
+          "level": "intermediate",
+          "ro": "a coborî",
+          "ar": "ينزل (من المواصلة)",
+          "pron": "آ كوبوري",
+          "example": {
+            "ro": "Cobor la următoarea stație.",
+            "ar": "أنزل في المحطة القادمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-15",
+          "level": "intermediate",
+          "ro": "a urca",
+          "ar": "يركب",
+          "pron": "آ أورْكا",
+          "example": {
+            "ro": "Urcăm în autobuzul 783.",
+            "ar": "نركب الأتوبيس 783."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-16",
+          "level": "intermediate",
+          "ro": "următoarea stație",
+          "ar": "المحطة القادمة",
+          "pron": "أورْمَتوآرِآ سْتاتْسيِه",
+          "example": {
+            "ro": "Următoarea stație: Piața Victoriei.",
+            "ar": "المحطة القادمة: ساحة فيكتوريا."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-17",
+          "level": "intermediate",
+          "ro": "intersecție",
+          "ar": "تقاطع",
+          "pron": "إنْتِرْسِكْتْسيِه",
+          "example": {
+            "ro": "Opriți la intersecție, vă rog.",
+            "ar": "توقف عند التقاطع من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-18",
+          "level": "intermediate",
+          "ro": "semafor",
+          "ar": "إشارة مرور",
+          "pron": "سِمافور",
+          "example": {
+            "ro": "Faceți la dreapta la semafor.",
+            "ar": "انعطف يميناً عند الإشارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-19",
+          "level": "intermediate",
+          "ro": "trecere de pietoni",
+          "ar": "ممر مشاة",
+          "pron": "تْرِتْشِرِه دِه پْيِتوني",
+          "example": {
+            "ro": "Treceți pe trecerea de pietoni.",
+            "ar": "اعبر من ممر المشاة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-20",
+          "level": "intermediate",
+          "ro": "amendă",
+          "ar": "غرامة",
+          "pron": "آمِنْدَه",
+          "example": {
+            "ro": "Controlorul mi-a dat amendă.",
+            "ar": "المراقب أعطاني غرامة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-21",
+          "level": "intermediate",
+          "ro": "aplicație de taxi",
+          "ar": "تطبيق تاكسي",
+          "pron": "آپْليكاتْسيِه دِه تاكْسي",
+          "example": {
+            "ro": "Comand o mașină din aplicație.",
+            "ar": "أطلب سيارة من التطبيق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-22",
+          "level": "intermediate",
+          "ro": "card contactless",
+          "ar": "بطاقة بدون تلامس",
+          "pron": "كارْد كونْتاكْتْلِس",
+          "example": {
+            "ro": "Plătesc călătoria cu cardul contactless.",
+            "ar": "أدفع الرحلة ببطاقة بدون تلامس."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-23",
+          "level": "advanced",
+          "ro": "Ce autobuz merge până la Gara de Nord?",
+          "ar": "أي أتوبيس يذهب إلى محطة الشمال؟",
+          "pron": "تْشِه آوتوبوز مِرْجِه پِنَه لا گارا دِه نورْد؟",
+          "example": {
+            "ro": "Luați 133 din stația de vizavi.",
+            "ar": "خذ 133 من المحطة المقابلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-24",
+          "level": "advanced",
+          "ro": "Mă puteți anunța când ajungem la spital?",
+          "ar": "هل يمكنك أن تنبهني عندما نصل إلى المستشفى؟",
+          "pron": "مَه پوتِتْس آنونْتْسا كِنْد آژونْجِم لا سْپيتال؟",
+          "example": {
+            "ro": "Sigur, este a treia stație.",
+            "ar": "طبعاً، هي المحطة الثالثة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-25",
+          "level": "advanced",
+          "ro": "Cât costă cursa până la aeroport?",
+          "ar": "كم تكلفة المشوار إلى المطار؟",
+          "pron": "كِت كوسْتَه كورْسا پِنَه لا آيروپورْت؟",
+          "example": {
+            "ro": "Cam optzeci de lei.",
+            "ar": "حوالي ثمانين لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-26",
+          "level": "advanced",
+          "ro": "Opriți aici, vă rog, cobor la colț.",
+          "ar": "توقف هنا من فضلك، سأنزل عند الناصية.",
+          "pron": "أوپْريتْس آئيتْش، ڤَه روگ، كوبور لا كولْتْس",
+          "example": {
+            "ro": "Bine, face treizeci de lei.",
+            "ar": "حسناً، الحساب ثلاثون لاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-27",
+          "level": "advanced",
+          "ro": "Unde pot să-mi încarc cardul de transport?",
+          "ar": "أين يمكنني شحن بطاقة المواصلات؟",
+          "pron": "أونْدِه پوت سَم إنْكارْك كارْدول دِه تْرانْسْپورْت؟",
+          "example": {
+            "ro": "La automatele din stații.",
+            "ar": "من الماكينات في المحطات."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-28",
+          "level": "advanced",
+          "ro": "E departe pe jos sau e mai bine să iau metroul?",
+          "ar": "هل هي بعيدة مشياً أم الأفضل أن آخذ المترو؟",
+          "pron": "يِه دِپارْتِه پِه ژوس ساو يِه ماي بينِه سَه ياو مِتْرول؟",
+          "example": {
+            "ro": "Cu metroul ajungeți în zece minute.",
+            "ar": "بالمترو تصل في عشر دقائق."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-29",
+          "level": "advanced",
+          "ro": "Am uitat telefonul în taxi.",
+          "ar": "نسيت الموبايل في التاكسي.",
+          "pron": "آم أوئيتات تِلِفونول إن تاكْسي",
+          "example": {
+            "ro": "Sunați la dispecerat și dați numărul mașinii.",
+            "ar": "اتصل بالمكتب وأعطهم رقم السيارة."
+          },
+          "verified": false
+        },
+        {
+          "id": "transport-30",
+          "level": "advanced",
+          "ro": "Autobuzul acesta oprește la Universitate?",
+          "ar": "هل يتوقف هذا الأتوبيس عند الجامعة؟",
+          "pron": "آوتوبوزول آتْشِسْتا أوپْرِشْتِه لا أونيڤِرْسيتاتِه؟",
+          "example": {
+            "ro": "Nu, trebuie să schimbați la Piața Romană.",
+            "ar": "لا، يجب أن تغيّر في بياتسا رومانا."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "transport-p01",
+          "ro": "Unde este stația de metrou?",
+          "ar": "أين محطة المترو؟",
+          "pron": "أونْدِه يِسْتِه سْتاتْسيا دِه مِتْرو؟",
+          "verified": false
+        },
+        {
+          "id": "transport-p02",
+          "ro": "Un bilet pentru o călătorie, vă rog.",
+          "ar": "تذكرة لرحلة واحدة من فضلك.",
+          "pron": "أون بيلِت پِنْترو أو كَلَتوريِه، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "transport-p03",
+          "ro": "Duceți-mă la adresa asta, vă rog.",
+          "ar": "خذني إلى هذا العنوان من فضلك.",
+          "pron": "دوتْشِتْسي مَه لا آدْرِسا آسْتا، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "transport-p04",
+          "ro": "Cât face?",
+          "ar": "كم الحساب؟",
+          "pron": "كِت فاتْشِه؟",
+          "verified": false
+        },
+        {
+          "id": "transport-p05",
+          "ro": "Pot să plătesc cu cardul în taxi?",
+          "ar": "هل يمكنني الدفع بالبطاقة في التاكسي؟",
+          "pron": "پوت سَه پْلَتِسْك كو كارْدول إن تاكْسي؟",
+          "verified": false
+        },
+        {
+          "id": "transport-p06",
+          "ro": "La ce stație trebuie să cobor?",
+          "ar": "في أي محطة يجب أن أنزل؟",
+          "pron": "لا تْشِه سْتاتْسيِه تْرِبويِه سَه كوبور؟",
+          "verified": false
+        },
+        {
+          "id": "transport-p07",
+          "ro": "Este liber?",
+          "ar": "هل هو فاضي؟ (مكان أو تاكسي)",
+          "pron": "يِسْتِه ليبِر؟",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "title": "المطعم",
+      "titleRo": "La restaurant",
+      "icon": "🍽️",
+      "items": [
+        {
+          "id": "restaurant-01",
+          "level": "beginner",
+          "ro": "meniu",
+          "ar": "قائمة الطعام (المنيو)",
+          "pron": "مِنيو",
+          "example": {
+            "ro": "Ne aduceți meniul, vă rog?",
+            "ar": "هل تحضر لنا المنيو من فضلك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-02",
+          "level": "beginner",
+          "ro": "ospătar",
+          "ar": "نادل (جرسون)",
+          "pron": "أوسْپَتار",
+          "example": {
+            "ro": "Ospătarul vine imediat.",
+            "ar": "النادل سيأتي حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-03",
+          "level": "beginner",
+          "ro": "masă",
+          "ar": "طاولة",
+          "pron": "ماسَه",
+          "example": {
+            "ro": "O masă pentru doi, vă rog.",
+            "ar": "طاولة لشخصين من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-04",
+          "level": "beginner",
+          "ro": "apă",
+          "ar": "ماء",
+          "pron": "آپَه",
+          "example": {
+            "ro": "Un pahar cu apă, vă rog.",
+            "ar": "كوب ماء من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-05",
+          "level": "beginner",
+          "ro": "cafea",
+          "ar": "قهوة",
+          "pron": "كافِيا",
+          "example": {
+            "ro": "O cafea cu lapte, vă rog.",
+            "ar": "قهوة بالحليب من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-06",
+          "level": "beginner",
+          "ro": "ceai",
+          "ar": "شاي",
+          "pron": "تْشاي",
+          "example": {
+            "ro": "Aș vrea un ceai fără zahăr.",
+            "ar": "أريد شاي بدون سكر."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-07",
+          "level": "beginner",
+          "ro": "ciorbă",
+          "ar": "شوربة (حامضة رومانية)",
+          "pron": "تْشورْبَه",
+          "example": {
+            "ro": "Ciorba de legume este foarte bună.",
+            "ar": "شوربة الخضار لذيذة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-08",
+          "level": "beginner",
+          "ro": "salată",
+          "ar": "سلطة",
+          "pron": "سالاتَه",
+          "example": {
+            "ro": "Iau o salată verde.",
+            "ar": "آخذ سلطة خضراء."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-09",
+          "level": "beginner",
+          "ro": "pește",
+          "ar": "سمك",
+          "pron": "پِشْتِه",
+          "example": {
+            "ro": "Aveți pește proaspăt?",
+            "ar": "هل عندكم سمك طازج؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-10",
+          "level": "beginner",
+          "ro": "desert",
+          "ar": "حلويات (تحلية)",
+          "pron": "دِسِرْت",
+          "example": {
+            "ro": "Ce aveți la desert?",
+            "ar": "ماذا عندكم من حلويات؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-11",
+          "level": "beginner",
+          "ro": "nota",
+          "ar": "الحساب (الفاتورة)",
+          "pron": "نوتا",
+          "example": {
+            "ro": "Nota, vă rog!",
+            "ar": "الحساب من فضلك!"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-12",
+          "level": "beginner",
+          "ro": "bacșiș",
+          "ar": "بقشيش",
+          "pron": "باكْشيش",
+          "example": {
+            "ro": "Am lăsat bacșiș pe masă.",
+            "ar": "تركت بقشيشاً على الطاولة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-13",
+          "level": "intermediate",
+          "ro": "fel principal",
+          "ar": "الطبق الرئيسي",
+          "pron": "فِل پْرينْتْشيپال",
+          "example": {
+            "ro": "Ca fel principal, iau pui la grătar.",
+            "ar": "كطبق رئيسي، آخذ دجاجاً مشوياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-14",
+          "level": "intermediate",
+          "ro": "la grătar",
+          "ar": "مشوي",
+          "pron": "لا گْرَتار",
+          "example": {
+            "ro": "Prefer peștele la grătar.",
+            "ar": "أفضّل السمك مشوياً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-15",
+          "level": "intermediate",
+          "ro": "picant",
+          "ar": "حار (سبايسي)",
+          "pron": "پيكانْت",
+          "example": {
+            "ro": "Mâncarea este prea picantă?",
+            "ar": "هل الأكل حار جداً؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-16",
+          "level": "intermediate",
+          "ro": "fără carne",
+          "ar": "بدون لحم",
+          "pron": "فَرَه كارْنِه",
+          "example": {
+            "ro": "Aveți ceva fără carne?",
+            "ar": "هل عندكم شيء بدون لحم؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-17",
+          "level": "intermediate",
+          "ro": "la pachet",
+          "ar": "تيك أواي",
+          "pron": "لا پاكِت",
+          "example": {
+            "ro": "O pizza la pachet, vă rog.",
+            "ar": "بيتزا تيك أواي من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-18",
+          "level": "intermediate",
+          "ro": "rezervare",
+          "ar": "حجز",
+          "pron": "رِزِرْڤارِه",
+          "example": {
+            "ro": "Am o rezervare pe numele Ali.",
+            "ar": "عندي حجز باسم علي."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-19",
+          "level": "intermediate",
+          "ro": "ingrediente",
+          "ar": "المكونات",
+          "pron": "إنْگْرِدييِنْتِه",
+          "example": {
+            "ro": "Ce ingrediente are sosul?",
+            "ar": "ما مكونات الصلصة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-20",
+          "level": "intermediate",
+          "ro": "porție",
+          "ar": "طبق (حصة)",
+          "pron": "پورْتْسيِه",
+          "example": {
+            "ro": "Porția este foarte mare.",
+            "ar": "الطبق كبير جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-21",
+          "level": "intermediate",
+          "ro": "separat",
+          "ar": "كل واحد لوحده (منفصل)",
+          "pron": "سِپارات",
+          "example": {
+            "ro": "Plătim separat, vă rog.",
+            "ar": "سندفع كل واحد لوحده من فضلك."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-22",
+          "level": "intermediate",
+          "ro": "Poftă bună!",
+          "ar": "بالهنا والشفا!",
+          "pron": "پوفْتَه بونَه",
+          "example": {
+            "ro": "Poftă bună tuturor!",
+            "ar": "بالهنا والشفا للجميع!"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-23",
+          "level": "advanced",
+          "ro": "Mâncarea asta conține porc sau alcool?",
+          "ar": "هل يحتوي هذا الأكل على خنزير أو كحول؟",
+          "pron": "مِنْكارِآ آسْتا كونْتْسينِه پورْك ساو آلْكول؟",
+          "example": {
+            "ro": "Nu, este doar cu vită și legume.",
+            "ar": "لا، فقط لحم بقري وخضار."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-24",
+          "level": "advanced",
+          "ro": "Aș dori să rezerv o masă pentru patru persoane, sâmbătă seara.",
+          "ar": "أود حجز طاولة لأربعة أشخاص مساء السبت.",
+          "pron": "آش دوري سَه رِزِرْڤ أو ماسَه پِنْترو پاتْرو پِرْسوآنِه، سِمْبَتَه سيارا",
+          "example": {
+            "ro": "La ce oră doriți?",
+            "ar": "في أي ساعة تريد؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-25",
+          "level": "advanced",
+          "ro": "Ne puteți aduce încă o porție de cartofi?",
+          "ar": "هل يمكنك أن تحضر لنا طبق بطاطس آخر؟",
+          "pron": "نِه پوتِتْس آدوتْشِه إنْكَه أو پورْتْسيِه دِه كارْتوف؟",
+          "example": {
+            "ro": "Imediat.",
+            "ar": "حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-26",
+          "level": "advanced",
+          "ro": "Comanda noastră durează de mult, mai durează?",
+          "ar": "طلبنا تأخر كثيراً، هل سيتأخر أكثر؟",
+          "pron": "كومانْدا نواسْتْرَه دورِآزَه دِه مولْت، ماي دورِآزَه؟",
+          "example": {
+            "ro": "Îmi cer scuze, vine în cinci minute.",
+            "ar": "أعتذر، سيصل خلال خمس دقائق."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-27",
+          "level": "advanced",
+          "ro": "Sunt alergic la nuci, aveți grijă, vă rog.",
+          "ar": "عندي حساسية من المكسرات، انتبهوا من فضلكم.",
+          "pron": "سونْت آلِرْجيك لا نوتْش، آڤِتْس گْريژَه، ڤَه روگ",
+          "example": {
+            "ro": "Am înțeles, anunț bucătăria.",
+            "ar": "فهمت، سأبلغ المطبخ."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-28",
+          "level": "advanced",
+          "ro": "Ce ne recomandați din specialitățile casei?",
+          "ar": "ماذا تنصحنا من أطباق البيت المميزة؟",
+          "pron": "تْشِه نِه رِكومانْداتْس دين سْپِتْشياليتَتْسيلِه كاسِي؟",
+          "example": {
+            "ro": "Sarmalele sunt foarte bune azi.",
+            "ar": "السارمالي لذيذ جداً اليوم."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-29",
+          "level": "advanced",
+          "ro": "Cred că e o greșeală în notă.",
+          "ar": "أظن أن هناك خطأ في الحساب.",
+          "pron": "كْرِد كَه يِه أو گْرِشالَه إن نوتَه",
+          "example": {
+            "ro": "Să verific, un moment.",
+            "ar": "دعني أتحقق، لحظة."
+          },
+          "verified": false
+        },
+        {
+          "id": "restaurant-30",
+          "level": "advanced",
+          "ro": "Puteți să ne împachetați restul?",
+          "ar": "هل يمكنك تغليف الباقي لنا؟",
+          "pron": "پوتِتْس سَه نِه إمْپاكِتاتْس رِسْتول؟",
+          "example": {
+            "ro": "Sigur, vi-l aduc imediat.",
+            "ar": "طبعاً، أحضره لك حالاً."
+          },
+          "verified": false
+        }
+      ],
+      "phrases": [
+        {
+          "id": "restaurant-p01",
+          "ro": "O masă pentru doi, vă rog.",
+          "ar": "طاولة لشخصين من فضلك.",
+          "pron": "أو ماسَه پِنْترو دوي، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p02",
+          "ro": "Ce ne recomandați?",
+          "ar": "ماذا تنصحنا؟",
+          "pron": "تْشِه نِه رِكومانْداتْس؟",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p03",
+          "ro": "Aveți meniu în engleză?",
+          "ar": "هل عندكم منيو بالإنجليزية؟",
+          "pron": "آڤِتْس مِنيو إن إنْگْلِزَه؟",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p04",
+          "ro": "Nu mănânc carne de porc.",
+          "ar": "لا آكل لحم الخنزير.",
+          "pron": "نو مَنِنْك كارْنِه دِه پورْك",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p05",
+          "ro": "Aș vrea să comand.",
+          "ar": "أريد أن أطلب.",
+          "pron": "آش ڤْريا سَه كوماند",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p06",
+          "ro": "Nota, vă rog.",
+          "ar": "الحساب من فضلك.",
+          "pron": "نوتا، ڤَه روگ",
+          "verified": false
+        },
+        {
+          "id": "restaurant-p07",
+          "ro": "A fost delicios, mulțumim!",
+          "ar": "كان لذيذاً، شكراً!",
+          "pron": "آ فوسْت دِليتْشيوس، مولْتْسوميم",
           "verified": false
         }
       ]

@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Ursu from '../components/Ursu.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
 import VoiceTest from '../components/VoiceTest.jsx';
+import ModePicker from '../components/ModePicker.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
-import { allItems, scenarios } from '../lib/content.js';
+import { getMode, itemsForMode, scenarioItems, scenarios } from '../lib/content.js';
 import { isLearned } from '../lib/srs.js';
 import { LEVELS, currentStreak, levelInfo } from '../lib/progress.js';
 
@@ -22,12 +23,18 @@ const KEY = [
   ['e في البداية', 'يِـ', 'este ← يِسْتِه'],
 ];
 
-export default function Me() {
+export default function Me({ section }) {
   const { state, reset } = useProgress();
   const [confirming, setConfirming] = useState(false);
   const lvl = levelInfo(state.xp);
-  const learned = allItems.filter((it) => isLearned(state.cards[it.id])).length;
-  const strong = allItems.filter((it) => (state.cards[it.id]?.box ?? 0) >= 3).length;
+  const mode = getMode(state.mode);
+  const modeItems = itemsForMode(mode.id);
+  const learned = modeItems.filter((it) => isLearned(state.cards[it.id])).length;
+  const strong = modeItems.filter((it) => (state.cards[it.id]?.box ?? 0) >= 3).length;
+
+  useEffect(() => {
+    if (section) setTimeout(() => document.getElementById(section === 'level' ? 'level' : section)?.scrollIntoView({ behavior: 'smooth' }), 100);
+  }, [section]);
 
   return (
     <div className="space-y-5 pt-2">
@@ -35,32 +42,39 @@ export default function Me() {
         <Ursu mood={state.reviews ? 'cheer' : 'sleepy'} size={80} />
         <div>
           <h1 className="text-2xl font-extrabold">تقدّمي</h1>
-          <p className="text-bark/70">المستوى {lvl.level} · {lvl.name} · {state.xp} XP</p>
+          <p className="text-bark/70">{mode.icon} {mode.name} · الرتبة {lvl.level}: {lvl.name} · {state.xp} XP</p>
         </div>
       </div>
 
       <section className="grid grid-cols-2 gap-2.5">
         <Tile n={currentStreak(state)} label="🔥 السلسلة الحالية" />
         <Tile n={state.bestStreak} label="🏅 أطول سلسلة" />
-        <Tile n={`${learned}/${allItems.length}`} label="📚 كلمات بدأت تتعلمها" />
+        <Tile n={`${learned}/${modeItems.length}`} label={`📚 بدأت تتعلمها (${mode.name})`} />
         <Tile n={strong} label="💪 كلمات ثابتة (٣ مراجعات+)" />
       </section>
 
+      <section id="level" className="space-y-2.5 scroll-mt-4">
+        <h2 className="font-bold">المستوى</h2>
+        <ModePicker compact />
+        <p className="text-xs text-bark/55">تقدّمك في كل مستوى محفوظ لوحده، فتقدر تتنقل بينهم براحتك.</p>
+      </section>
+
       <section className="rounded-2xl bg-white p-4 shadow-sm space-y-3">
-        <h2 className="font-bold">حسب الموقف</h2>
+        <h2 className="font-bold">حسب الموقف · {mode.icon} {mode.name}</h2>
         {scenarios.map((s) => {
-          const n = s.items.filter((it) => isLearned(state.cards[it.id])).length;
+          const items = scenarioItems(s.id, mode.id);
+          const n = items.filter((it) => isLearned(state.cards[it.id])).length;
           return (
             <div key={s.id}>
-              <div className="flex justify-between text-sm"><span>{s.icon} {s.title}</span><span className="text-bark/60">{n}/{s.items.length}</span></div>
-              <ProgressBar value={n / s.items.length} className="mt-1 h-2" color="bg-leaf" />
+              <div className="flex justify-between text-sm"><span>{s.icon} {s.title}</span><span className="text-bark/60">{n}/{items.length}</span></div>
+              <ProgressBar value={n / items.length} className="mt-1 h-2" color="bg-leaf" />
             </div>
           );
         })}
       </section>
 
       <section className="rounded-2xl bg-white p-4 shadow-sm">
-        <h2 className="font-bold mb-2">المستويات</h2>
+        <h2 className="font-bold mb-2">الرتب</h2>
         <ol className="space-y-1.5">
           {LEVELS.map((l, i) => {
             const reached = state.xp >= l.min;

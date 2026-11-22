@@ -6,7 +6,7 @@ import ProgressBar from '../components/ProgressBar.jsx';
 import VoiceNotice from '../components/VoiceNotice.jsx';
 import Ro from '../components/Ro.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
-import { allItems, scenarioById } from '../lib/content.js';
+import { getMode, itemsForMode, scenarioById, scenarioItems } from '../lib/content.js';
 import { buildQueue, countDue, requeue } from '../lib/srs.js';
 import { currentStreak } from '../lib/progress.js';
 import { go } from '../lib/router.js';
@@ -21,7 +21,7 @@ export default function Learn({ scenarioId }) {
 
 function Picker() {
   const { state } = useProgress();
-  const due = countDue(allItems, state.cards);
+  const due = countDue(itemsForMode(state.mode), state.cards);
   return (
     <div className="space-y-4 pt-2">
       <h1 className="text-2xl font-extrabold">البطاقات</h1>
@@ -45,9 +45,10 @@ function Picker() {
 
 function Session({ scenarioId, onAgain }) {
   const { state, answer } = useProgress();
-  const items = scenarioId === 'all' ? allItems : scenarioById[scenarioId].items.map((it) => ({ ...it, scenarioId }));
+  const mode = getMode(state.mode);
+  const items = scenarioId === 'all' ? itemsForMode(mode.id) : scenarioItems(scenarioId, mode.id);
   // Build the queue once per session; answers update storage but not the running queue.
-  const [{ queue: initial, extra }] = useState(() => buildQueue(items, state.cards));
+  const [{ queue: initial, extra }] = useState(() => buildQueue(items, state.cards, mode.session));
   const [queue, setQueue] = useState(initial);
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -78,7 +79,7 @@ function Session({ scenarioId, onAgain }) {
         <button type="button" onClick={() => go('learn')} className="size-10 grid place-items-center rounded-full bg-white shadow-sm text-xl" aria-label="إنهاء الجلسة">✕</button>
         <div className="flex-1">
           <div className="flex justify-between text-sm font-semibold">
-            <span>{title}</span>
+            <span>{title} <span className="text-bark/50 font-normal">· {mode.icon} {mode.name}</span></span>
             <span className="text-bark/60">{idx + 1} / {queue.length}</span>
           </div>
           <ProgressBar value={idx / queue.length} className="mt-1.5" color="bg-leaf" />
@@ -89,7 +90,7 @@ function Session({ scenarioId, onAgain }) {
         <p className="rounded-xl bg-sky/10 text-sm px-3 py-2">👏 لا توجد بطاقات مستحقة الآن. هذه جولة إضافية لتقوية الكلمات الأضعف.</p>
       )}
 
-      <Card key={idx} item={item} flipped={flipped} onFlip={() => setFlipped((f) => !f)} retry={missed.has(item.id)} />
+      <Card key={idx} item={item} mode={mode} flipped={flipped} onFlip={() => setFlipped((f) => !f)} retry={missed.has(item.id)} />
 
       {flipped ? (
         <div className="grid grid-cols-2 gap-3 pop">
@@ -109,9 +110,82 @@ function Session({ scenarioId, onAgain }) {
   );
 }
 
-function Card({ item, flipped, onFlip, retry }) {
+function Card({ item, mode, flipped, onFlip, retry }) {
   const sc = scenarioById[item.scenarioId];
+  const [showPron, setShowPron] = useState(!mode.reverse);
   const face = 'flip-face rounded-3xl bg-white shadow-md ring-1 ring-bark/5 p-5 flex flex-col';
+  const chip = (
+    <div className="text-xs text-bark/55">
+      {sc.icon} {sc.title}{retry && <span className="ms-2 rounded-full bg-berry/15 text-berry px-2 py-0.5">مرة ثانية</span>}
+    </div>
+  );
+  const pron = (
+    <div className="rounded-xl bg-honey/15 px-3 py-2 text-center">
+      <span className="text-xs text-bark/60 block">النطق بالحروف العربية</span>
+      <span className="text-xl font-bold">{item.pron}</span>
+    </div>
+  );
+  const long = item.ro.length > 28;
+
+  // Advanced mode is reversed: Arabic first, the learner tries to say it in Romanian.
+  const front = mode.reverse ? (
+    <>
+      {chip}
+      <div className="text-3xl font-extrabold leading-snug">{item.ar}</div>
+      <div className="text-sm text-bark/60">قولها بالروماني بصوت عالي… وبعدين اقلب البطاقة</div>
+    </>
+  ) : (
+    <>
+      {chip}
+      <Ro as="div" className={`${long ? 'text-2xl' : 'text-4xl'} font-extrabold leading-tight break-words`}>{item.ro}</Ro>
+      <div className="flex gap-2">
+        <SpeakButton text={item.ro} size="lg" />
+        <SpeakButton text={item.ro} size="lg" slow />
+      </div>
+      {mode.pronOnFront && <div className="text-xl font-bold text-bark/80">🗣️ {item.pron}</div>}
+      <div className="text-sm text-bark/50">اضغط على البطاقة لرؤية المعنى</div>
+    </>
+  );
+
+  const back = (
+    <>
+      <div className="text-center">
+        {mode.reverse ? (
+          <>
+            <div className="text-xs text-bark/55 mb-1">بالروماني:</div>
+            <div className="flex items-center justify-center gap-2">
+              <Ro className={`${long ? 'text-xl' : 'text-2xl'} font-extrabold text-leaf leading-snug`}>{item.ro}</Ro>
+              <SpeakButton text={item.ro} size="sm" />
+              <SpeakButton text={item.ro} size="sm" slow />
+            </div>
+            <div className="mt-1 text-bark/70">{item.ar}</div>
+          </>
+        ) : (
+          <>
+            <div className="text-3xl font-extrabold text-leaf">{item.ar}</div>
+            <div className="mt-2 flex items-center justify-center gap-2">
+              <Ro className="text-lg font-bold">{item.ro}</Ro>
+              <SpeakButton text={item.ro} size="sm" />
+            </div>
+          </>
+        )}
+      </div>
+      {showPron ? pron : (
+        <button type="button" onClick={(e) => { e.stopPropagation(); setShowPron(true); }} className="rounded-xl bg-honey/15 py-2 text-sm font-semibold">
+          🗣️ إظهار النطق بالعربي
+        </button>
+      )}
+      <div className="mt-auto rounded-xl bg-cream p-3">
+        <div className="text-xs text-bark/55 mb-1">{mode.reverse ? 'الرد المتوقع' : 'مثال'}</div>
+        <div className="flex items-center gap-2">
+          <Ro className="flex-1 font-semibold">{item.example.ro}</Ro>
+          <SpeakButton text={item.example.ro} size="sm" />
+        </div>
+        <div className="mt-1 text-bark/80">{item.example.ar}</div>
+      </div>
+    </>
+  );
+
   return (
     <div className="flip">
       <div
@@ -120,43 +194,10 @@ function Card({ item, flipped, onFlip, retry }) {
         role="button"
         tabIndex={0}
         onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onFlip())}
-        aria-label={flipped ? 'إظهار الكلمة' : 'إظهار المعنى'}
+        aria-label={flipped ? 'إظهار الوجه الأول' : 'إظهار الإجابة'}
       >
-        {/* front */}
-        <div className={`${face} min-h-80 items-center justify-center text-center gap-5`} aria-hidden={flipped}>
-          <div className="text-xs text-bark/55">
-            {sc.icon} {sc.title}{retry && <span className="ms-2 rounded-full bg-berry/15 text-berry px-2 py-0.5">مرة ثانية</span>}
-          </div>
-          <Ro as="div" className="text-4xl font-extrabold leading-tight break-words">{item.ro}</Ro>
-          <div className="flex gap-2">
-            <SpeakButton text={item.ro} size="lg" />
-            <SpeakButton text={item.ro} size="lg" slow />
-          </div>
-          <div className="text-sm text-bark/50">اضغط على البطاقة لرؤية المعنى</div>
-        </div>
-
-        {/* back */}
-        <div className={`${face} flip-back min-h-80 gap-3`} aria-hidden={!flipped}>
-          <div className="text-center">
-            <div className="text-3xl font-extrabold text-leaf">{item.ar}</div>
-            <div className="mt-2 flex items-center justify-center gap-2">
-              <Ro className="text-lg font-bold">{item.ro}</Ro>
-              <SpeakButton text={item.ro} size="sm" />
-            </div>
-          </div>
-          <div className="rounded-xl bg-honey/15 px-3 py-2 text-center">
-            <span className="text-xs text-bark/60 block">النطق بالحروف العربية</span>
-            <span className="text-xl font-bold">{item.pron}</span>
-          </div>
-          <div className="mt-auto rounded-xl bg-cream p-3">
-            <div className="text-xs text-bark/55 mb-1">مثال</div>
-            <div className="flex items-center gap-2">
-              <Ro className="flex-1 font-semibold">{item.example.ro}</Ro>
-              <SpeakButton text={item.example.ro} size="sm" />
-            </div>
-            <div className="mt-1 text-bark/80">{item.example.ar}</div>
-          </div>
-        </div>
+        <div className={`${face} min-h-80 items-center justify-center text-center gap-5`} aria-hidden={flipped}>{front}</div>
+        <div className={`${face} flip-back min-h-80 gap-3`} aria-hidden={!flipped}>{back}</div>
       </div>
     </div>
   );

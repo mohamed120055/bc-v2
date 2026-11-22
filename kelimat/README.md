@@ -15,12 +15,26 @@ npm run icons      # regenerate app icons from src/components/Ursu.jsx
 
 ## Content: `src/data/scenarios.json`
 
-6 scenarios (supermarket, university, train, doctor, renting, work). Each has:
+10 scenarios: basics, supermarket, university, train, doctor, renting, work, bank and papers, transport, restaurant. Each has:
 
-- `items` (15): `ro`, `ar`, `pron` (pronunciation in Arabic script), `example: { ro, ar }`, `verified`
+- `items` (30): `level`, `ro`, `ar`, `pron` (pronunciation in Arabic script), `example: { ro, ar }`, `verified`
+  - `level` is `beginner` (12 per scenario), `intermediate` (10) or `advanced` (8)
 - `phrases` (7): full sentences for "كيف أقولها؟": `ro`, `ar`, `pron`, `verified`
 
 Every entry starts with `"verified": false`. Set it to `true` once you have checked it. `npm run check:content` shows how many are left.
+You can add items freely. Give each new item a unique `id` and a `level`.
+
+## Levels (modes)
+
+On first launch the user picks a level, and can change it any time under تقدّمي. Each level shows only its own items:
+
+| | Card | Pronunciation | Session |
+|---|---|---|---|
+| 🌱 مبتدئ | Romanian → Arabic | shown on the front | 8 cards (5 new) |
+| 🌿 متوسط | Romanian → Arabic | shown after the flip | 15 cards (8 new) |
+| 🌳 متقدم | Arabic → Romanian | hidden, tap to show | 20 cards (10 new) |
+
+Streak and XP are shared across levels. Card progress is per item, so each level keeps its own progress.
 
 Pronunciation conventions (also shown in the app under تقدّمي): ă → ـَ, â/î → ـِ, ș → ش, ț → تس, ce/ci → تش,
 che/chi → ك, ge/gi → ج, other g → گ, j → ژ, p → پ, v → ڤ, word-initial e → يِـ.
@@ -30,7 +44,7 @@ che/chi → ك, ge/gi → ج, other g → گ, j → ژ, p → پ, v → ڤ, word
 - **Flashcards**: tap to flip, 🔊 normal / 🐢 slow audio (Web Speech API, `ro-RO`), then "عارفها" or "لسه".
 - **Spaced repetition** (`src/lib/srs.js`): Leitner boxes 0–5 with intervals 0/1/3/7/14/30 days.
   "عارفها" moves a card up a box. "لسه" drops it to box 0, so it is due again right away, and puts it back 3 cards later in the same session.
-- **Streak and levels** (`src/lib/progress.js`): one review per day keeps the streak. XP: 10 for "عارفها", 5 for "عارفها" after a miss, 2 for "لسه". There are 7 levels.
+- **Streak and levels** (`src/lib/progress.js`): one review per day keeps the streak. XP: 10 for "عارفها", 5 for "عارفها" after a miss, 2 for "لسه". There are 7 ranks (رتب).
 - Everything is saved in `localStorage` under the key `kelimat:v1`.
 
 Audio quality depends on the device having a Romanian voice. The app shows a notice when it doesn't.

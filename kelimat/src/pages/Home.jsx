@@ -5,7 +5,7 @@ import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
 import InstallBanner from '../components/InstallBanner.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
-import { allItems, dailyItem, scenarioById } from '../lib/content.js';
+import { dailyItem, getMode, itemsForMode, scenarioById } from '../lib/content.js';
 import { countDue } from '../lib/srs.js';
 import { currentStreak, levelInfo, practisedToday } from '../lib/progress.js';
 import { go } from '../lib/router.js';
@@ -21,9 +21,11 @@ export default function Home() {
   const { state } = useProgress();
   const streak = currentStreak(state);
   const lvl = levelInfo(state.xp);
-  const due = countDue(allItems, state.cards);
-  const fresh = allItems.filter((it) => !state.cards[it.id]).length;
-  const word = dailyItem();
+  const mode = getMode(state.mode);
+  const items = itemsForMode(mode.id);
+  const due = countDue(items, state.cards);
+  const fresh = items.filter((it) => !state.cards[it.id]).length;
+  const word = dailyItem(mode.id);
   const g = greeting(state, streak);
 
   return (
@@ -35,22 +37,27 @@ export default function Home() {
         </div>
       </header>
 
+      <button type="button" onClick={() => go('me-level')} className="flex items-center gap-2 rounded-full bg-white shadow-sm px-3.5 py-1.5 text-sm font-semibold w-fit">
+        <span aria-hidden>{mode.icon}</span> المستوى: {mode.name}
+        <span className="text-bark/50 font-normal">· تغيير</span>
+      </button>
+
       <InstallBanner />
 
       <section className="grid grid-cols-3 gap-2.5 text-center">
         <Stat big={streak} label={streak === 1 ? 'يوم متتالي' : 'أيام متتالية'} icon="🔥" />
-        <Stat big={lvl.level} label={lvl.name} icon="⭐" />
+        <Stat big={lvl.level} label={`رتبة: ${lvl.name}`} icon="⭐" />
         <Stat big={due} label="للمراجعة" icon="🔁" />
       </section>
 
       <section className="rounded-2xl bg-white p-4 shadow-sm">
         <div className="flex justify-between text-sm">
-          <span className="font-bold">المستوى {lvl.level} · {lvl.name}</span>
+          <span className="font-bold">الرتبة {lvl.level} · {lvl.name}</span>
           <span className="text-bark/60">{state.xp} XP</span>
         </div>
         <ProgressBar value={lvl.progress} className="mt-2" />
         <p className="mt-1.5 text-xs text-bark/60">
-          {lvl.next ? `باقي ${lvl.toNext} XP للمستوى "${lvl.next.name}"` : 'وصلت لأعلى مستوى! 🏆'}
+          {lvl.next ? `باقي ${lvl.toNext} XP للرتبة "${lvl.next.name}"` : 'وصلت لأعلى رتبة! 🏆'}
         </p>
       </section>
 

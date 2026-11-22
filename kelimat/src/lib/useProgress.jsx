@@ -24,8 +24,9 @@ export function ProgressProvider({ children }) {
   }, []);
 
   const reset = useCallback(() => { clearState(); setState(defaultState()); }, []);
+  const setMode = useCallback((mode) => setState((s) => ({ ...s, mode })), []);
 
-  const value = useMemo(() => ({ state, answer, reset }), [state, answer, reset]);
+  const value = useMemo(() => ({ state, answer, reset, setMode }), [state, answer, reset, setMode]);
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 
