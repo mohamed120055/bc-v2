@@ -4026,6 +4026,306 @@
           "verified": false
         },
         {
+          "id": "university-61",
+          "level": "beginner",
+          "ro": "rectorat",
+          "ar": "رئاسة الجامعة",
+          "pron": "رِكْتورات",
+          "example": {
+            "ro": "Rectoratul este în clădirea mare.",
+            "ar": "رئاسة الجامعة في المبنى الكبير."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-62",
+          "level": "beginner",
+          "ro": "universitate",
+          "ar": "جامعة",
+          "pron": "أونيڤِرْسيتاتِه",
+          "example": {
+            "ro": "Universitatea este foarte veche.",
+            "ar": "الجامعة قديمة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-63",
+          "level": "beginner",
+          "ro": "clădire",
+          "ar": "مبنى",
+          "pron": "كْلَديرِه",
+          "example": {
+            "ro": "Clădirea A are cinci etaje.",
+            "ar": "المبنى A فيه خمسة طوابق."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-64",
+          "level": "beginner",
+          "ro": "tablă",
+          "ar": "سبورة",
+          "pron": "تابْلَه",
+          "example": {
+            "ro": "Profesorul scrie pe tablă.",
+            "ar": "الأستاذ يكتب على السبورة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-65",
+          "level": "beginner",
+          "ro": "laptop",
+          "ar": "لابتوب",
+          "pron": "لاپْتوپ",
+          "example": {
+            "ro": "Iau laptopul la curs.",
+            "ar": "آخذ اللابتوب للمحاضرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-66",
+          "level": "beginner",
+          "ro": "creion",
+          "ar": "قلم رصاص",
+          "pron": "كْرِيون",
+          "example": {
+            "ro": "Am nevoie de un creion.",
+            "ar": "أحتاج قلم رصاص."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-67",
+          "level": "beginner",
+          "ro": "rucsac",
+          "ar": "شنطة ظهر",
+          "pron": "روكْساك",
+          "example": {
+            "ro": "Rucsacul meu este greu.",
+            "ar": "شنطتي ثقيلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-68",
+          "level": "beginner",
+          "ro": "foaie",
+          "ar": "ورقة",
+          "pron": "فوآيِه",
+          "example": {
+            "ro": "Îmi dai o foaie?",
+            "ar": "هل تعطيني ورقة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "university-69",
+          "level": "beginner",
+          "ro": "a învăța",
+          "ar": "يتعلم / يذاكر",
+          "pron": "آ إنْڤَتْسا",
+          "example": {
+            "ro": "Învăț în fiecare seară.",
+            "ar": "أذاكر كل مساء."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-70",
+          "level": "beginner",
+          "ro": "a citi",
+          "ar": "يقرأ",
+          "pron": "آ تْشيتي",
+          "example": {
+            "ro": "Citesc o carte nouă.",
+            "ar": "أقرأ كتاباً جديداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-71",
+          "level": "beginner",
+          "ro": "a scrie",
+          "ar": "يكتب",
+          "pron": "آ سْكْريِه",
+          "example": {
+            "ro": "Scriu un eseu.",
+            "ar": "أكتب مقالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-72",
+          "level": "beginner",
+          "ro": "a înțelege",
+          "ar": "يفهم",
+          "pron": "آ إنْتْسِلِجِه",
+          "example": {
+            "ro": "Nu înțeleg lecția.",
+            "ar": "لا أفهم الدرس."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-73",
+          "level": "beginner",
+          "ro": "lecție",
+          "ar": "درس",
+          "pron": "لِكْتْسيِه",
+          "example": {
+            "ro": "Lecția de azi este grea.",
+            "ar": "درس اليوم صعب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-74",
+          "level": "beginner",
+          "ro": "exercițiu",
+          "ar": "تمرين",
+          "pron": "إگْزِرْتْشيتْسيو",
+          "example": {
+            "ro": "Facem exercițiul cinci.",
+            "ar": "نحل التمرين الخامس."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-75",
+          "level": "beginner",
+          "ro": "greu / ușor",
+          "ar": "صعب / سهل",
+          "pron": "گْرِو / أوشور",
+          "example": {
+            "ro": "Examenul a fost ușor.",
+            "ar": "الامتحان كان سهلاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-76",
+          "level": "beginner",
+          "ro": "test",
+          "ar": "اختبار قصير",
+          "pron": "تِسْت",
+          "example": {
+            "ro": "Avem test vineri.",
+            "ar": "عندنا اختبار يوم الجمعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-77",
+          "level": "beginner",
+          "ro": "medicină",
+          "ar": "طب",
+          "pron": "مِديتْشينَه",
+          "example": {
+            "ro": "Studiez medicină.",
+            "ar": "أدرس الطب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-78",
+          "level": "beginner",
+          "ro": "informatică",
+          "ar": "علوم الحاسوب",
+          "pron": "إنْفورْماتيكَه",
+          "example": {
+            "ro": "Fratele meu face informatică.",
+            "ar": "أخي يدرس علوم الحاسوب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-79",
+          "level": "beginner",
+          "ro": "inginerie",
+          "ar": "هندسة",
+          "pron": "إنْجينِريِه",
+          "example": {
+            "ro": "Facultatea de inginerie este departe.",
+            "ar": "كلية الهندسة بعيدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-80",
+          "level": "beginner",
+          "ro": "drept",
+          "ar": "حقوق (قانون)",
+          "pron": "دْرِپْت",
+          "example": {
+            "ro": "Ea studiază dreptul.",
+            "ar": "هي تدرس الحقوق."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-81",
+          "level": "beginner",
+          "ro": "limba română",
+          "ar": "اللغة الرومانية",
+          "pron": "ليمْبا رومينَه",
+          "example": {
+            "ro": "Limba română nu este grea.",
+            "ar": "اللغة الرومانية ليست صعبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-82",
+          "level": "beginner",
+          "ro": "dicționar",
+          "ar": "قاموس",
+          "pron": "ديكْتْسيونار",
+          "example": {
+            "ro": "Folosesc un dicționar.",
+            "ar": "أستخدم قاموساً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-83",
+          "level": "beginner",
+          "ro": "vacanță",
+          "ar": "عطلة",
+          "pron": "ڤاكانْتْسَه",
+          "example": {
+            "ro": "Vacanța de vară începe în iulie.",
+            "ar": "العطلة الصيفية تبدأ في يوليو."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-84",
+          "level": "beginner",
+          "ro": "absolvent",
+          "ar": "خرّيج",
+          "pron": "آبْسولْڤِنْت",
+          "example": {
+            "ro": "Sunt absolvent de economie.",
+            "ar": "أنا خريج اقتصاد."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-85",
+          "level": "beginner",
+          "ro": "coleg de cameră",
+          "ar": "زميل الغرفة",
+          "pron": "كولِگ دِه كامِرَه",
+          "example": {
+            "ro": "Colegul meu de cameră este din Maroc.",
+            "ar": "زميل غرفتي من المغرب."
+          },
+          "verified": false
+        },
+        {
           "id": "university-09",
           "level": "intermediate",
           "ro": "secretariat",
@@ -4266,6 +4566,366 @@
           "verified": false
         },
         {
+          "id": "university-86",
+          "level": "intermediate",
+          "ro": "admitere",
+          "ar": "القبول (امتحان القبول)",
+          "pron": "آدْميتِرِه",
+          "example": {
+            "ro": "Admiterea este în iulie.",
+            "ar": "القبول في يوليو."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-87",
+          "level": "intermediate",
+          "ro": "dosar de înscriere",
+          "ar": "ملف التسجيل",
+          "pron": "دوسار دِه إنْسْكْرييِرِه",
+          "example": {
+            "ro": "Am depus dosarul de înscriere.",
+            "ar": "قدّمت ملف التسجيل."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-88",
+          "level": "intermediate",
+          "ro": "diplomă de bacalaureat",
+          "ar": "شهادة الثانوية العامة",
+          "pron": "ديپْلومَه دِه باكالاورِآت",
+          "example": {
+            "ro": "Am nevoie de diploma de bacalaureat tradusă.",
+            "ar": "أحتاج شهادة الثانوية مترجمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-89",
+          "level": "intermediate",
+          "ro": "echivalarea diplomei",
+          "ar": "معادلة الشهادة",
+          "pron": "إيكيڤالارِآ ديپْلومِي",
+          "example": {
+            "ro": "Am făcut echivalarea diplomei.",
+            "ar": "عملت معادلة الشهادة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-90",
+          "level": "intermediate",
+          "ro": "scrisoare de acceptare",
+          "ar": "خطاب القبول",
+          "pron": "سْكْريسوآرِه دِه آكْتْشِپْتارِه",
+          "example": {
+            "ro": "Am primit scrisoarea de acceptare.",
+            "ar": "استلمت خطاب القبول."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-91",
+          "level": "intermediate",
+          "ro": "viză de studii",
+          "ar": "تأشيرة دراسة",
+          "pron": "ڤيزَه دِه سْتودي",
+          "example": {
+            "ro": "Aștept viza de studii.",
+            "ar": "أنتظر تأشيرة الدراسة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-92",
+          "level": "intermediate",
+          "ro": "master",
+          "ar": "ماجستير",
+          "pron": "ماسْتِر",
+          "example": {
+            "ro": "Fac un master în economie.",
+            "ar": "أدرس ماجستير في الاقتصاد."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-93",
+          "level": "intermediate",
+          "ro": "doctorat",
+          "ar": "دكتوراه",
+          "pron": "دوكْتورات",
+          "example": {
+            "ro": "Ea face doctoratul în chimie.",
+            "ar": "هي تحضّر الدكتوراه في الكيمياء."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-94",
+          "level": "intermediate",
+          "ro": "licență",
+          "ar": "بكالوريوس (ليسانس)",
+          "pron": "ليتْشِنْتْسَه",
+          "example": {
+            "ro": "Am terminat licența anul trecut.",
+            "ar": "أنهيت البكالوريوس السنة الماضية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-95",
+          "level": "intermediate",
+          "ro": "îndrumător",
+          "ar": "مشرف أكاديمي",
+          "pron": "إنْدْرومَتور",
+          "example": {
+            "ro": "Îndrumătorul meu mă ajută cu lucrarea.",
+            "ar": "مشرفي يساعدني في البحث."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-96",
+          "level": "intermediate",
+          "ro": "curs opțional",
+          "ar": "مادة اختيارية",
+          "pron": "كورْس أوپْتْسيونال",
+          "example": {
+            "ro": "Am ales un curs opțional de istorie.",
+            "ar": "اخترت مادة اختيارية في التاريخ."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-97",
+          "level": "intermediate",
+          "ro": "curs obligatoriu",
+          "ar": "مادة إجبارية",
+          "pron": "كورْس أوبْليگاتوريو",
+          "example": {
+            "ro": "Matematica este curs obligatoriu.",
+            "ar": "الرياضيات مادة إجبارية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-98",
+          "level": "intermediate",
+          "ro": "examen oral / scris",
+          "ar": "امتحان شفهي / كتابي",
+          "pron": "إكْسامِن أورال / سْكْريس",
+          "example": {
+            "ro": "Examenul este scris.",
+            "ar": "الامتحان كتابي."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-99",
+          "level": "intermediate",
+          "ro": "a copia",
+          "ar": "يغش (في الامتحان)",
+          "pron": "آ كوپيا",
+          "example": {
+            "ro": "Nu ai voie să copiezi la examen.",
+            "ar": "ممنوع الغش في الامتحان."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-100",
+          "level": "intermediate",
+          "ro": "a lipsi",
+          "ar": "يتغيّب",
+          "pron": "آ ليپْسي",
+          "example": {
+            "ro": "Am lipsit de la curs ieri.",
+            "ar": "تغيبت عن المحاضرة أمس."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-101",
+          "level": "intermediate",
+          "ro": "adeverință de student",
+          "ar": "إفادة طالب",
+          "pron": "آدِڤِرينْتْسَه دِه سْتودِنْت",
+          "example": {
+            "ro": "Cer o adeverință de student.",
+            "ar": "أطلب إفادة طالب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-102",
+          "level": "intermediate",
+          "ro": "platformă online",
+          "ar": "منصة أونلاين",
+          "pron": "پْلاتْفورْمَه أونلاين",
+          "example": {
+            "ro": "Notele apar pe platforma online.",
+            "ar": "العلامات تظهر على المنصة الأونلاين."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-103",
+          "level": "intermediate",
+          "ro": "e-mail instituțional",
+          "ar": "بريد الجامعة",
+          "pron": "إيمِيل إنْسْتيتوتْسيونال",
+          "example": {
+            "ro": "Folosesc e-mailul instituțional.",
+            "ar": "أستخدم بريد الجامعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-104",
+          "level": "intermediate",
+          "ro": "bibliotecară",
+          "ar": "أمينة المكتبة",
+          "pron": "بيبْليوتِكارَه",
+          "example": {
+            "ro": "Bibliotecara m-a ajutat să găsesc cartea.",
+            "ar": "أمينة المكتبة ساعدتني في إيجاد الكتاب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-105",
+          "level": "intermediate",
+          "ro": "a împrumuta o carte",
+          "ar": "يستعير كتاباً",
+          "pron": "آ إمْپْروموتا أو كارْتِه",
+          "example": {
+            "ro": "Pot să împrumut cartea două săptămâni.",
+            "ar": "يمكنني استعارة الكتاب أسبوعين."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-106",
+          "level": "intermediate",
+          "ro": "sală de lectură",
+          "ar": "قاعة المطالعة",
+          "pron": "سالَه دِه لِكْتورَه",
+          "example": {
+            "ro": "Învăț în sala de lectură.",
+            "ar": "أذاكر في قاعة المطالعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-107",
+          "level": "intermediate",
+          "ro": "asociația studenților",
+          "ar": "اتحاد الطلاب",
+          "pron": "آسوتْشياتْسيا سْتودِنْتْسيلور",
+          "example": {
+            "ro": "M-am înscris în asociația studenților.",
+            "ar": "انضممت لاتحاد الطلاب."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-108",
+          "level": "intermediate",
+          "ro": "Erasmus",
+          "ar": "منحة تبادل (إيراسموس)",
+          "pron": "إيراسْموس",
+          "example": {
+            "ro": "Plec cu Erasmus în Spania.",
+            "ar": "أسافر بمنحة إيراسموس إلى إسبانيا."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-109",
+          "level": "intermediate",
+          "ro": "internship",
+          "ar": "تدريب (إنترنشيب)",
+          "pron": "إنْتِرْنْشيپ",
+          "example": {
+            "ro": "Fac un internship vara asta.",
+            "ar": "أعمل تدريباً هذا الصيف."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-110",
+          "level": "intermediate",
+          "ro": "practică",
+          "ar": "تدريب عملي",
+          "pron": "پْراكْتيكَه",
+          "example": {
+            "ro": "Practica este obligatorie în anul trei.",
+            "ar": "التدريب العملي إجباري في السنة الثالثة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-111",
+          "level": "intermediate",
+          "ro": "susținere",
+          "ar": "مناقشة (مشروع التخرج)",
+          "pron": "سوسْتْسينِرِه",
+          "example": {
+            "ro": "Susținerea lucrării este în iunie.",
+            "ar": "مناقشة البحث في يونيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-112",
+          "level": "intermediate",
+          "ro": "bibliografie",
+          "ar": "المراجع",
+          "pron": "بيبْليوگْرافيِه",
+          "example": {
+            "ro": "Bibliografia este pe platformă.",
+            "ar": "المراجع على المنصة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-113",
+          "level": "intermediate",
+          "ro": "eseu",
+          "ar": "مقال (بحث قصير)",
+          "pron": "إيسِو",
+          "example": {
+            "ro": "Trebuie să scriu un eseu de cinci pagini.",
+            "ar": "يجب أن أكتب مقالاً من خمس صفحات."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-114",
+          "level": "intermediate",
+          "ro": "a preda",
+          "ar": "يُسلّم / يُدرّس",
+          "pron": "آ پْرِدا",
+          "example": {
+            "ro": "Predau tema mâine.",
+            "ar": "أسلّم الواجب غداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-115",
+          "level": "intermediate",
+          "ro": "an universitar",
+          "ar": "السنة الجامعية",
+          "pron": "آن أونيڤِرْسيتار",
+          "example": {
+            "ro": "Anul universitar începe pe întâi octombrie.",
+            "ar": "السنة الجامعية تبدأ في الأول من أكتوبر."
+          },
+          "verified": false
+        },
+        {
           "id": "university-23",
           "level": "advanced",
           "ro": "Aș putea să susțin examenul în altă zi?",
@@ -4442,6 +5102,426 @@
           "example": {
             "ro": "Da, hai să ne vedem la bibliotecă.",
             "ar": "نعم، لنلتقِ في المكتبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-116",
+          "level": "advanced",
+          "ro": "Aș vrea să mă înscriu la cursul de limba română pentru străini.",
+          "ar": "أريد التسجيل في دورة اللغة الرومانية للأجانب.",
+          "pron": "آش ڤْريا سَه مَه إنْسْكْريو لا كورْسول دِه ليمْبا رومينَه پِنْترو سْتْرَئيني",
+          "example": {
+            "ro": "Cursul începe luna viitoare, vă înscrieți la secretariat.",
+            "ar": "الدورة تبدأ الشهر القادم، سجّل في السكرتارية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-117",
+          "level": "advanced",
+          "ro": "Nu am primit încă e-mailul instituțional.",
+          "ar": "لم أستلم بريد الجامعة بعد.",
+          "pron": "نو آم پْريميت إنْكَه إيمِيلول إنْسْتيتوتْسيونال",
+          "example": {
+            "ro": "Verificați în spam sau mergeți la departamentul IT.",
+            "ar": "تحقق من البريد المزعج أو اذهب لقسم IT."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-118",
+          "level": "advanced",
+          "ro": "Pot să dau examenul în engleză?",
+          "ar": "هل يمكنني تقديم الامتحان بالإنجليزية؟",
+          "pron": "پوت سَه داو إكْسامِنول إن إنْگْلِزَه؟",
+          "example": {
+            "ro": "Da, dacă anunțați profesorul din timp.",
+            "ar": "نعم، إذا أبلغت الأستاذ مسبقاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-119",
+          "level": "advanced",
+          "ro": "Ce trebuie să învăț pentru examenul final?",
+          "ar": "ماذا يجب أن أذاكر للامتحان النهائي؟",
+          "pron": "تْشِه تْرِبويِه سَه إنْڤَتْس پِنْترو إكْسامِنول فينال؟",
+          "example": {
+            "ro": "Toate cursurile de după primul test.",
+            "ar": "كل المحاضرات بعد الاختبار الأول."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-120",
+          "level": "advanced",
+          "ro": "Am fost bolnav și am lipsit de la examen, ce pot face?",
+          "ar": "كنت مريضاً وغبت عن الامتحان، ماذا يمكنني أن أفعل؟",
+          "pron": "آم فوسْت بولْناڤ شي آم ليپْسيت دِه لا إكْسامِن، تْشِه پوت فاتْشِه؟",
+          "example": {
+            "ro": "Aduceți certificatul medical și dați examenul în restanțe.",
+            "ar": "أحضر التقرير الطبي وقدّم الامتحان في دورة الإعادة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-121",
+          "level": "advanced",
+          "ro": "Când se afișează rezultatele de la admitere?",
+          "ar": "متى تُعلن نتائج القبول؟",
+          "pron": "كِنْد سِه آفيشِآزَه رِزولْتاتِلِه دِه لا آدْميتِرِه؟",
+          "example": {
+            "ro": "Pe douăzeci iulie, pe site-ul facultății.",
+            "ar": "يوم 20 يوليو، على موقع الكلية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-122",
+          "level": "advanced",
+          "ro": "Aș vrea să fac un an Erasmus, cu cine vorbesc?",
+          "ar": "أريد أن أقضي سنة إيراسموس، مع من أتكلم؟",
+          "pron": "آش ڤْريا سَه فاك أون آن إيراسْموس، كو تْشينِه ڤورْبِسْك؟",
+          "example": {
+            "ro": "Cu biroul de relații internaționale.",
+            "ar": "مع مكتب العلاقات الدولية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-123",
+          "level": "advanced",
+          "ro": "Puteți să-mi semnați această cerere?",
+          "ar": "هل يمكنك أن توقّع لي هذا الطلب؟",
+          "pron": "پوتِتْس سَم سِمْناتْس آتْشِاسْتَه تْشِرِرِه؟",
+          "example": {
+            "ro": "Da, lăsați-o la secretariat.",
+            "ar": "نعم، اتركه في السكرتارية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-124",
+          "level": "advanced",
+          "ro": "Avem voie să folosim calculatorul la examen?",
+          "ar": "هل مسموح لنا استخدام الآلة الحاسبة في الامتحان؟",
+          "pron": "آڤِم ڤويِه سَه فولوسيم كالْكولاتورول لا إكْسامِن؟",
+          "example": {
+            "ro": "Da, dar telefonul nu.",
+            "ar": "نعم، لكن الهاتف لا."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-125",
+          "level": "advanced",
+          "ro": "Cât costă taxa de școlarizare pentru studenții străini?",
+          "ar": "كم رسوم الدراسة للطلاب الأجانب؟",
+          "pron": "كِت كوسْتَه تاكْسا دِه شْكولاريزارِه پِنْترو سْتودِنْتْسيي سْتْرَئيني؟",
+          "example": {
+            "ro": "Depinde de facultate și de țara de origine.",
+            "ar": "يعتمد على الكلية وبلد المنشأ."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-126",
+          "level": "advanced",
+          "ro": "Am nevoie de o adeverință că sunt student, pentru bancă.",
+          "ar": "أحتاج إفادة أنني طالب، للبنك.",
+          "pron": "آم نِڤويِه دِه أو آدِڤِرينْتْسَه كَه سونْت سْتودِنْت، پِنْترو بانْكَه",
+          "example": {
+            "ro": "O primiți în două zile lucrătoare.",
+            "ar": "تستلمها خلال يومي عمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-127",
+          "level": "advanced",
+          "ro": "Putem amâna prezentarea cu o săptămână?",
+          "ar": "هل يمكننا تأجيل العرض أسبوعاً؟",
+          "pron": "پوتِم آمِنا پْرِزِنْتارِآ كو أو سَپْتَمِنَه؟",
+          "example": {
+            "ro": "Da, dar este ultima amânare.",
+            "ar": "نعم، لكنه آخر تأجيل."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-128",
+          "level": "advanced",
+          "ro": "Nu înțeleg exercițiul acesta, mi-l puteți explica?",
+          "ar": "لا أفهم هذا التمرين، هل يمكنك شرحه لي؟",
+          "pron": "نو إنْتْسِلِگ إگْزِرْتْشيتْسيول آتْشِسْتا، ميل پوتِتْس إكْسْپْليكا؟",
+          "example": {
+            "ro": "Sigur, rămâneți după curs.",
+            "ar": "طبعاً، ابقَ بعد المحاضرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-129",
+          "level": "advanced",
+          "ro": "Biblioteca este deschisă și în weekend?",
+          "ar": "هل المكتبة مفتوحة في عطلة نهاية الأسبوع أيضاً؟",
+          "pron": "بيبْليوتِكا يِسْتِه دِسْكيسَه شي إن ويكِنْد؟",
+          "example": {
+            "ro": "Doar sâmbăta, până la ora paisprezece.",
+            "ar": "يوم السبت فقط، حتى الساعة الثانية ظهراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-130",
+          "level": "advanced",
+          "ro": "Cartea pe care o caut este împrumutată, când revine?",
+          "ar": "الكتاب الذي أبحث عنه مُستعار، متى يعود؟",
+          "pron": "كارْتِآ پِه كارِه أو كاوت يِسْتِه إمْپْروموتاتَه، كِنْد رِڤينِه؟",
+          "example": {
+            "ro": "Peste o săptămână; vă pot pune pe listă.",
+            "ar": "بعد أسبوع؛ يمكنني وضعك على القائمة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-131",
+          "level": "advanced",
+          "ro": "Caut un coleg pentru proiectul de grup.",
+          "ar": "أبحث عن زميل لمشروع المجموعة.",
+          "pron": "كاوت أون كولِگ پِنْترو پْرويِكْتول دِه گْروپ",
+          "example": {
+            "ro": "Vino cu noi, mai avem un loc.",
+            "ar": "تعال معنا، عندنا مكان واحد."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-132",
+          "level": "advanced",
+          "ro": "Profesorul a anulat cursul de mâine?",
+          "ar": "هل ألغى الأستاذ محاضرة الغد؟",
+          "pron": "پْروفِسورول آ آنولات كورْسول دِه مِينِه؟",
+          "example": {
+            "ro": "Da, a scris pe grupul anului.",
+            "ar": "نعم، كتب في مجموعة الدفعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-133",
+          "level": "advanced",
+          "ro": "Ce notă trebuie să iau ca să promovez?",
+          "ar": "ما العلامة التي يجب أن آخذها لأنجح؟",
+          "pron": "تْشِه نوتَه تْرِبويِه سَه ياو كا سَه پْروموڤِز؟",
+          "example": {
+            "ro": "Minimum cinci.",
+            "ar": "خمسة على الأقل."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-134",
+          "level": "advanced",
+          "ro": "Am trecut toate examenele din sesiune!",
+          "ar": "نجحت في كل امتحانات الفصل!",
+          "pron": "آم تْرِكوت توآتِه إكْسامِنِلِه دين سِسيونِه",
+          "example": {
+            "ro": "Felicitări, meriți o vacanță!",
+            "ar": "مبروك، تستحق إجازة!"
+          },
+          "verified": false
+        },
+        {
+          "id": "university-135",
+          "level": "advanced",
+          "ro": "Camera de la cămin are internet?",
+          "ar": "هل غرفة السكن الجامعي فيها إنترنت؟",
+          "pron": "كامِرا دِه لا كَمين آرِه إنْتِرْنِت؟",
+          "example": {
+            "ro": "Da, Wi-Fi gratuit în toată clădirea.",
+            "ar": "نعم، واي فاي مجاني في كل المبنى."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-136",
+          "level": "advanced",
+          "ro": "Pot să schimb camera de la cămin?",
+          "ar": "هل يمكنني تغيير غرفتي في السكن الجامعي؟",
+          "pron": "پوت سَه سْكيمْب كامِرا دِه لا كَمين؟",
+          "example": {
+            "ro": "Faceți o cerere la administrația căminului.",
+            "ar": "قدّم طلباً لإدارة السكن."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-137",
+          "level": "advanced",
+          "ro": "Unde se depune cererea pentru bursă?",
+          "ar": "أين يُقدَّم طلب المنحة؟",
+          "pron": "أونْدِه سِه دِپونِه تْشِرِرِآ پِنْترو بورْسَه؟",
+          "example": {
+            "ro": "La secretariat, până pe cincisprezece octombrie.",
+            "ar": "في السكرتارية، حتى 15 أكتوبر."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-138",
+          "level": "advanced",
+          "ro": "Când pot să ridic diploma?",
+          "ar": "متى يمكنني استلام الشهادة؟",
+          "pron": "كِنْد پوت سَه ريديك ديپْلوما؟",
+          "example": {
+            "ro": "La trei luni după absolvire.",
+            "ar": "بعد ثلاثة أشهر من التخرج."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-139",
+          "level": "advanced",
+          "ro": "Am terminat anul pregătitor și încep facultatea.",
+          "ar": "أنهيت السنة التحضيرية وأبدأ الكلية.",
+          "pron": "آم تِرْمينات آنول پْرِگَتيتور شي إنْتْشِپ فاكولْتاتِآ",
+          "example": {
+            "ro": "Bravo! La ce facultate?",
+            "ar": "برافو! في أي كلية؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "university-140",
+          "level": "advanced",
+          "ro": "Mi-ar trebui o scrisoare de recomandare pentru master.",
+          "ar": "أحتاج خطاب توصية للماجستير.",
+          "pron": "ميار تْرِبوي أو سْكْريسوآرِه دِه رِكومانْدارِه پِنْترو ماسْتِر",
+          "example": {
+            "ro": "Ți-o scriu cu plăcere.",
+            "ar": "سأكتبه لك بكل سرور."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-141",
+          "level": "advanced",
+          "ro": "Cursul începe la opt fix sau la opt și zece?",
+          "ar": "هل المحاضرة تبدأ الثامنة بالضبط أم الثامنة وعشر دقائق؟",
+          "pron": "كورْسول إنْتْشِپِه لا أوپْت فيكْس ساو لا أوپْت شي زِتْشِه؟",
+          "example": {
+            "ro": "La opt și zece, ca de obicei.",
+            "ar": "الثامنة وعشر دقائق، كالعادة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-142",
+          "level": "advanced",
+          "ro": "Nu găsesc sala, este în clădirea veche?",
+          "ar": "لا أجد القاعة، هل هي في المبنى القديم؟",
+          "pron": "نو گَسِسْك سالا، يِسْتِه إن كْلَديرِآ ڤِكِه؟",
+          "example": {
+            "ro": "Da, la etajul doi, pe dreapta.",
+            "ar": "نعم، في الطابق الثاني، على اليمين."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-143",
+          "level": "advanced",
+          "ro": "Pot să înregistrez cursul pe telefon?",
+          "ar": "هل يمكنني تسجيل المحاضرة على الهاتف؟",
+          "pron": "پوت سَه إنْرِجيسْتْرِز كورْسول پِه تِلِفون؟",
+          "example": {
+            "ro": "Doar cu acordul profesorului.",
+            "ar": "فقط بموافقة الأستاذ."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-144",
+          "level": "advanced",
+          "ro": "Mi-am pierdut carnetul de student.",
+          "ar": "أضعت بطاقة الطالب.",
+          "pron": "ميام پْيِرْدوت كارْنِتول دِه سْتودِنْت",
+          "example": {
+            "ro": "Faceți o cerere pentru duplicat.",
+            "ar": "قدّم طلباً لبطاقة بديلة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-145",
+          "level": "advanced",
+          "ro": "Ce cursuri îmi recomanzi pentru semestrul doi?",
+          "ar": "ما المواد التي تنصحني بها للفصل الثاني؟",
+          "pron": "تْشِه كورْسوري إمْ رِكومانْز پِنْترو سِمِسْترول دوي؟",
+          "example": {
+            "ro": "Ia cursul de statistică, e foarte util.",
+            "ar": "خذ مادة الإحصاء، مفيدة جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-146",
+          "level": "advanced",
+          "ro": "Avem două examene în aceeași zi.",
+          "ar": "عندنا امتحانان في نفس اليوم.",
+          "pron": "آڤِم دووَه إكْسامِنِه إن آتْشِلاشي زي",
+          "example": {
+            "ro": "Vorbiți cu șeful de an să schimbe data.",
+            "ar": "تكلموا مع ممثل الدفعة ليغيّر التاريخ."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-147",
+          "level": "advanced",
+          "ro": "Lucrarea trebuie scrisă în română sau în engleză?",
+          "ar": "هل يجب أن يُكتب البحث بالرومانية أم بالإنجليزية؟",
+          "pron": "لوكْرارِآ تْرِبويِه سْكْريسَه إن رومينَه ساو إن إنْگْلِزَه؟",
+          "example": {
+            "ro": "Puteți alege, dar rezumatul este în română.",
+            "ar": "يمكنك الاختيار، لكن الملخص بالرومانية."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-148",
+          "level": "advanced",
+          "ro": "Am întârziat cu tema, o pot trimite mâine?",
+          "ar": "تأخرت في الواجب، هل يمكنني إرساله غداً؟",
+          "pron": "آم إنْتِرْزيات كو تِما، أو پوت تْريميتِه مِينِه؟",
+          "example": {
+            "ro": "Da, dar pierzi un punct.",
+            "ar": "نعم، لكنك ستخسر نقطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-149",
+          "level": "advanced",
+          "ro": "Cum pot să obțin reducerea de student la transport?",
+          "ar": "كيف أحصل على تخفيض الطالب في المواصلات؟",
+          "pron": "كوم پوت سَه أوبْتْسين رِدوتْشِرِآ دِه سْتودِنْت لا تْرانْسْپورْت؟",
+          "example": {
+            "ro": "Cu carnetul de student vizat pe anul acesta.",
+            "ar": "ببطاقة الطالب المختومة لهذه السنة."
+          },
+          "verified": false
+        },
+        {
+          "id": "university-150",
+          "level": "advanced",
+          "ro": "Mulțumesc pentru tot ce m-ați învățat anul acesta.",
+          "ar": "شكراً على كل ما علّمتني هذه السنة.",
+          "pron": "مولْتْسومِسْك پِنْترو توت تْشِه ماتْس إنْڤَتْسات آنول آتْشِسْتا",
+          "example": {
+            "ro": "A fost o plăcere, succes mai departe!",
+            "ar": "كان من دواعي سروري، بالتوفيق فيما بعد!"
           },
           "verified": false
         }
@@ -4805,6 +5885,306 @@
           "verified": false
         },
         {
+          "id": "train-61",
+          "level": "beginner",
+          "ro": "clasa întâi",
+          "ar": "الدرجة الأولى",
+          "pron": "كْلاسا إنْتِيي",
+          "example": {
+            "ro": "Clasa întâi este mai scumpă.",
+            "ar": "الدرجة الأولى أغلى."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-62",
+          "level": "beginner",
+          "ro": "pasager",
+          "ar": "راكب",
+          "pron": "پاساجِر",
+          "example": {
+            "ro": "Pasagerii urcă în tren.",
+            "ar": "الركاب يصعدون إلى القطار."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-63",
+          "level": "beginner",
+          "ro": "locomotivă",
+          "ar": "قاطرة",
+          "pron": "لوكوموتيڤَه",
+          "example": {
+            "ro": "Locomotiva este nouă.",
+            "ar": "القاطرة جديدة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-64",
+          "level": "beginner",
+          "ro": "șină",
+          "ar": "قضيب السكة",
+          "pron": "شينَه",
+          "example": {
+            "ro": "Nu treceți peste șine!",
+            "ar": "لا تعبروا فوق القضبان!"
+          },
+          "verified": false
+        },
+        {
+          "id": "train-65",
+          "level": "beginner",
+          "ro": "ceas",
+          "ar": "ساعة",
+          "pron": "تْشاس",
+          "example": {
+            "ro": "Ceasul din gară arată ora exactă.",
+            "ar": "ساعة المحطة تُظهر الوقت بالضبط."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-66",
+          "level": "beginner",
+          "ro": "a pleca",
+          "ar": "يغادر",
+          "pron": "آ پْلِكا",
+          "example": {
+            "ro": "Trenul pleacă acum.",
+            "ar": "القطار يغادر الآن."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-67",
+          "level": "beginner",
+          "ro": "a sosi",
+          "ar": "يصل",
+          "pron": "آ سوسي",
+          "example": {
+            "ro": "Trenul sosește la ora zece.",
+            "ar": "القطار يصل الساعة العاشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-68",
+          "level": "beginner",
+          "ro": "a aștepta",
+          "ar": "ينتظر",
+          "pron": "آ آشْتِپْتا",
+          "example": {
+            "ro": "Aștept trenul de Brașov.",
+            "ar": "أنتظر قطار براشوف."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-69",
+          "level": "beginner",
+          "ro": "a urca în tren",
+          "ar": "يصعد إلى القطار",
+          "pron": "آ أورْكا إن تْرِن",
+          "example": {
+            "ro": "Urcăm în tren acum.",
+            "ar": "نصعد إلى القطار الآن."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-70",
+          "level": "beginner",
+          "ro": "a coborî din tren",
+          "ar": "ينزل من القطار",
+          "pron": "آ كوبوري دين تْرِن",
+          "example": {
+            "ro": "Cobor din tren la Sibiu.",
+            "ar": "أنزل من القطار في سيبيو."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-71",
+          "level": "beginner",
+          "ro": "nord / sud",
+          "ar": "شمال / جنوب",
+          "pron": "نورْد / سود",
+          "example": {
+            "ro": "Gara de Nord este în București.",
+            "ar": "محطة الشمال في بوخارست."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-72",
+          "level": "beginner",
+          "ro": "est / vest",
+          "ar": "شرق / غرب",
+          "pron": "يِسْت / ڤِسْت",
+          "example": {
+            "ro": "Iașiul este în estul țării.",
+            "ar": "ياش في شرق البلد."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-73",
+          "level": "beginner",
+          "ro": "munte",
+          "ar": "جبل",
+          "pron": "مونْتِه",
+          "example": {
+            "ro": "Mergem la munte cu trenul.",
+            "ar": "نذهب إلى الجبل بالقطار."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-74",
+          "level": "beginner",
+          "ro": "mare",
+          "ar": "بحر",
+          "pron": "مارِه",
+          "example": {
+            "ro": "Vara mergem la mare.",
+            "ar": "في الصيف نذهب إلى البحر."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-75",
+          "level": "beginner",
+          "ro": "geantă",
+          "ar": "حقيبة يد",
+          "pron": "جانْتَه",
+          "example": {
+            "ro": "Geanta mea este sub scaun.",
+            "ar": "حقيبتي تحت الكرسي."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-76",
+          "level": "beginner",
+          "ro": "scaun",
+          "ar": "كرسي (مقعد)",
+          "pron": "سْكاون",
+          "example": {
+            "ro": "Scaunul este comod.",
+            "ar": "الكرسي مريح."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-77",
+          "level": "beginner",
+          "ro": "aer condiționat",
+          "ar": "تكييف",
+          "pron": "آيِر كونْديتْسيونات",
+          "example": {
+            "ro": "Vagonul are aer condiționat.",
+            "ar": "العربة فيها تكييف."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-78",
+          "level": "beginner",
+          "ro": "priză",
+          "ar": "فيشة كهرباء",
+          "pron": "پْريزَه",
+          "example": {
+            "ro": "Este priză lângă scaun?",
+            "ar": "هل توجد فيشة بجانب المقعد؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "train-79",
+          "level": "beginner",
+          "ro": "lung / scurt",
+          "ar": "طويل / قصير",
+          "pron": "لونْگ / سْكورْت",
+          "example": {
+            "ro": "Trenul este foarte lung.",
+            "ar": "القطار طويل جداً."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-80",
+          "level": "beginner",
+          "ro": "bilet întreg",
+          "ar": "تذكرة كاملة",
+          "pron": "بيلِت إنْتْرِگ",
+          "example": {
+            "ro": "Un bilet întreg și unul pentru copil.",
+            "ar": "تذكرة كاملة وواحدة لطفل."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-81",
+          "level": "beginner",
+          "ro": "bilet pentru copil",
+          "ar": "تذكرة طفل",
+          "pron": "بيلِت پِنْترو كوپيل",
+          "example": {
+            "ro": "Biletul pentru copil este la jumătate de preț.",
+            "ar": "تذكرة الطفل بنصف السعر."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-82",
+          "level": "beginner",
+          "ro": "pensionar",
+          "ar": "متقاعد",
+          "pron": "پِنْسيونار",
+          "example": {
+            "ro": "Pensionarii au reducere.",
+            "ar": "المتقاعدون عندهم تخفيض."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-83",
+          "level": "beginner",
+          "ro": "gratuit",
+          "ar": "مجاني",
+          "pron": "گْراتويت",
+          "example": {
+            "ro": "Pentru copiii mici este gratuit.",
+            "ar": "للأطفال الصغار مجاني."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-84",
+          "level": "beginner",
+          "ro": "a cumpăra",
+          "ar": "يشتري",
+          "pron": "آ كومْپَرا",
+          "example": {
+            "ro": "Cumpăr bilet de la automat.",
+            "ar": "أشتري تذكرة من الماكينة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-85",
+          "level": "beginner",
+          "ro": "automat de bilete",
+          "ar": "ماكينة التذاكر",
+          "pron": "آوتومات دِه بيلِتِه",
+          "example": {
+            "ro": "Automatul de bilete acceptă card.",
+            "ar": "ماكينة التذاكر تقبل البطاقة."
+          },
+          "verified": false
+        },
+        {
           "id": "train-12",
           "level": "intermediate",
           "ro": "controlor",
@@ -5045,6 +6425,366 @@
           "verified": false
         },
         {
+          "id": "train-86",
+          "level": "intermediate",
+          "ro": "rezervare de loc",
+          "ar": "حجز مقعد",
+          "pron": "رِزِرْڤارِه دِه لوك",
+          "example": {
+            "ro": "Rezervarea de loc este inclusă.",
+            "ar": "حجز المقعد مشمول."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-87",
+          "level": "intermediate",
+          "ro": "bilet de grup",
+          "ar": "تذكرة مجموعة",
+          "pron": "بيلِت دِه گْروپ",
+          "example": {
+            "ro": "Am luat un bilet de grup pentru cinci persoane.",
+            "ar": "أخذنا تذكرة مجموعة لخمسة أشخاص."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-88",
+          "level": "intermediate",
+          "ro": "abonament lunar de tren",
+          "ar": "اشتراك قطار شهري",
+          "pron": "آبونامِنْت لونار دِه تْرِن",
+          "example": {
+            "ro": "Fac naveta cu abonament lunar.",
+            "ar": "أتنقل يومياً باشتراك شهري."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-89",
+          "level": "intermediate",
+          "ro": "navetă",
+          "ar": "التنقل اليومي بين مدينتين",
+          "pron": "ناڤِتَه",
+          "example": {
+            "ro": "Fac naveta între Ploiești și București.",
+            "ar": "أتنقل يومياً بين پلويشت وبوخارست."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-90",
+          "level": "intermediate",
+          "ro": "întârziere estimată",
+          "ar": "تأخير متوقع",
+          "pron": "إنْتِرْزييرِه إسْتيماتَه",
+          "example": {
+            "ro": "Întârzierea estimată este de treizeci de minute.",
+            "ar": "التأخير المتوقع ثلاثون دقيقة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-91",
+          "level": "intermediate",
+          "ro": "rambursare",
+          "ar": "استرداد المبلغ",
+          "pron": "رامْبورْسارِه",
+          "example": {
+            "ro": "Cer rambursarea biletului.",
+            "ar": "أطلب استرداد ثمن التذكرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-92",
+          "level": "intermediate",
+          "ro": "despăgubire",
+          "ar": "تعويض",
+          "pron": "دِسْپَگوبيرِه",
+          "example": {
+            "ro": "Am dreptul la despăgubire pentru întârziere.",
+            "ar": "لي الحق في تعويض عن التأخير."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-93",
+          "level": "intermediate",
+          "ro": "a se opri",
+          "ar": "يتوقف",
+          "pron": "آ سِه أوپْري",
+          "example": {
+            "ro": "Trenul se oprește două minute.",
+            "ar": "القطار يتوقف دقيقتين."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-94",
+          "level": "intermediate",
+          "ro": "stație intermediară",
+          "ar": "محطة وسيطة",
+          "pron": "سْتاتْسيِه إنْتِرْمِدْيارَه",
+          "example": {
+            "ro": "Trenul oprește în stațiile intermediare.",
+            "ar": "القطار يتوقف في المحطات الوسيطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-95",
+          "level": "intermediate",
+          "ro": "destinație",
+          "ar": "وجهة",
+          "pron": "دِسْتيناتْسيِه",
+          "example": {
+            "ro": "Care este destinația dumneavoastră?",
+            "ar": "ما وجهتك؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "train-96",
+          "level": "intermediate",
+          "ro": "durata călătoriei",
+          "ar": "مدة الرحلة",
+          "pron": "دوراتا كَلَتورييِي",
+          "example": {
+            "ro": "Durata călătoriei este de cinci ore.",
+            "ar": "مدة الرحلة خمس ساعات."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-97",
+          "level": "intermediate",
+          "ro": "în sensul de mers",
+          "ar": "في اتجاه السير",
+          "pron": "إن سِنْسول دِه مِرْس",
+          "example": {
+            "ro": "Locul meu este în sensul de mers.",
+            "ar": "مقعدي في اتجاه السير."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-98",
+          "level": "intermediate",
+          "ro": "compartiment",
+          "ar": "مقصورة",
+          "pron": "كومْپارْتيمِنْت",
+          "example": {
+            "ro": "Compartimentul are șase locuri.",
+            "ar": "المقصورة فيها ستة مقاعد."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-99",
+          "level": "intermediate",
+          "ro": "culoar",
+          "ar": "ممر",
+          "pron": "كولوآر",
+          "example": {
+            "ro": "Prefer locul de la culoar.",
+            "ar": "أفضّل المقعد بجانب الممر."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-100",
+          "level": "intermediate",
+          "ro": "bagaj de mână",
+          "ar": "حقيبة يد (أمتعة صغيرة)",
+          "pron": "باگاژ دِه مِنَه",
+          "example": {
+            "ro": "Am doar bagaj de mână.",
+            "ar": "معي حقيبة يد فقط."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-101",
+          "level": "intermediate",
+          "ro": "suport de bagaje",
+          "ar": "رف الأمتعة",
+          "pron": "سوپورْت دِه باگاژِه",
+          "example": {
+            "ro": "Pun valiza pe suportul de bagaje.",
+            "ar": "أضع الحقيبة على رف الأمتعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-102",
+          "level": "intermediate",
+          "ro": "tren internațional",
+          "ar": "قطار دولي",
+          "pron": "تْرِن إنْتِرْناتْسيونال",
+          "example": {
+            "ro": "Trenul internațional merge la Budapesta.",
+            "ar": "القطار الدولي يذهب إلى بودابست."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-103",
+          "level": "intermediate",
+          "ro": "graniță",
+          "ar": "حدود",
+          "pron": "گْرانيتْسَه",
+          "example": {
+            "ro": "Trenul trece granița noaptea.",
+            "ar": "القطار يعبر الحدود ليلاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-104",
+          "level": "intermediate",
+          "ro": "control vamal",
+          "ar": "تفتيش جمركي",
+          "pron": "كونْتْرول ڤامال",
+          "example": {
+            "ro": "La graniță este control vamal.",
+            "ar": "على الحدود يوجد تفتيش جمركي."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-105",
+          "level": "intermediate",
+          "ro": "act de identitate valabil",
+          "ar": "إثبات شخصية ساري المفعول",
+          "pron": "آكْت دِه إيدِنْتيتاتِه ڤالابيل",
+          "example": {
+            "ro": "Aveți nevoie de un act de identitate valabil.",
+            "ar": "تحتاج إثبات شخصية ساري المفعول."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-106",
+          "level": "intermediate",
+          "ro": "aplicația CFR",
+          "ar": "تطبيق السكك الحديدية",
+          "pron": "آپْليكاتْسيا تْشِه فِه رِه",
+          "example": {
+            "ro": "Cumpăr bilete din aplicația CFR.",
+            "ar": "أشتري التذاكر من تطبيق CFR."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-107",
+          "level": "intermediate",
+          "ro": "cod QR",
+          "ar": "رمز QR",
+          "pron": "كود كيو آر",
+          "example": {
+            "ro": "Arătați codul QR controlorului.",
+            "ar": "أرِ رمز QR للمراقب."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-108",
+          "level": "intermediate",
+          "ro": "linie închisă",
+          "ar": "خط مغلق",
+          "pron": "لينيِه إنْكيسَه",
+          "example": {
+            "ro": "Linia este închisă pentru lucrări.",
+            "ar": "الخط مغلق بسبب أعمال."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-109",
+          "level": "intermediate",
+          "ro": "lucrări pe linie",
+          "ar": "أعمال على الخط",
+          "pron": "لوكْرَري پِه لينيِه",
+          "example": {
+            "ro": "Din cauza lucrărilor pe linie, trenul întârzie.",
+            "ar": "بسبب الأعمال على الخط، القطار يتأخر."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-110",
+          "level": "intermediate",
+          "ro": "autobuz de înlocuire",
+          "ar": "أتوبيس بديل",
+          "pron": "آوتوبوز دِه إنْلوكويرِه",
+          "example": {
+            "ro": "Există autobuz de înlocuire până la Sinaia.",
+            "ar": "يوجد أتوبيس بديل حتى سينايا."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-111",
+          "level": "intermediate",
+          "ro": "a rata",
+          "ar": "يفوّت",
+          "pron": "آ راتا",
+          "example": {
+            "ro": "Am ratat ultimul tren.",
+            "ar": "فاتني آخر قطار."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-112",
+          "level": "intermediate",
+          "ro": "pasaj subteran",
+          "ar": "نفق للمشاة",
+          "pron": "پاساژ سوبْتِران",
+          "example": {
+            "ro": "Mergeți prin pasajul subteran.",
+            "ar": "امشِ عبر النفق."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-113",
+          "level": "intermediate",
+          "ro": "cameră de bagaje",
+          "ar": "غرفة حفظ الأمتعة",
+          "pron": "كامِرَه دِه باگاژِه",
+          "example": {
+            "ro": "Las valiza la camera de bagaje.",
+            "ar": "أترك الحقيبة في غرفة الأمتعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-114",
+          "level": "intermediate",
+          "ro": "la ora exactă",
+          "ar": "في الوقت بالضبط",
+          "pron": "لا أورا إگْزاكْتَه",
+          "example": {
+            "ro": "Trenul pleacă la ora exactă.",
+            "ar": "القطار يغادر في الوقت بالضبط."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-115",
+          "level": "intermediate",
+          "ro": "cu întârziere",
+          "ar": "متأخراً",
+          "pron": "كو إنْتِرْزييرِه",
+          "example": {
+            "ro": "Trenul a sosit cu întârziere.",
+            "ar": "القطار وصل متأخراً."
+          },
+          "verified": false
+        },
+        {
           "id": "train-23",
           "level": "advanced",
           "ro": "Am pierdut legătura, ce tren pot să iau acum?",
@@ -5221,6 +6961,426 @@
           "example": {
             "ro": "Da, mergeți la peronul cinci prin pasaj.",
             "ar": "نعم، اذهب إلى الرصيف الخامس عبر النفق."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-116",
+          "level": "advanced",
+          "ro": "Aș vrea un bilet pentru trenul de mâine dimineață spre Cluj.",
+          "ar": "أريد تذكرة لقطار صباح الغد إلى كلوج.",
+          "pron": "آش ڤْريا أون بيلِت پِنْترو تْرِنول دِه مِينِه ديمينياتْسَه سْپْرِه كلوژ",
+          "example": {
+            "ro": "Cel de la șase sau cel de la opt?",
+            "ar": "قطار السادسة أم الثامنة؟"
+          },
+          "verified": false
+        },
+        {
+          "id": "train-117",
+          "level": "advanced",
+          "ro": "Am nevoie de bilet și pentru copil, are șapte ani.",
+          "ar": "أحتاج تذكرة للطفل أيضاً، عمره سبع سنوات.",
+          "pron": "آم نِڤويِه دِه بيلِت شي پِنْترو كوپيل، آرِه شاپْتِه آني",
+          "example": {
+            "ro": "Copiii sub zece ani au reducere de cincizeci la sută.",
+            "ar": "الأطفال تحت عشر سنوات لهم تخفيض خمسين بالمئة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-118",
+          "level": "advanced",
+          "ro": "Trenul acesta are vagon de dormit?",
+          "ar": "هل في هذا القطار عربة نوم؟",
+          "pron": "تْرِنول آتْشِسْتا آرِه ڤاگون دِه دورْميت؟",
+          "example": {
+            "ro": "Da, dar locurile sunt aproape epuizate.",
+            "ar": "نعم، لكن الأماكن على وشك النفاد."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-119",
+          "level": "advanced",
+          "ro": "Ce fac dacă pierd legătura din cauza întârzierii?",
+          "ar": "ماذا أفعل إذا فاتني قطار المواصلة بسبب التأخير؟",
+          "pron": "تْشِه فاك داكَه پْيِرْد لِگَتورا دين كاوزا إنْتِرْزييريي؟",
+          "example": {
+            "ro": "Biletul rămâne valabil pentru următorul tren.",
+            "ar": "التذكرة تبقى صالحة للقطار التالي."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-120",
+          "level": "advanced",
+          "ro": "Unde este peronul trei? Nu văd indicatoare.",
+          "ar": "أين الرصيف الثالث؟ لا أرى لافتات.",
+          "pron": "أونْدِه يِسْتِه پِرونول تْرِي؟ نو ڤَد إنْديكاتوآرِه",
+          "example": {
+            "ro": "Mergeți prin pasaj, a doua scară pe stânga.",
+            "ar": "امشِ عبر النفق، الدرج الثاني على اليسار."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-121",
+          "level": "advanced",
+          "ro": "Pot să-mi anulez biletul și să primesc banii înapoi?",
+          "ar": "هل يمكنني إلغاء تذكرتي واسترداد الفلوس؟",
+          "pron": "پوت سَم آنولِز بيلِتول شي سَه پْريمِسْك بانيي إناپوي؟",
+          "example": {
+            "ro": "Da, cu o reținere de zece la sută.",
+            "ar": "نعم، مع خصم عشرة بالمئة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-122",
+          "level": "advanced",
+          "ro": "Este voie să mănânci în tren?",
+          "ar": "هل مسموح الأكل في القطار؟",
+          "pron": "يِسْتِه ڤويِه سَه مَنِنْتْش إن تْرِن؟",
+          "example": {
+            "ro": "Da, dar păstrați curățenia.",
+            "ar": "نعم، لكن حافظوا على النظافة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-123",
+          "level": "advanced",
+          "ro": "Aerul condiționat nu merge în vagonul nostru.",
+          "ar": "التكييف لا يعمل في عربتنا.",
+          "pron": "آيِرول كونْديتْسيونات نو مِرْجِه إن ڤاگونول نوسْترو",
+          "example": {
+            "ro": "Mutați-vă în vagonul cinci, acolo funcționează.",
+            "ar": "انتقلوا إلى العربة الخامسة، هناك يعمل."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-124",
+          "level": "advanced",
+          "ro": "Trenul a stat două ore, am dreptul la despăgubire?",
+          "ar": "القطار توقف ساعتين، هل لي حق في تعويض؟",
+          "pron": "تْرِنول آ سْتات دووَه أورِه، آم دْرِپْتول لا دِسْپَگوبيرِه؟",
+          "example": {
+            "ro": "Da, completați formularul pe site-ul CFR.",
+            "ar": "نعم، املأ الاستمارة على موقع CFR."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-125",
+          "level": "advanced",
+          "ro": "La ce stație trebuie să cobor pentru centrul orașului?",
+          "ar": "في أي محطة يجب أن أنزل لوسط المدينة؟",
+          "pron": "لا تْشِه سْتاتْسيِه تْرِبويِه سَه كوبور پِنْترو تْشِنْترول أوراشولوي؟",
+          "example": {
+            "ro": "La gara principală, apoi luați tramvaiul.",
+            "ar": "في المحطة الرئيسية، ثم خذ الترام."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-126",
+          "level": "advanced",
+          "ro": "Locul meu este rezervat, dar e ocupat de altcineva.",
+          "ar": "مقعدي محجوز، لكن شخصاً آخر يجلس فيه.",
+          "pron": "لوكول مِو يِسْتِه رِزِرْڤات، دار يِه أوكوپات دِه آلْتْشينِڤا",
+          "example": {
+            "ro": "Arătați-mi biletul, rezolv imediat.",
+            "ar": "أرِني التذكرة، سأحل الأمر حالاً."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-127",
+          "level": "advanced",
+          "ro": "Cât timp stă trenul în gara din Brașov?",
+          "ar": "كم يتوقف القطار في محطة براشوف؟",
+          "pron": "كِت تيمْپ سْتَه تْرِنول إن گارا دين براشوڤ؟",
+          "example": {
+            "ro": "Zece minute, aveți timp de o cafea.",
+            "ar": "عشر دقائق، عندك وقت لقهوة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-128",
+          "level": "advanced",
+          "ro": "Există reducere pentru familii cu copii?",
+          "ar": "هل يوجد تخفيض للعائلات التي معها أطفال؟",
+          "pron": "إگْزيسْتَه رِدوتْشِرِه پِنْترو فاميليي كو كوپيي؟",
+          "example": {
+            "ro": "Da, cu biletul de grup.",
+            "ar": "نعم، بتذكرة المجموعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-129",
+          "level": "advanced",
+          "ro": "Am nevoie de ajutor, am o valiză foarte grea și un copil mic.",
+          "ar": "أحتاج مساعدة، معي حقيبة ثقيلة جداً وطفل صغير.",
+          "pron": "آم نِڤويِه دِه آژوتور، آم أو ڤاليزَه فوآرْتِه گْريا شي أون كوپيل ميك",
+          "example": {
+            "ro": "Vă ajut eu, dați-mi valiza.",
+            "ar": "سأساعدك، أعطني الحقيبة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-130",
+          "level": "advanced",
+          "ro": "Mai sunt locuri libere în trenul de seară?",
+          "ar": "هل ما زالت هناك أماكن فارغة في قطار المساء؟",
+          "pron": "ماي سونْت لوكوري ليبِرِه إن تْرِنول دِه سيارَه؟",
+          "example": {
+            "ro": "Doar la clasa întâi.",
+            "ar": "فقط في الدرجة الأولى."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-131",
+          "level": "advanced",
+          "ro": "Biletul online trebuie printat sau ajunge pe telefon?",
+          "ar": "هل يجب طباعة التذكرة الأونلاين أم تكفي على الهاتف؟",
+          "pron": "بيلِتول أونلاين تْرِبويِه پْرينْتات ساو آژونْجِه پِه تِلِفون؟",
+          "example": {
+            "ro": "Ajunge pe telefon, cu codul QR.",
+            "ar": "تكفي على الهاتف، برمز QR."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-132",
+          "level": "advanced",
+          "ro": "Trenul spre Iași pleacă tot de la linia cinci?",
+          "ar": "هل قطار ياش ما زال يغادر من الخط الخامس؟",
+          "pron": "تْرِنول سْپْرِه ياش پْلياكَه توت دِه لا لينيا تْشينْتْش؟",
+          "example": {
+            "ro": "Nu, s-a schimbat la linia doi.",
+            "ar": "لا، تغيّر إلى الخط الثاني."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-133",
+          "level": "advanced",
+          "ro": "Am adormit și am trecut de stația mea.",
+          "ar": "نمت وتجاوزت محطتي.",
+          "pron": "آم آدورْميت شي آم تْرِكوت دِه سْتاتْسيا ميا",
+          "example": {
+            "ro": "Coborâți la următoarea și luați trenul înapoi.",
+            "ar": "انزل في التالية وخذ القطار للعودة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-134",
+          "level": "advanced",
+          "ro": "Se poate plăti biletul cu cardul în tren?",
+          "ar": "هل يمكن دفع التذكرة بالبطاقة في القطار؟",
+          "pron": "سِه پوآتِه پْلَتي بيلِتول كو كارْدول إن تْرِن؟",
+          "example": {
+            "ro": "Doar numerar, cu suprataxă.",
+            "ar": "نقداً فقط، مع رسوم إضافية."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-135",
+          "level": "advanced",
+          "ro": "Unde pot să-mi las bagajul cât timp vizitez orașul?",
+          "ar": "أين يمكنني ترك أمتعتي أثناء زيارة المدينة؟",
+          "pron": "أونْدِه پوت سَم لاس باگاژول كِت تيمْپ ڤيزيتِز أوراشول؟",
+          "example": {
+            "ro": "La camera de bagaje din gară.",
+            "ar": "في غرفة الأمتعة في المحطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-136",
+          "level": "advanced",
+          "ro": "Există vreun tren direct, fără schimbare?",
+          "ar": "هل يوجد أي قطار مباشر بدون تغيير؟",
+          "pron": "إگْزيسْتَه ڤْرِون تْرِن ديرِكْت، فَرَه سْكيمْبارِه؟",
+          "example": {
+            "ro": "Da, unul singur, la ora șaisprezece.",
+            "ar": "نعم، قطار واحد فقط، الساعة الرابعة عصراً."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-137",
+          "level": "advanced",
+          "ro": "Cât costă cușeta în plus față de bilet?",
+          "ar": "كم يكلف السرير إضافة إلى التذكرة؟",
+          "pron": "كِت كوسْتَه كوشِتا إن پْلوس فاتْسَه دِه بيلِت؟",
+          "example": {
+            "ro": "Încă cincizeci de lei.",
+            "ar": "خمسون لاي إضافية."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-138",
+          "level": "advanced",
+          "ro": "Vagonul meu nu este în tren, unde este?",
+          "ar": "عربتي ليست في القطار، أين هي؟",
+          "pron": "ڤاگونول مِو نو يِسْتِه إن تْرِن، أونْدِه يِسْتِه؟",
+          "example": {
+            "ro": "Azi trenul are altă compunere, luați orice loc liber.",
+            "ar": "اليوم القطار بتشكيلة مختلفة، خذ أي مقعد فارغ."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-139",
+          "level": "advanced",
+          "ro": "Pot să călătoresc cu animalul de companie?",
+          "ar": "هل يمكنني السفر مع حيواني الأليف؟",
+          "pron": "پوت سَه كَلَتورِسْك كو آنيمالول دِه كومْپانيِه؟",
+          "example": {
+            "ro": "Da, în cușcă și cu bilet pentru animal.",
+            "ar": "نعم، في قفص ومع تذكرة للحيوان."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-140",
+          "level": "advanced",
+          "ro": "Ce documente trebuie să am pentru trenul spre Budapesta?",
+          "ar": "ما الوثائق التي يجب أن تكون معي لقطار بودابست؟",
+          "pron": "تْشِه دوكومِنْتِه تْرِبويِه سَه آم پِنْترو تْرِنول سْپْرِه بوداپِسْتا؟",
+          "example": {
+            "ro": "Pașaportul și permisul de ședere.",
+            "ar": "الجواز وتصريح الإقامة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-141",
+          "level": "advanced",
+          "ro": "Trenul acesta are Wi-Fi?",
+          "ar": "هل في هذا القطار واي فاي؟",
+          "pron": "تْرِنول آتْشِسْتا آرِه واي فاي؟",
+          "example": {
+            "ro": "Doar trenurile noi au Wi-Fi.",
+            "ar": "فقط القطارات الجديدة فيها واي فاي."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-142",
+          "level": "advanced",
+          "ro": "Puteți să-mi spuneți când ajungem la Sinaia?",
+          "ar": "هل يمكنك أن تخبرني عندما نصل إلى سينايا؟",
+          "pron": "پوتِتْس سَم سْپونِتْس كِنْد آژونْجِم لا سينايا؟",
+          "example": {
+            "ro": "Sigur, mai sunt trei stații.",
+            "ar": "طبعاً، بقيت ثلاث محطات."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-143",
+          "level": "advanced",
+          "ro": "Nu găsesc biletul, l-am pierdut în gară.",
+          "ar": "لا أجد التذكرة، أضعتها في المحطة.",
+          "pron": "نو گَسِسْك بيلِتول، لام پْيِرْدوت إن گارَه",
+          "example": {
+            "ro": "Trebuie să cumpărați altul de la mine.",
+            "ar": "يجب أن تشتري تذكرة أخرى مني."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-144",
+          "level": "advanced",
+          "ro": "Este mai ieftin dacă iau bilet dus-întors?",
+          "ar": "هل أرخص إذا أخذت تذكرة ذهاب وعودة؟",
+          "pron": "يِسْتِه ماي يِفْتين داكَه ياو بيلِت دوس إنْتورْس؟",
+          "example": {
+            "ro": "Da, economisiți cam zece la sută.",
+            "ar": "نعم، توفر حوالي عشرة بالمئة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-145",
+          "level": "advanced",
+          "ro": "Trenul de la ora nouă a fost anulat din cauza zăpezii?",
+          "ar": "هل أُلغي قطار الساعة التاسعة بسبب الثلج؟",
+          "pron": "تْرِنول دِه لا أورا نووَه آ فوسْت آنولات دين كاوزا زَپِزيي؟",
+          "example": {
+            "ro": "Da, următorul pleacă la unsprezece.",
+            "ar": "نعم، التالي يغادر الحادية عشرة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-146",
+          "level": "advanced",
+          "ro": "Aș vrea să rezerv două locuri unul lângă altul.",
+          "ar": "أريد حجز مقعدين بجانب بعضهما.",
+          "pron": "آش ڤْريا سَه رِزِرْڤ دووَه لوكوري أونول لِنْگَه آلْتول",
+          "example": {
+            "ro": "Am găsit două în vagonul patru.",
+            "ar": "وجدت مقعدين في العربة الرابعة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-147",
+          "level": "advanced",
+          "ro": "Există lift până la peron pentru căruciorul copilului?",
+          "ar": "هل يوجد مصعد إلى الرصيف لعربة الطفل؟",
+          "pron": "إگْزيسْتَه ليفْت پِنَه لا پِرون پِنْترو كَروتْشيورول كوپيلولوي؟",
+          "example": {
+            "ro": "Da, la capătul pasajului.",
+            "ar": "نعم، في نهاية النفق."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-148",
+          "level": "advanced",
+          "ro": "Trebuie să validez biletul înainte să urc?",
+          "ar": "هل يجب تفعيل التذكرة قبل الصعود؟",
+          "pron": "تْرِبويِه سَه ڤاليدِز بيلِتول إنائينْتِه سَه أورْك؟",
+          "example": {
+            "ro": "Nu, controlorul îl verifică în tren.",
+            "ar": "لا، المراقب يتحقق منها في القطار."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-149",
+          "level": "advanced",
+          "ro": "Mi s-a furat portofelul în tren.",
+          "ar": "سُرقت محفظتي في القطار.",
+          "pron": "مي سا فورات پورْتوفِلول إن تْرِن",
+          "example": {
+            "ro": "Anunțați poliția din gară.",
+            "ar": "أبلغ الشرطة في المحطة."
+          },
+          "verified": false
+        },
+        {
+          "id": "train-150",
+          "level": "advanced",
+          "ro": "Mulțumesc, călătorie plăcută și dumneavoastră!",
+          "ar": "شكراً، رحلة سعيدة لك أيضاً!",
+          "pron": "مولْتْسومِسْك، كَلَتوريِه پْلَكوتَه شي دومْنياڤوآسْتْرَه",
+          "example": {
+            "ro": "Mulțumesc, la fel!",
+            "ar": "شكراً، وأنت كذلك!"
           },
           "verified": false
         }
