@@ -4,6 +4,7 @@ import SpeakButton from '../components/SpeakButton.jsx';
 import ScenarioGrid from '../components/ScenarioGrid.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import VoiceNotice from '../components/VoiceNotice.jsx';
+import LevelTabs from '../components/LevelTabs.jsx';
 import Ro from '../components/Ro.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { getMode, itemsForMode, scenarioById, scenarioItems } from '../lib/content.js';
@@ -25,6 +26,7 @@ function Picker() {
   return (
     <div className="space-y-4 pt-2">
       <h1 className="text-2xl font-extrabold">البطاقات</h1>
+      <LevelTabs />
       <VoiceNotice />
       <button
         type="button"

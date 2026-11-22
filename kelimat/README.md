@@ -26,7 +26,7 @@ You can add items freely. Give each new item a unique `id` and a `level`.
 
 ## Levels (modes)
 
-On first launch the user picks a level, and can change it any time under تقدّمي. Each level shows only its own items:
+The level tabs (مبتدئ / متوسط / متقدم) sit at the top of the home and cards screens and can be switched any time. New users start on مبتدئ. Each level shows only its own items:
 
 | | Card | Pronunciation | Session |
 |---|---|---|---|

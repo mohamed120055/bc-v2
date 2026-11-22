@@ -4,6 +4,7 @@ import ScenarioGrid from '../components/ScenarioGrid.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
 import InstallBanner from '../components/InstallBanner.jsx';
+import LevelTabs from '../components/LevelTabs.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { dailyItem, getMode, itemsForMode, scenarioById } from '../lib/content.js';
 import { countDue } from '../lib/srs.js';
@@ -30,17 +31,14 @@ export default function Home() {
 
   return (
     <div className="space-y-5">
+      <LevelTabs />
+
       <header className="flex items-end gap-2 pt-2">
         <Ursu mood={g.mood} size={92} className="bob shrink-0" />
         <div className="relative mb-6 rounded-2xl rounded-br-sm bg-white px-4 py-3 shadow-sm text-[15px] leading-relaxed">
           {g.text}
         </div>
       </header>
-
-      <button type="button" onClick={() => go('me-level')} className="flex items-center gap-2 rounded-full bg-white shadow-sm px-3.5 py-1.5 text-sm font-semibold w-fit">
-        <span aria-hidden>{mode.icon}</span> المستوى: {mode.name}
-        <span className="text-bark/50 font-normal">· تغيير</span>
-      </button>
 
       <InstallBanner />
 

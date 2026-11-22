@@ -3,7 +3,7 @@ import Ursu from '../components/Ursu.jsx';
 import ProgressBar from '../components/ProgressBar.jsx';
 import Ro from '../components/Ro.jsx';
 import VoiceTest from '../components/VoiceTest.jsx';
-import ModePicker from '../components/ModePicker.jsx';
+import LevelTabs from '../components/LevelTabs.jsx';
 import { useProgress } from '../lib/useProgress.jsx';
 import { getMode, itemsForMode, scenarioItems, scenarios } from '../lib/content.js';
 import { isLearned } from '../lib/srs.js';
@@ -55,7 +55,7 @@ export default function Me({ section }) {
 
       <section id="level" className="space-y-2.5 scroll-mt-4">
         <h2 className="font-bold">المستوى</h2>
-        <ModePicker compact />
+        <LevelTabs />
         <p className="text-xs text-bark/55">تقدّمك في كل مستوى محفوظ لوحده، فتقدر تتنقل بينهم براحتك.</p>
       </section>
 

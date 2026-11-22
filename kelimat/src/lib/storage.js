@@ -7,13 +7,15 @@ export const defaultState = () => ({
   bestStreak: 0,
   lastActive: null, // YYYY-MM-DD
   reviews: 0,
-  mode: null,       // 'beginner' | 'intermediate' | 'advanced' — chosen on first launch
+  mode: 'beginner', // 'beginner' | 'intermediate' | 'advanced' — switched from the tabs at the top
 });
 
 export function loadState() {
   try {
     const raw = localStorage.getItem(KEY);
-    return raw ? { ...defaultState(), ...JSON.parse(raw) } : defaultState();
+    if (!raw) return defaultState();
+    const saved = JSON.parse(raw);
+    return { ...defaultState(), ...saved, mode: saved.mode || 'beginner' };
   } catch {
     return defaultState();
   }
